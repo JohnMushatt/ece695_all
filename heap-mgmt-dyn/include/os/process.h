@@ -41,7 +41,7 @@ typedef struct BuddyNode
   struct BuddyNode *right_child;
   struct BuddyNode *parent;
   uint32 addr;
-    uint16 user_size; // Size of the user-visible memory block
+  uint16 user_size; // Size of the user-visible memory block
 } BuddyNode;
 // Process control block
 typedef struct PCB {
