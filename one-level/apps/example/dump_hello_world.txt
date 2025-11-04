@@ -1,0 +1,4479 @@
+cd ../../bin; dlxsim -D m -x os.dlx.obj -a -D mp -u makeprocs.dlx.obj 5; ee469_fixterminal
+setting debug flag m
+Stack=0x1fffb8, pc starting at 0x13784
+Got 5 arguments.
+Available memory: 0x3ba40 -> 0x200000.
+Argument count is 5.
+Argument 0 is -D.
+Argument 1 is mp.
+Argument 2 is -u.
+Argument 3 is makeprocs.dlx.obj.
+Argument 4 is 5.
+maxPage: 512
+Leaving MemoryModuleInit
+Initialized 452 free pages, freemapmax: 16, pagestart: 60
+Entering ProcessModuleInit
+Initializing PCB 0 @ 0x1776c.
+Initialized PCB 0, page table=0x177cc, npages=0.
+Initialized PCB 0, pt_phys_base=0x0, npages=0.
+Initializing PCB 1 @ 0x187d8.
+Initialized PCB 1, page table=0x18838, npages=0.
+Initialized PCB 1, pt_phys_base=0x0, npages=0.
+Initializing PCB 2 @ 0x19844.
+Initialized PCB 2, page table=0x198a4, npages=0.
+Initialized PCB 2, pt_phys_base=0x0, npages=0.
+Initializing PCB 3 @ 0x1a8b0.
+Initialized PCB 3, page table=0x1a910, npages=0.
+Initialized PCB 3, pt_phys_base=0x0, npages=0.
+Initializing PCB 4 @ 0x1b91c.
+Initialized PCB 4, page table=0x1b97c, npages=0.
+Initialized PCB 4, pt_phys_base=0x0, npages=0.
+Initializing PCB 5 @ 0x1c988.
+Initialized PCB 5, page table=0x1c9e8, npages=0.
+Initialized PCB 5, pt_phys_base=0x0, npages=0.
+Initializing PCB 6 @ 0x1d9f4.
+Initialized PCB 6, page table=0x1da54, npages=0.
+Initialized PCB 6, pt_phys_base=0x0, npages=0.
+Initializing PCB 7 @ 0x1ea60.
+Initialized PCB 7, page table=0x1eac0, npages=0.
+Initialized PCB 7, pt_phys_base=0x0, npages=0.
+Initializing PCB 8 @ 0x1facc.
+Initialized PCB 8, page table=0x1fb2c, npages=0.
+Initialized PCB 8, pt_phys_base=0x0, npages=0.
+Initializing PCB 9 @ 0x20b38.
+Initialized PCB 9, page table=0x20b98, npages=0.
+Initialized PCB 9, pt_phys_base=0x0, npages=0.
+Initializing PCB 10 @ 0x21ba4.
+Initialized PCB 10, page table=0x21c04, npages=0.
+Initialized PCB 10, pt_phys_base=0x0, npages=0.
+Initializing PCB 11 @ 0x22c10.
+Initialized PCB 11, page table=0x22c70, npages=0.
+Initialized PCB 11, pt_phys_base=0x0, npages=0.
+Initializing PCB 12 @ 0x23c7c.
+Initialized PCB 12, page table=0x23cdc, npages=0.
+Initialized PCB 12, pt_phys_base=0x0, npages=0.
+Initializing PCB 13 @ 0x24ce8.
+Initialized PCB 13, page table=0x24d48, npages=0.
+Initialized PCB 13, pt_phys_base=0x0, npages=0.
+Initializing PCB 14 @ 0x25d54.
+Initialized PCB 14, page table=0x25db4, npages=0.
+Initialized PCB 14, pt_phys_base=0x0, npages=0.
+Initializing PCB 15 @ 0x26dc0.
+Initialized PCB 15, page table=0x26e20, npages=0.
+Initialized PCB 15, pt_phys_base=0x0, npages=0.
+Initializing PCB 16 @ 0x27e2c.
+Initialized PCB 16, page table=0x27e8c, npages=0.
+Initialized PCB 16, pt_phys_base=0x0, npages=0.
+Initializing PCB 17 @ 0x28e98.
+Initialized PCB 17, page table=0x28ef8, npages=0.
+Initialized PCB 17, pt_phys_base=0x0, npages=0.
+Initializing PCB 18 @ 0x29f04.
+Initialized PCB 18, page table=0x29f64, npages=0.
+Initialized PCB 18, pt_phys_base=0x0, npages=0.
+Initializing PCB 19 @ 0x2af70.
+Initialized PCB 19, page table=0x2afd0, npages=0.
+Initialized PCB 19, pt_phys_base=0x0, npages=0.
+Initializing PCB 20 @ 0x2bfdc.
+Initialized PCB 20, page table=0x2c03c, npages=0.
+Initialized PCB 20, pt_phys_base=0x0, npages=0.
+Initializing PCB 21 @ 0x2d048.
+Initialized PCB 21, page table=0x2d0a8, npages=0.
+Initialized PCB 21, pt_phys_base=0x0, npages=0.
+Initializing PCB 22 @ 0x2e0b4.
+Initialized PCB 22, page table=0x2e114, npages=0.
+Initialized PCB 22, pt_phys_base=0x0, npages=0.
+Initializing PCB 23 @ 0x2f120.
+Initialized PCB 23, page table=0x2f180, npages=0.
+Initialized PCB 23, pt_phys_base=0x0, npages=0.
+Initializing PCB 24 @ 0x3018c.
+Initialized PCB 24, page table=0x301ec, npages=0.
+Initialized PCB 24, pt_phys_base=0x0, npages=0.
+Initializing PCB 25 @ 0x311f8.
+Initialized PCB 25, page table=0x31258, npages=0.
+Initialized PCB 25, pt_phys_base=0x0, npages=0.
+Initializing PCB 26 @ 0x32264.
+Initialized PCB 26, page table=0x322c4, npages=0.
+Initialized PCB 26, pt_phys_base=0x0, npages=0.
+Initializing PCB 27 @ 0x332d0.
+Initialized PCB 27, page table=0x33330, npages=0.
+Initialized PCB 27, pt_phys_base=0x0, npages=0.
+Initializing PCB 28 @ 0x3433c.
+Initialized PCB 28, page table=0x3439c, npages=0.
+Initialized PCB 28, pt_phys_base=0x0, npages=0.
+Initializing PCB 29 @ 0x353a8.
+Initialized PCB 29, page table=0x35408, npages=0.
+Initialized PCB 29, pt_phys_base=0x0, npages=0.
+Initializing PCB 30 @ 0x36414.
+Initialized PCB 30, page table=0x36474, npages=0.
+Initialized PCB 30, pt_phys_base=0x0, npages=0.
+Initializing PCB 31 @ 0x37480.
+Initialized PCB 31, page table=0x374e0, npages=0.
+Initialized PCB 31, pt_phys_base=0x0, npages=0.
+Leaving ProcessModuleInit
+SynchModuleInit: Entering SynchModuleInit
+SynchModuleInit: Leaving SynchModuleInit
+Entering ProcessFork args=0x0 0x1ffe18 makeprocs.dlx.obj 1
+Got a link @ 0x3884c
+ProcessFork: Allocated page 60 for code and data.
+ProcessFork: Allocated page 61 for code and data.
+ProcessFork: Allocated page 62 for code and data.
+ProcessFork: Allocated page 63 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 64 for user stack.
+ProcessFork: Allocated page 65 for process 31, sysStackArea=0x00041000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x0003c001)
+ProcessFork: AFTER: physPageTable[0] = 0x0003c001 (from pagetable[0] = 0x0003c001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x0003d001)
+ProcessFork: AFTER: physPageTable[1] = 0x0003d001 (from pagetable[1] = 0x0003d001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x0003e001)
+ProcessFork: AFTER: physPageTable[2] = 0x0003e001 (from pagetable[2] = 0x0003e001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x0003f001)
+ProcessFork: AFTER: physPageTable[3] = 0x0003f001 (from pagetable[3] = 0x0003f001)
+ProcessFork: Allocated page table at physical address 0x00042000
+ProcessFork: Stackframe set to 0x00041e8c.
+ProcessFork: stackframe = 0x41e8c
+
+PTBASE=0x00042000 PTSIZE=1024 PTBITS=786444
+About to load makeprocs.dlx.obj
+File makeprocs.dlx.obj -> start=0x000010d4
+File makeprocs.dlx.obj -> code @ 0x00001000 (size=0x00001230)
+File makeprocs.dlx.obj -> data @ 0x00003000 (size=0x000001ea)
+Placing 76 bytes at vaddr 0x00001000.
+Placing 80 bytes at vaddr 0x0000104c.
+Placing 56 bytes at vaddr 0x0000109c.
+Placing 55 bytes at vaddr 0x00003000.
+Placing 51 bytes at vaddr 0x00003038.
+Placing 32 bytes at vaddr 0x0000306c.
+Placing 70 bytes at vaddr 0x0000308c.
+Placing 17 bytes at vaddr 0x000030d2.
+Placing 69 bytes at vaddr 0x000030e4.
+Placing 12 bytes at vaddr 0x00003129.
+Placing 42 bytes at vaddr 0x00003138.
+Placing 20 bytes at vaddr 0x00003164.
+Placing 44 bytes at vaddr 0x00003178.
+Placing 69 bytes at vaddr 0x000031a4.
+Placing 1 bytes at vaddr 0x000031e9.
+Placing 76 bytes at vaddr 0x000010d4.
+Placing 80 bytes at vaddr 0x00001120.
+Placing 80 bytes at vaddr 0x00001170.
+Placing 80 bytes at vaddr 0x000011c0.
+Placing 80 bytes at vaddr 0x00001210.
+Placing 80 bytes at vaddr 0x00001260.
+Placing 80 bytes at vaddr 0x000012b0.
+Placing 80 bytes at vaddr 0x00001300.
+Placing 80 bytes at vaddr 0x00001350.
+Placing 80 bytes at vaddr 0x000013a0.
+Placing 80 bytes at vaddr 0x000013f0.
+Placing 80 bytes at vaddr 0x00001440.
+Placing 80 bytes at vaddr 0x00001490.
+Placing 80 bytes at vaddr 0x000014e0.
+Placing 80 bytes at vaddr 0x00001530.
+Placing 80 bytes at vaddr 0x00001580.
+Placing 80 bytes at vaddr 0x000015d0.
+Placing 80 bytes at vaddr 0x00001620.
+Placing 80 bytes at vaddr 0x00001670.
+Placing 80 bytes at vaddr 0x000016c0.
+Placing 80 bytes at vaddr 0x00001710.
+Placing 80 bytes at vaddr 0x00001760.
+Placing 80 bytes at vaddr 0x000017b0.
+Placing 80 bytes at vaddr 0x00001800.
+Placing 80 bytes at vaddr 0x00001850.
+Placing 80 bytes at vaddr 0x000018a0.
+Placing 80 bytes at vaddr 0x000018f0.
+Placing 80 bytes at vaddr 0x00001940.
+Placing 80 bytes at vaddr 0x00001990.
+Placing 80 bytes at vaddr 0x000019e0.
+Placing 80 bytes at vaddr 0x00001a30.
+Placing 80 bytes at vaddr 0x00001a80.
+Placing 80 bytes at vaddr 0x00001ad0.
+Placing 80 bytes at vaddr 0x00001b20.
+Placing 80 bytes at vaddr 0x00001b70.
+Placing 80 bytes at vaddr 0x00001bc0.
+Placing 80 bytes at vaddr 0x00001c10.
+Placing 80 bytes at vaddr 0x00001c60.
+Placing 80 bytes at vaddr 0x00001cb0.
+Placing 80 bytes at vaddr 0x00001d00.
+Placing 80 bytes at vaddr 0x00001d50.
+Placing 80 bytes at vaddr 0x00001da0.
+Placing 80 bytes at vaddr 0x00001df0.
+Placing 80 bytes at vaddr 0x00001e40.
+Placing 80 bytes at vaddr 0x00001e90.
+Placing 80 bytes at vaddr 0x00001ee0.
+Placing 80 bytes at vaddr 0x00001f30.
+Placing 80 bytes at vaddr 0x00001f80.
+Placing 80 bytes at vaddr 0x00001fd0.
+Placing 80 bytes at vaddr 0x00002020.
+Placing 80 bytes at vaddr 0x00002070.
+Placing 80 bytes at vaddr 0x000020c0.
+Placing 80 bytes at vaddr 0x00002110.
+Placing 80 bytes at vaddr 0x00002160.
+Placing 80 bytes at vaddr 0x000021b0.
+Placing 44 bytes at vaddr 0x00002200.
+Setting currentPCB=0x37480, stackframe=0x41e8c
+Leaving ProcessFork (makeprocs.dlx.obj)
+
+PTBASE=0x00042000 PTSIZE=1024 PTBITS=12
+Translating 0x10d4
+0x10d4 => 0x3d0d4 (=afbefffc) using base1=0x42000/12, entry 1
+Translating 0x3ffee8
+0x3ffee8 => 0x40ee8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x10d8
+0x10d8 => 0x3d0d8 (=001df020) using base1=0x42000/12, entry 1
+Translating 0x10dc
+0x10dc => 0x3d0dc (=afbffff8) using base1=0x42000/12, entry 1
+Translating 0x3ffee4
+0x3ffee4 => 0x40ee4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x10e0
+0x10e0 => 0x3d0e0 (=2fbd0018) using base1=0x42000/12, entry 1
+Translating 0x10e4
+0x10e4 => 0x3d0e4 (=8fc20000) using base1=0x42000/12, entry 1
+Translating 0x3ffeec
+0x3ffeec => 0x40eec (=00000002) using base1=0x42000/12, entry 1023
+Translating 0x10e8
+0x10e8 => 0x3d0e8 (=8fc60004) using base1=0x42000/12, entry 1
+Translating 0x3ffef0
+0x3ffef0 => 0x40ef0 (=003ffef4) using base1=0x42000/12, entry 1023
+Translating 0x10ec
+0x10ec => 0x3d0ec (=0c001134) using base1=0x42000/12, entry 1
+Translating 0x2224
+0x2224 => 0x3e224 (=4be00000) using base1=0x42000/12, entry 2
+Translating 0x10f0
+0x10f0 => 0x3d0f0 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x10f4
+0x10f4 => 0x3d0f4 (=64410002) using base1=0x42000/12, entry 1
+Translating 0x10f8
+0x10f8 => 0x3d0f8 (=10200030) using base1=0x42000/12, entry 1
+Translating 0x112c
+0x112c => 0x3d12c (=23bdfff0) using base1=0x42000/12, entry 1
+Translating 0x1130
+0x1130 => 0x3d130 (=8cc70004) using base1=0x42000/12, entry 1
+Translating 0x3ffef8
+0x3ffef8 => 0x40ef8 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1134
+0x1134 => 0x3d134 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1138
+0x1138 => 0x3d138 (=20070000) using base1=0x42000/12, entry 1
+Translating 0x113c
+0x113c => 0x3d13c (=afa70004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1140
+0x1140 => 0x3d140 (=2007000a) using base1=0x42000/12, entry 1
+Translating 0x1144
+0x1144 => 0x3d144 (=afa70008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1148
+0x1148 => 0x3d148 (=0c000bdc) using base1=0x42000/12, entry 1
+Translating 0x1d28
+0x1d28 => 0x3dd28 (=afbefffc) using base1=0x42000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x40ec0 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1d2c
+0x1d2c => 0x3dd2c (=001df020) using base1=0x42000/12, entry 1
+Translating 0x1d30
+0x1d30 => 0x3dd30 (=afbffff8) using base1=0x42000/12, entry 1
+Translating 0x3ffebc
+0x3ffebc => 0x40ebc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1d34
+0x1d34 => 0x3dd34 (=2fbd0020) using base1=0x42000/12, entry 1
+Translating 0x1d38
+0x1d38 => 0x3dd38 (=afa20000) using base1=0x42000/12, entry 1
+Translating 0x3ffea4
+0x3ffea4 => 0x40ea4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1d3c
+0x1d3c => 0x3dd3c (=20010000) using base1=0x42000/12, entry 1
+Translating 0x1d40
+0x1d40 => 0x3dd40 (=afc1fff4) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1d44
+0x1d44 => 0x3dd44 (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1d48
+0x1d48 => 0x3dd48 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1d4c
+0x1d4c => 0x3dd4c (=60410020) using base1=0x42000/12, entry 1
+Translating 0x1d50
+0x1d50 => 0x3dd50 (=14200034) using base1=0x42000/12, entry 1
+Translating 0x1d54
+0x1d54 => 0x3dd54 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1d58
+0x1d58 => 0x3dd58 (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1d5c
+0x1d5c => 0x3dd5c (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1d60
+0x1d60 => 0x3dd60 (=60410009) using base1=0x42000/12, entry 1
+Translating 0x1d64
+0x1d64 => 0x3dd64 (=14200020) using base1=0x42000/12, entry 1
+Translating 0x1d68
+0x1d68 => 0x3dd68 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1d6c
+0x1d6c => 0x3dd6c (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1d70
+0x1d70 => 0x3dd70 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1d74
+0x1d74 => 0x3dd74 (=6041000a) using base1=0x42000/12, entry 1
+Translating 0x1d78
+0x1d78 => 0x3dd78 (=1420000c) using base1=0x42000/12, entry 1
+Translating 0x1d7c
+0x1d7c => 0x3dd7c (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1d80
+0x1d80 => 0x3dd80 (=0800001c) using base1=0x42000/12, entry 1
+Translating 0x1da0
+0x1da0 => 0x3dda0 (=8fc10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1da4
+0x1da4 => 0x3dda4 (=64220000) using base1=0x42000/12, entry 1
+Translating 0x1da8
+0x1da8 => 0x3dda8 (=10400010) using base1=0x42000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x3ddbc (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x3ddc0 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x3ddc4 (=64410000) using base1=0x42000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x3ddc8 (=14200010) using base1=0x42000/12, entry 1
+Translating 0x1ddc
+0x1ddc => 0x3dddc (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1de0
+0x1de0 => 0x3dde0 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1de4
+0x1de4 => 0x3dde4 (=6041002d) using base1=0x42000/12, entry 1
+Translating 0x1de8
+0x1de8 => 0x3dde8 (=10200024) using base1=0x42000/12, entry 1
+Translating 0x1e10
+0x1e10 => 0x3de10 (=20010001) using base1=0x42000/12, entry 1
+Translating 0x1e14
+0x1e14 => 0x3de14 (=afc1ffec) using base1=0x42000/12, entry 1
+Translating 0x3ffeb0
+0x3ffeb0 => 0x40eb0 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1e18
+0x1e18 => 0x3de18 (=8fc10008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1e1c
+0x1e1c => 0x3de1c (=64220000) using base1=0x42000/12, entry 1
+Translating 0x1e20
+0x1e20 => 0x3de20 (=14400090) using base1=0x42000/12, entry 1
+Translating 0x1eb4
+0x1eb4 => 0x3deb4 (=8fc10008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1eb8
+0x1eb8 => 0x3deb8 (=70220000) using base1=0x42000/12, entry 1
+Translating 0x1ebc
+0x1ebc => 0x3debc (=1440001c) using base1=0x42000/12, entry 1
+Translating 0x1ec0
+0x1ec0 => 0x3dec0 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1ec4
+0x1ec4 => 0x3dec4 (=8fc10008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1ec8
+0x1ec8 => 0x3dec8 (=6c220010) using base1=0x42000/12, entry 1
+Translating 0x1ecc
+0x1ecc => 0x3decc (=1440000c) using base1=0x42000/12, entry 1
+Translating 0x1ed0
+0x1ed0 => 0x3ded0 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1ed4
+0x1ed4 => 0x3ded4 (=08000010) using base1=0x42000/12, entry 1
+Translating 0x1ee8
+0x1ee8 => 0x3dee8 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1eec
+0x1eec => 0x3deec (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1ef0
+0x1ef0 => 0x3def0 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1ef4
+0x1ef4 => 0x3def4 (=6c41002f) using base1=0x42000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x3def8 (=10200030) using base1=0x42000/12, entry 1
+Translating 0x1efc
+0x1efc => 0x3defc (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1f00
+0x1f00 => 0x3df00 (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1f04
+0x1f04 => 0x3df04 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1f08
+0x1f08 => 0x3df08 (=70410039) using base1=0x42000/12, entry 1
+Translating 0x1f0c
+0x1f0c => 0x3df0c (=1020001c) using base1=0x42000/12, entry 1
+Translating 0x1f10
+0x1f10 => 0x3df10 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1f14
+0x1f14 => 0x3df14 (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1f18
+0x1f18 => 0x3df18 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1f1c
+0x1f1c => 0x3df1c (=2041ffd0) using base1=0x42000/12, entry 1
+Translating 0x1f20
+0x1f20 => 0x3df20 (=afc1fff0) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1f24
+0x1f24 => 0x3df24 (=0800008c) using base1=0x42000/12, entry 1
+Translating 0x1fb4
+0x1fb4 => 0x3dfb4 (=8fc1fff0) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x1fb8
+0x1fb8 => 0x3dfb8 (=8fc20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1fbc
+0x1fbc => 0x3dfbc (=0022082a) using base1=0x42000/12, entry 1
+Translating 0x1fc0
+0x1fc0 => 0x3dfc0 (=10200040) using base1=0x42000/12, entry 1
+Translating 0x1fc4
+0x1fc4 => 0x3dfc4 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1fc8
+0x1fc8 => 0x3dfc8 (=8fc1fff4) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1fcc
+0x1fcc => 0x3dfcc (=8fc20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1fd0
+0x1fd0 => 0x3dfd0 (=00200035) using base1=0x42000/12, entry 1
+Translating 0x1fd4
+0x1fd4 => 0x3dfd4 (=00400835) using base1=0x42000/12, entry 1
+Translating 0x1fd8
+0x1fd8 => 0x3dfd8 (=0401000e) using base1=0x42000/12, entry 1
+Translating 0x1fdc
+0x1fdc => 0x3dfdc (=00000834) using base1=0x42000/12, entry 1
+Translating 0x1fe0
+0x1fe0 => 0x3dfe0 (=afc1fff4) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1fe4
+0x1fe4 => 0x3dfe4 (=8fc1fff4) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1fe8
+0x1fe8 => 0x3dfe8 (=8fc2fff0) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x1fec
+0x1fec => 0x3dfec (=00220820) using base1=0x42000/12, entry 1
+Translating 0x1ff0
+0x1ff0 => 0x3dff0 (=afc1fff4) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1ff4
+0x1ff4 => 0x3dff4 (=8fc20000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x1ff8
+0x1ff8 => 0x3dff8 (=20410001) using base1=0x42000/12, entry 1
+Translating 0x1ffc
+0x1ffc => 0x3dffc (=00011020) using base1=0x42000/12, entry 1
+Translating 0x2000
+0x2000 => 0x3e000 (=afc20000) using base1=0x42000/12, entry 2
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0e) using base1=0x42000/12, entry 1023
+Translating 0x2004
+0x2004 => 0x3e004 (=8fc1fff0) using base1=0x42000/12, entry 2
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x2008
+0x2008 => 0x3e008 (=8fc20008) using base1=0x42000/12, entry 2
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x200c
+0x200c => 0x3e00c (=0022082a) using base1=0x42000/12, entry 2
+Translating 0x2010
+0x2010 => 0x3e010 (=1420000c) using base1=0x42000/12, entry 2
+Translating 0x2020
+0x2020 => 0x3e020 (=0bfffec8) using base1=0x42000/12, entry 2
+Translating 0x1eec
+0x1eec => 0x3deec (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0f) using base1=0x42000/12, entry 1023
+Translating 0x1ef0
+0x1ef0 => 0x3def0 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1ef4
+0x1ef4 => 0x3def4 (=6c41002f) using base1=0x42000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x3def8 (=10200030) using base1=0x42000/12, entry 1
+Translating 0x1f2c
+0x1f2c => 0x3df2c (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0f) using base1=0x42000/12, entry 1023
+Translating 0x1f30
+0x1f30 => 0x3df30 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1f34
+0x1f34 => 0x3df34 (=6c410060) using base1=0x42000/12, entry 1
+Translating 0x1f38
+0x1f38 => 0x3df38 (=10200030) using base1=0x42000/12, entry 1
+Translating 0x1f6c
+0x1f6c => 0x3df6c (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0f) using base1=0x42000/12, entry 1023
+Translating 0x1f70
+0x1f70 => 0x3df70 (=90220000) using base1=0x42000/12, entry 1
+Translating 0x3fff0c
+0x3fff0c => 0x40f0c (=6a003500) using base1=0x42000/12, entry 1023
+Translating 0x1f74
+0x1f74 => 0x3df74 (=6c410040) using base1=0x42000/12, entry 1
+Translating 0x1f78
+0x1f78 => 0x3df78 (=10200030) using base1=0x42000/12, entry 1
+Translating 0x1fac
+0x1fac => 0x3dfac (=200103e8) using base1=0x42000/12, entry 1
+Translating 0x1fb0
+0x1fb0 => 0x3dfb0 (=afc1fff0) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x1fb4
+0x1fb4 => 0x3dfb4 (=8fc1fff0) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=000003e8) using base1=0x42000/12, entry 1023
+Translating 0x1fb8
+0x1fb8 => 0x3dfb8 (=8fc20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1fbc
+0x1fbc => 0x3dfbc (=0022082a) using base1=0x42000/12, entry 1
+Translating 0x1fc0
+0x1fc0 => 0x3dfc0 (=10200040) using base1=0x42000/12, entry 1
+Translating 0x2004
+0x2004 => 0x3e004 (=8fc1fff0) using base1=0x42000/12, entry 2
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=000003e8) using base1=0x42000/12, entry 1023
+Translating 0x2008
+0x2008 => 0x3e008 (=8fc20008) using base1=0x42000/12, entry 2
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x200c
+0x200c => 0x3e00c (=0022082a) using base1=0x42000/12, entry 2
+Translating 0x2010
+0x2010 => 0x3e010 (=1420000c) using base1=0x42000/12, entry 2
+Translating 0x2014
+0x2014 => 0x3e014 (=54000000) using base1=0x42000/12, entry 2
+Translating 0x2018
+0x2018 => 0x3e018 (=0800000c) using base1=0x42000/12, entry 2
+Translating 0x2028
+0x2028 => 0x3e028 (=8fc10004) using base1=0x42000/12, entry 2
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x202c
+0x202c => 0x3e02c (=64220000) using base1=0x42000/12, entry 2
+Translating 0x2030
+0x2030 => 0x3e030 (=10400010) using base1=0x42000/12, entry 2
+Translating 0x2044
+0x2044 => 0x3e044 (=8fc1fff4) using base1=0x42000/12, entry 2
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x2048
+0x2048 => 0x3e048 (=8fc2ffec) using base1=0x42000/12, entry 2
+Translating 0x3ffeb0
+0x3ffeb0 => 0x40eb0 (=00000001) using base1=0x42000/12, entry 1023
+Translating 0x204c
+0x204c => 0x3e04c (=00200035) using base1=0x42000/12, entry 2
+Translating 0x2050
+0x2050 => 0x3e050 (=00400835) using base1=0x42000/12, entry 2
+Translating 0x2054
+0x2054 => 0x3e054 (=0401000e) using base1=0x42000/12, entry 2
+Translating 0x2058
+0x2058 => 0x3e058 (=00000834) using base1=0x42000/12, entry 2
+Translating 0x205c
+0x205c => 0x3e05c (=afc1fff4) using base1=0x42000/12, entry 2
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x2060
+0x2060 => 0x3e060 (=8fc1fff4) using base1=0x42000/12, entry 2
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x2064
+0x2064 => 0x3e064 (=08000004) using base1=0x42000/12, entry 2
+Translating 0x206c
+0x206c => 0x3e06c (=8fa20000) using base1=0x42000/12, entry 2
+Translating 0x3ffea4
+0x3ffea4 => 0x40ea4 (=00000002) using base1=0x42000/12, entry 1023
+Translating 0x2070
+0x2070 => 0x3e070 (=8fdffff8) using base1=0x42000/12, entry 2
+Translating 0x3ffebc
+0x3ffebc => 0x40ebc (=0000114c) using base1=0x42000/12, entry 1023
+Translating 0x2074
+0x2074 => 0x3e074 (=001ee820) using base1=0x42000/12, entry 2
+Translating 0x2078
+0x2078 => 0x3e078 (=8fdefffc) using base1=0x42000/12, entry 2
+Translating 0x3ffec0
+0x3ffec0 => 0x40ec0 (=003ffeec) using base1=0x42000/12, entry 1023
+Translating 0x207c
+0x207c => 0x3e07c (=4be00000) using base1=0x42000/12, entry 2
+Translating 0x114c
+0x114c => 0x3d14c (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1150
+0x1150 => 0x3d150 (=00012020) using base1=0x42000/12, entry 1
+Translating 0x1154
+0x1154 => 0x3d154 (=0c000218) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1158
+0x1158 => 0x3d158 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x115c
+0x115c => 0x3d15c (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1160
+0x1160 => 0x3d160 (=24e73038) using base1=0x42000/12, entry 1
+Translating 0x1164
+0x1164 => 0x3d164 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=003fff0f) using base1=0x42000/12, entry 1023
+Translating 0x1168
+0x1168 => 0x3d168 (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x116c
+0x116c => 0x3d16c (=afa40008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000000a) using base1=0x42000/12, entry 1023
+Translating 0x1170
+0x1170 => 0x3d170 (=0c0001f0) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating 5 hello_world processes
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1174
+0x1174 => 0x3d174 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1178
+0x1178 => 0x3d178 (=20070000) using base1=0x42000/12, entry 1
+Translating 0x117c
+0x117c => 0x3d17c (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003038) using base1=0x42000/12, entry 1023
+Translating 0x1180
+0x1180 => 0x3d180 (=0c00021c) using base1=0x42000/12, entry 1
+Translating 0x13a0
+0x13a0 => 0x3d3a0 (=44000450) using base1=0x42000/12, entry 1
+Translating 0x13a4
+0x13a4 => 0x3d3a4 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1184
+0x1184 => 0x3d184 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1188
+0x1188 => 0x3d188 (=00011820) using base1=0x42000/12, entry 1
+Translating 0x118c
+0x118c => 0x3d18c (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x1190
+0x1190 => 0x3d190 (=6061ffff) using base1=0x42000/12, entry 1
+Translating 0x1194
+0x1194 => 0x3d194 (=10200034) using base1=0x42000/12, entry 1
+Translating 0x11cc
+0x11cc => 0x3d1cc (=23bdfff8) using base1=0x42000/12, entry 1
+Translating 0x11d0
+0x11d0 => 0x3d1d0 (=afa30000) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x11d4
+0x11d4 => 0x3d1d4 (=23c5ffe8) using base1=0x42000/12, entry 1
+Translating 0x11d8
+0x11d8 => 0x3d1d8 (=afa50004) using base1=0x42000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x40ed0 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x11dc
+0x11dc => 0x3d1dc (=0c0009bc) using base1=0x42000/12, entry 1
+Translating 0x1b9c
+0x1b9c => 0x3db9c (=afbefffc) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x1ba0
+0x1ba0 => 0x3dba0 (=001df020) using base1=0x42000/12, entry 1
+Translating 0x1ba4
+0x1ba4 => 0x3dba4 (=afbffff8) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1ba8
+0x1ba8 => 0x3dba8 (=2fbd0018) using base1=0x42000/12, entry 1
+Translating 0x1bac
+0x1bac => 0x3dbac (=afa20000) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=000003e8) using base1=0x42000/12, entry 1023
+Translating 0x1bb0
+0x1bb0 => 0x3dbb0 (=afa30004) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x1bb4
+0x1bb4 => 0x3dbb4 (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1bb8
+0x1bb8 => 0x3dbb8 (=68220000) using base1=0x42000/12, entry 1
+Translating 0x1bbc
+0x1bbc => 0x3dbbc (=1040002c) using base1=0x42000/12, entry 1
+Translating 0x1bec
+0x1bec => 0x3dbec (=8fc10000) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1bf0
+0x1bf0 => 0x3dbf0 (=64220000) using base1=0x42000/12, entry 1
+Translating 0x1bf4
+0x1bf4 => 0x3dbf4 (=14400020) using base1=0x42000/12, entry 1
+Translating 0x1bf8
+0x1bf8 => 0x3dbf8 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1bfc
+0x1bfc => 0x3dbfc (=8fc10004) using base1=0x42000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x40ed0 (=003ffed4) using base1=0x42000/12, entry 1023
+Translating 0x1c00
+0x1c00 => 0x3dc00 (=20220001) using base1=0x42000/12, entry 1
+Translating 0x1c04
+0x1c04 => 0x3dc04 (=afc20004) using base1=0x42000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x40ed0 (=003ffed4) using base1=0x42000/12, entry 1023
+Translating 0x1c08
+0x1c08 => 0x3dc08 (=20020030) using base1=0x42000/12, entry 1
+Translating 0x1c0c
+0x1c0c => 0x3dc0c (=a0220000) using base1=0x42000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x40ed4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x3ffed4
+0x3ffed4 => 0x40ed4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1c10
+0x1c10 => 0x3dc10 (=080000ec) using base1=0x42000/12, entry 1
+Translating 0x1d00
+0x1d00 => 0x3dd00 (=8fc10004) using base1=0x42000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x40ed0 (=003ffed5) using base1=0x42000/12, entry 1023
+Translating 0x1d04
+0x1d04 => 0x3dd04 (=20020000) using base1=0x42000/12, entry 1
+Translating 0x1d08
+0x1d08 => 0x3dd08 (=a0220000) using base1=0x42000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x40ed4 (=30000000) using base1=0x42000/12, entry 1023
+Translating 0x3ffed4
+0x3ffed4 => 0x40ed4 (=30000000) using base1=0x42000/12, entry 1023
+Translating 0x1d0c
+0x1d0c => 0x3dd0c (=8fa20000) using base1=0x42000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x40eb4 (=00000002) using base1=0x42000/12, entry 1023
+Translating 0x1d10
+0x1d10 => 0x3dd10 (=8fa30004) using base1=0x42000/12, entry 1
+Translating 0x3ffeb8
+0x3ffeb8 => 0x40eb8 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1d14
+0x1d14 => 0x3dd14 (=8fdffff8) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=000011e0) using base1=0x42000/12, entry 1023
+Translating 0x1d18
+0x1d18 => 0x3dd18 (=001ee820) using base1=0x42000/12, entry 1
+Translating 0x1d1c
+0x1d1c => 0x3dd1c (=8fdefffc) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=003ffeec) using base1=0x42000/12, entry 1023
+Translating 0x1d20
+0x1d20 => 0x3dd20 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x11e0
+0x11e0 => 0x3d1e0 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x11e4
+0x11e4 => 0x3d1e4 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x11e8
+0x11e8 => 0x3d1e8 (=24e7308c) using base1=0x42000/12, entry 1
+Translating 0x11ec
+0x11ec => 0x3d1ec (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x11f0
+0x11f0 => 0x3d1f0 (=0c000170) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+-------------------------------------------------------------------------------------
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x11f4
+0x11f4 => 0x3d1f4 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x11f8
+0x11f8 => 0x3d1f8 (=0c000174) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x11fc
+0x11fc => 0x3d1fc (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1200
+0x1200 => 0x3d200 (=23bdfff8) using base1=0x42000/12, entry 1
+Translating 0x1204
+0x1204 => 0x3d204 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1208
+0x1208 => 0x3d208 (=24e730e4) using base1=0x42000/12, entry 1
+Translating 0x120c
+0x120c => 0x3d20c (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=000011e0) using base1=0x42000/12, entry 1023
+Translating 0x1210
+0x1210 => 0x3d210 (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=003ffeec) using base1=0x42000/12, entry 1023
+Translating 0x1214
+0x1214 => 0x3d214 (=afa40008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000308c) using base1=0x42000/12, entry 1023
+Translating 0x1218
+0x1218 => 0x3d218 (=0c000148) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating 5 hello world's in a row, but only one runs at a time
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x121c
+0x121c => 0x3d21c (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1220
+0x1220 => 0x3d220 (=20020000) using base1=0x42000/12, entry 1
+Translating 0x1224
+0x1224 => 0x3d224 (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x1228
+0x1228 => 0x3d228 (=0044082a) using base1=0x42000/12, entry 1
+Translating 0x122c
+0x122c => 0x3d22c (=102000a8) using base1=0x42000/12, entry 1
+Translating 0x1230
+0x1230 => 0x3d230 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1234
+0x1234 => 0x3d234 (=0c000138) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1238
+0x1238 => 0x3d238 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x123c
+0x123c => 0x3d23c (=23bdfff0) using base1=0x42000/12, entry 1
+Translating 0x1240
+0x1240 => 0x3d240 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1244
+0x1244 => 0x3d244 (=24e73138) using base1=0x42000/12, entry 1
+Translating 0x1248
+0x1248 => 0x3d248 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=000030e4) using base1=0x42000/12, entry 1023
+Translating 0x124c
+0x124c => 0x3d24c (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x1250
+0x1250 => 0x3d250 (=afa20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000005) using base1=0x42000/12, entry 1023
+Translating 0x1254
+0x1254 => 0x3d254 (=0c00010c) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating hello world #0
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1258
+0x1258 => 0x3d258 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x125c
+0x125c => 0x3d25c (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1260
+0x1260 => 0x3d260 (=24e73164) using base1=0x42000/12, entry 1
+Translating 0x1264
+0x1264 => 0x3d264 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003138) using base1=0x42000/12, entry 1023
+Translating 0x1268
+0x1268 => 0x3d268 (=afa50004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x126c
+0x126c => 0x3d26c (=20070000) using base1=0x42000/12, entry 1
+Translating 0x1270
+0x1270 => 0x3d270 (=afa70008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1274
+0x1274 => 0x3d274 (=0c000104) using base1=0x42000/12, entry 1
+Translating 0x137c
+0x137c => 0x3d37c (=44000432) using base1=0x42000/12, entry 1
+TrapProcessCreateHandler: function started
+TrapProcessCreateHandler: creating user process
+TrapProcessCreateHandler: just parsed executable name (hello_world.dlx.obj) from trapArgs
+Entering ProcessFork args=0x0 0x41d1c hello_world.dlx.obj 1
+Got a link @ 0x3883c
+ProcessFork: Allocated page 67 for code and data.
+ProcessFork: Allocated page 68 for code and data.
+ProcessFork: Allocated page 69 for code and data.
+ProcessFork: Allocated page 70 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 71 for user stack.
+ProcessFork: Allocated page 72 for process 30, sysStackArea=0x00048000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00043001)
+ProcessFork: AFTER: physPageTable[0] = 0x00043001 (from pagetable[0] = 0x00043001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00044001)
+ProcessFork: AFTER: physPageTable[1] = 0x00044001 (from pagetable[1] = 0x00044001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00045001)
+ProcessFork: AFTER: physPageTable[2] = 0x00045001 (from pagetable[2] = 0x00045001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00046001)
+ProcessFork: AFTER: physPageTable[3] = 0x00046001 (from pagetable[3] = 0x00046001)
+ProcessFork: Allocated page table at physical address 0x00049000
+ProcessFork: Stackframe set to 0x00048e8c.
+ProcessFork: stackframe = 0x48e8c
+
+PTBASE=0x00049000 PTSIZE=1024 PTBITS=786444
+About to load hello_world.dlx.obj
+File hello_world.dlx.obj -> start=0x000010d4
+File hello_world.dlx.obj -> code @ 0x00001000 (size=0x00001100)
+File hello_world.dlx.obj -> data @ 0x00003000 (size=0x000000a9)
+Placing 76 bytes at vaddr 0x00001000.
+Placing 80 bytes at vaddr 0x0000104c.
+Placing 56 bytes at vaddr 0x0000109c.
+Placing 49 bytes at vaddr 0x00003000.
+Placing 32 bytes at vaddr 0x00003034.
+Placing 57 bytes at vaddr 0x00003054.
+Placing 25 bytes at vaddr 0x00003090.
+Placing 76 bytes at vaddr 0x000010d4.
+Placing 80 bytes at vaddr 0x00001120.
+Placing 80 bytes at vaddr 0x00001170.
+Placing 80 bytes at vaddr 0x000011c0.
+Placing 80 bytes at vaddr 0x00001210.
+Placing 80 bytes at vaddr 0x00001260.
+Placing 80 bytes at vaddr 0x000012b0.
+Placing 80 bytes at vaddr 0x00001300.
+Placing 80 bytes at vaddr 0x00001350.
+Placing 80 bytes at vaddr 0x000013a0.
+Placing 80 bytes at vaddr 0x000013f0.
+Placing 80 bytes at vaddr 0x00001440.
+Placing 80 bytes at vaddr 0x00001490.
+Placing 80 bytes at vaddr 0x000014e0.
+Placing 80 bytes at vaddr 0x00001530.
+Placing 80 bytes at vaddr 0x00001580.
+Placing 80 bytes at vaddr 0x000015d0.
+Placing 80 bytes at vaddr 0x00001620.
+Placing 80 bytes at vaddr 0x00001670.
+Placing 80 bytes at vaddr 0x000016c0.
+Placing 80 bytes at vaddr 0x00001710.
+Placing 80 bytes at vaddr 0x00001760.
+Placing 80 bytes at vaddr 0x000017b0.
+Placing 80 bytes at vaddr 0x00001800.
+Placing 80 bytes at vaddr 0x00001850.
+Placing 80 bytes at vaddr 0x000018a0.
+Placing 80 bytes at vaddr 0x000018f0.
+Placing 80 bytes at vaddr 0x00001940.
+Placing 80 bytes at vaddr 0x00001990.
+Placing 80 bytes at vaddr 0x000019e0.
+Placing 80 bytes at vaddr 0x00001a30.
+Placing 80 bytes at vaddr 0x00001a80.
+Placing 80 bytes at vaddr 0x00001ad0.
+Placing 80 bytes at vaddr 0x00001b20.
+Placing 80 bytes at vaddr 0x00001b70.
+Placing 80 bytes at vaddr 0x00001bc0.
+Placing 80 bytes at vaddr 0x00001c10.
+Placing 80 bytes at vaddr 0x00001c60.
+Placing 80 bytes at vaddr 0x00001cb0.
+Placing 80 bytes at vaddr 0x00001d00.
+Placing 80 bytes at vaddr 0x00001d50.
+Placing 80 bytes at vaddr 0x00001da0.
+Placing 80 bytes at vaddr 0x00001df0.
+Placing 80 bytes at vaddr 0x00001e40.
+Placing 80 bytes at vaddr 0x00001e90.
+Placing 80 bytes at vaddr 0x00001ee0.
+Placing 80 bytes at vaddr 0x00001f30.
+Placing 80 bytes at vaddr 0x00001f80.
+Placing 80 bytes at vaddr 0x00001fd0.
+Placing 80 bytes at vaddr 0x00002020.
+Placing 80 bytes at vaddr 0x00002070.
+Placing 60 bytes at vaddr 0x000020c0.
+Leaving ProcessFork (hello_world.dlx.obj)
+
+PTBASE=0x00049000 PTSIZE=1024 PTBITS=12
+Translating 0x1380
+0x1380 => 0x3d380 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1278
+0x1278 => 0x3d278 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x127c
+0x127c => 0x3d27c (=afa30000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003164) using base1=0x42000/12, entry 1023
+Translating 0x1280
+0x1280 => 0x3d280 (=0c000128) using base1=0x42000/12, entry 1
+Translating 0x13ac
+0x13ac => 0x3d3ac (=44000451) using base1=0x42000/12, entry 1
+Suspending PCB 0x37480 (makeprocs.dlx.obj).
+About to switch to PCB 0x36414,flags=0x202 @ 0x10d4
+Translating 0x10d4
+0x10d4 => 0x440d4 (=afbefffc) using base1=0x49000/12, entry 1
+Translating 0x3ffee8
+0x3ffee8 => 0x47ee8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x10d8
+0x10d8 => 0x440d8 (=001df020) using base1=0x49000/12, entry 1
+Translating 0x10dc
+0x10dc => 0x440dc (=afbffff8) using base1=0x49000/12, entry 1
+Translating 0x3ffee4
+0x3ffee4 => 0x47ee4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x10e0
+0x10e0 => 0x440e0 (=2fbd0008) using base1=0x49000/12, entry 1
+Translating 0x10e4
+0x10e4 => 0x440e4 (=8fc20000) using base1=0x49000/12, entry 1
+Translating 0x3ffeec
+0x3ffeec => 0x47eec (=00000002) using base1=0x49000/12, entry 1023
+Translating 0x10e8
+0x10e8 => 0x440e8 (=8fc30004) using base1=0x49000/12, entry 1
+Translating 0x3ffef0
+0x3ffef0 => 0x47ef0 (=003ffef4) using base1=0x49000/12, entry 1023
+Translating 0x10ec
+0x10ec => 0x440ec (=0c001004) using base1=0x49000/12, entry 1
+Translating 0x20f4
+0x20f4 => 0x450f4 (=4be00000) using base1=0x49000/12, entry 2
+Translating 0x10f0
+0x10f0 => 0x440f0 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x10f4
+0x10f4 => 0x440f4 (=64410002) using base1=0x49000/12, entry 1
+Translating 0x10f8
+0x10f8 => 0x440f8 (=10200028) using base1=0x49000/12, entry 1
+Translating 0x1124
+0x1124 => 0x44124 (=23bdfff0) using base1=0x49000/12, entry 1
+Translating 0x1128
+0x1128 => 0x44128 (=8c630004) using base1=0x49000/12, entry 1
+Translating 0x3ffef8
+0x3ffef8 => 0x47ef8 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x112c
+0x112c => 0x4412c (=afa30000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1130
+0x1130 => 0x44130 (=20040000) using base1=0x49000/12, entry 1
+Translating 0x1134
+0x1134 => 0x44134 (=afa40004) using base1=0x49000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x47ed8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1138
+0x1138 => 0x44138 (=2004000a) using base1=0x49000/12, entry 1
+Translating 0x113c
+0x113c => 0x4413c (=afa40008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1140
+0x1140 => 0x44140 (=0c000ab4) using base1=0x49000/12, entry 1
+Translating 0x1bf8
+0x1bf8 => 0x44bf8 (=afbefffc) using base1=0x49000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x47ed0 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1bfc
+0x1bfc => 0x44bfc (=001df020) using base1=0x49000/12, entry 1
+Translating 0x1c00
+0x1c00 => 0x44c00 (=afbffff8) using base1=0x49000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x47ecc (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1c04
+0x1c04 => 0x44c04 (=2fbd0020) using base1=0x49000/12, entry 1
+Translating 0x1c08
+0x1c08 => 0x44c08 (=afa20000) using base1=0x49000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x47eb4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1c0c
+0x1c0c => 0x44c0c (=20010000) using base1=0x49000/12, entry 1
+Translating 0x1c10
+0x1c10 => 0x44c10 (=afc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1c14
+0x1c14 => 0x44c14 (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1c18
+0x1c18 => 0x44c18 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1c1c
+0x1c1c => 0x44c1c (=60410020) using base1=0x49000/12, entry 1
+Translating 0x1c20
+0x1c20 => 0x44c20 (=14200034) using base1=0x49000/12, entry 1
+Translating 0x1c24
+0x1c24 => 0x44c24 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1c28
+0x1c28 => 0x44c28 (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1c2c
+0x1c2c => 0x44c2c (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1c30
+0x1c30 => 0x44c30 (=60410009) using base1=0x49000/12, entry 1
+Translating 0x1c34
+0x1c34 => 0x44c34 (=14200020) using base1=0x49000/12, entry 1
+Translating 0x1c38
+0x1c38 => 0x44c38 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1c3c
+0x1c3c => 0x44c3c (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1c40
+0x1c40 => 0x44c40 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1c44
+0x1c44 => 0x44c44 (=6041000a) using base1=0x49000/12, entry 1
+Translating 0x1c48
+0x1c48 => 0x44c48 (=1420000c) using base1=0x49000/12, entry 1
+Translating 0x1c4c
+0x1c4c => 0x44c4c (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1c50
+0x1c50 => 0x44c50 (=0800001c) using base1=0x49000/12, entry 1
+Translating 0x1c70
+0x1c70 => 0x44c70 (=8fc10004) using base1=0x49000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x47ed8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1c74
+0x1c74 => 0x44c74 (=64220000) using base1=0x49000/12, entry 1
+Translating 0x1c78
+0x1c78 => 0x44c78 (=10400010) using base1=0x49000/12, entry 1
+Translating 0x1c8c
+0x1c8c => 0x44c8c (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1c90
+0x1c90 => 0x44c90 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1c94
+0x1c94 => 0x44c94 (=64410000) using base1=0x49000/12, entry 1
+Translating 0x1c98
+0x1c98 => 0x44c98 (=14200010) using base1=0x49000/12, entry 1
+Translating 0x1cac
+0x1cac => 0x44cac (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1cb0
+0x1cb0 => 0x44cb0 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1cb4
+0x1cb4 => 0x44cb4 (=6041002d) using base1=0x49000/12, entry 1
+Translating 0x1cb8
+0x1cb8 => 0x44cb8 (=10200024) using base1=0x49000/12, entry 1
+Translating 0x1ce0
+0x1ce0 => 0x44ce0 (=20010001) using base1=0x49000/12, entry 1
+Translating 0x1ce4
+0x1ce4 => 0x44ce4 (=afc1ffec) using base1=0x49000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x47ec0 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1ce8
+0x1ce8 => 0x44ce8 (=8fc10008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1cec
+0x1cec => 0x44cec (=64220000) using base1=0x49000/12, entry 1
+Translating 0x1cf0
+0x1cf0 => 0x44cf0 (=14400090) using base1=0x49000/12, entry 1
+Translating 0x1d84
+0x1d84 => 0x44d84 (=8fc10008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1d88
+0x1d88 => 0x44d88 (=70220000) using base1=0x49000/12, entry 1
+Translating 0x1d8c
+0x1d8c => 0x44d8c (=1440001c) using base1=0x49000/12, entry 1
+Translating 0x1d90
+0x1d90 => 0x44d90 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1d94
+0x1d94 => 0x44d94 (=8fc10008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1d98
+0x1d98 => 0x44d98 (=6c220010) using base1=0x49000/12, entry 1
+Translating 0x1d9c
+0x1d9c => 0x44d9c (=1440000c) using base1=0x49000/12, entry 1
+Translating 0x1da0
+0x1da0 => 0x44da0 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1da4
+0x1da4 => 0x44da4 (=08000010) using base1=0x49000/12, entry 1
+Translating 0x1db8
+0x1db8 => 0x44db8 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x49000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x49000/12, entry 1
+Translating 0x1dcc
+0x1dcc => 0x44dcc (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1dd0
+0x1dd0 => 0x44dd0 (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1dd4
+0x1dd4 => 0x44dd4 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1dd8
+0x1dd8 => 0x44dd8 (=70410039) using base1=0x49000/12, entry 1
+Translating 0x1ddc
+0x1ddc => 0x44ddc (=1020001c) using base1=0x49000/12, entry 1
+Translating 0x1de0
+0x1de0 => 0x44de0 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1de4
+0x1de4 => 0x44de4 (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1de8
+0x1de8 => 0x44de8 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1dec
+0x1dec => 0x44dec (=2041ffd0) using base1=0x49000/12, entry 1
+Translating 0x1df0
+0x1df0 => 0x44df0 (=afc1fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1df4
+0x1df4 => 0x44df4 (=0800008c) using base1=0x49000/12, entry 1
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x49000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x49000/12, entry 1
+Translating 0x1e94
+0x1e94 => 0x44e94 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1e98
+0x1e98 => 0x44e98 (=8fc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1e9c
+0x1e9c => 0x44e9c (=8fc20008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1ea0
+0x1ea0 => 0x44ea0 (=00200035) using base1=0x49000/12, entry 1
+Translating 0x1ea4
+0x1ea4 => 0x44ea4 (=00400835) using base1=0x49000/12, entry 1
+Translating 0x1ea8
+0x1ea8 => 0x44ea8 (=0401000e) using base1=0x49000/12, entry 1
+Translating 0x1eac
+0x1eac => 0x44eac (=00000834) using base1=0x49000/12, entry 1
+Translating 0x1eb0
+0x1eb0 => 0x44eb0 (=afc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1eb4
+0x1eb4 => 0x44eb4 (=8fc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1eb8
+0x1eb8 => 0x44eb8 (=8fc2fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1ebc
+0x1ebc => 0x44ebc (=00220820) using base1=0x49000/12, entry 1
+Translating 0x1ec0
+0x1ec0 => 0x44ec0 (=afc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1ec4
+0x1ec4 => 0x44ec4 (=8fc20000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1ec8
+0x1ec8 => 0x44ec8 (=20410001) using base1=0x49000/12, entry 1
+Translating 0x1ecc
+0x1ecc => 0x44ecc (=00011020) using base1=0x49000/12, entry 1
+Translating 0x1ed0
+0x1ed0 => 0x44ed0 (=afc20000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff10) using base1=0x49000/12, entry 1023
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x49000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x49000/12, entry 1
+Translating 0x1ef0
+0x1ef0 => 0x44ef0 (=0bfffec8) using base1=0x49000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff11) using base1=0x49000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x49000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x49000/12, entry 1
+Translating 0x1dfc
+0x1dfc => 0x44dfc (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff11) using base1=0x49000/12, entry 1023
+Translating 0x1e00
+0x1e00 => 0x44e00 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1e04
+0x1e04 => 0x44e04 (=6c410060) using base1=0x49000/12, entry 1
+Translating 0x1e08
+0x1e08 => 0x44e08 (=10200030) using base1=0x49000/12, entry 1
+Translating 0x1e3c
+0x1e3c => 0x44e3c (=8fc10000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff11) using base1=0x49000/12, entry 1023
+Translating 0x1e40
+0x1e40 => 0x44e40 (=90220000) using base1=0x49000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x47f10 (=30000000) using base1=0x49000/12, entry 1023
+Translating 0x1e44
+0x1e44 => 0x44e44 (=6c410040) using base1=0x49000/12, entry 1
+Translating 0x1e48
+0x1e48 => 0x44e48 (=10200030) using base1=0x49000/12, entry 1
+Translating 0x1e7c
+0x1e7c => 0x44e7c (=200103e8) using base1=0x49000/12, entry 1
+Translating 0x1e80
+0x1e80 => 0x44e80 (=afc1fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=000003e8) using base1=0x49000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x49000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x49000/12, entry 1
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x49000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x47ec4 (=000003e8) using base1=0x49000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x49000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x49000/12, entry 1
+Translating 0x1ee4
+0x1ee4 => 0x44ee4 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1ee8
+0x1ee8 => 0x44ee8 (=0800000c) using base1=0x49000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x44ef8 (=8fc10004) using base1=0x49000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x47ed8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1efc
+0x1efc => 0x44efc (=64220000) using base1=0x49000/12, entry 1
+Translating 0x1f00
+0x1f00 => 0x44f00 (=10400010) using base1=0x49000/12, entry 1
+Translating 0x1f14
+0x1f14 => 0x44f14 (=8fc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1f18
+0x1f18 => 0x44f18 (=8fc2ffec) using base1=0x49000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x47ec0 (=00000001) using base1=0x49000/12, entry 1023
+Translating 0x1f1c
+0x1f1c => 0x44f1c (=00200035) using base1=0x49000/12, entry 1
+Translating 0x1f20
+0x1f20 => 0x44f20 (=00400835) using base1=0x49000/12, entry 1
+Translating 0x1f24
+0x1f24 => 0x44f24 (=0401000e) using base1=0x49000/12, entry 1
+Translating 0x1f28
+0x1f28 => 0x44f28 (=00000834) using base1=0x49000/12, entry 1
+Translating 0x1f2c
+0x1f2c => 0x44f2c (=afc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1f30
+0x1f30 => 0x44f30 (=8fc1fff4) using base1=0x49000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x47ec8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1f34
+0x1f34 => 0x44f34 (=08000004) using base1=0x49000/12, entry 1
+Translating 0x1f3c
+0x1f3c => 0x44f3c (=8fa20000) using base1=0x49000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x47eb4 (=00000002) using base1=0x49000/12, entry 1023
+Translating 0x1f40
+0x1f40 => 0x44f40 (=8fdffff8) using base1=0x49000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x47ecc (=00001144) using base1=0x49000/12, entry 1023
+Translating 0x1f44
+0x1f44 => 0x44f44 (=001ee820) using base1=0x49000/12, entry 1
+Translating 0x1f48
+0x1f48 => 0x44f48 (=8fdefffc) using base1=0x49000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x47ed0 (=003ffeec) using base1=0x49000/12, entry 1023
+Translating 0x1f4c
+0x1f4c => 0x44f4c (=4be00000) using base1=0x49000/12, entry 1
+Translating 0x1144
+0x1144 => 0x44144 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1148
+0x1148 => 0x44148 (=00011020) using base1=0x49000/12, entry 1
+Translating 0x114c
+0x114c => 0x4414c (=0c0000f0) using base1=0x49000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x49000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x49000/12, entry 1
+Translating 0x1150
+0x1150 => 0x44150 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1154
+0x1154 => 0x44154 (=3c040000) using base1=0x49000/12, entry 1
+Translating 0x1158
+0x1158 => 0x44158 (=24843034) using base1=0x49000/12, entry 1
+Translating 0x115c
+0x115c => 0x4415c (=afa40000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=003fff11) using base1=0x49000/12, entry 1023
+Translating 0x1160
+0x1160 => 0x44160 (=afa10004) using base1=0x49000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x47ed8 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x1164
+0x1164 => 0x44164 (=0c0000cc) using base1=0x49000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x49000/12, entry 1
+hello_world (30): Hello world!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x49000/12, entry 1
+Translating 0x1168
+0x1168 => 0x44168 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x116c
+0x116c => 0x4416c (=afa20000) using base1=0x49000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x47ed4 (=00003034) using base1=0x49000/12, entry 1023
+Translating 0x1170
+0x1170 => 0x44170 (=0c000114) using base1=0x49000/12, entry 1
+Translating 0x1288
+0x1288 => 0x44288 (=44000452) using base1=0x49000/12, entry 1
+Waking up PID 31.
+Translating 0x128c
+0x128c => 0x4428c (=4be00000) using base1=0x49000/12, entry 1
+Translating 0x1174
+0x1174 => 0x44174 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x1178
+0x1178 => 0x44178 (=23bd0010) using base1=0x49000/12, entry 1
+Translating 0x117c
+0x117c => 0x4417c (=64210001) using base1=0x49000/12, entry 1
+Translating 0x1180
+0x1180 => 0x44180 (=10200038) using base1=0x49000/12, entry 1
+Translating 0x11bc
+0x11bc => 0x441bc (=0c000080) using base1=0x49000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x49000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x49000/12, entry 1
+Translating 0x11c0
+0x11c0 => 0x441c0 (=54000000) using base1=0x49000/12, entry 1
+Translating 0x11c4
+0x11c4 => 0x441c4 (=23bdfff8) using base1=0x49000/12, entry 1
+Translating 0x11c8
+0x11c8 => 0x441c8 (=3c040000) using base1=0x49000/12, entry 1
+Translating 0x11cc
+0x11cc => 0x441cc (=24843090) using base1=0x49000/12, entry 1
+Translating 0x11d0
+0x11d0 => 0x441d0 (=afa40000) using base1=0x49000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x47edc (=0000000a) using base1=0x49000/12, entry 1023
+Translating 0x11d4
+0x11d4 => 0x441d4 (=afa10004) using base1=0x49000/12, entry 1
+Translating 0x3ffee0
+0x3ffee0 => 0x47ee0 (=00000000) using base1=0x49000/12, entry 1023
+Translating 0x11d8
+0x11d8 => 0x441d8 (=0c000058) using base1=0x49000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x49000/12, entry 1
+hello_world (30): Done!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x49000/12, entry 1
+Translating 0x11dc
+0x11dc => 0x441dc (=54000000) using base1=0x49000/12, entry 1
+Translating 0x11e0
+0x11e0 => 0x441e0 (=23bd0008) using base1=0x49000/12, entry 1
+Translating 0x11e4
+0x11e4 => 0x441e4 (=0c000f00) using base1=0x49000/12, entry 1
+Translating 0x20e8
+0x20e8 => 0x450e8 (=44000300) using base1=0x49000/12, entry 2
+Entering ProcessDestroy for 0x36414.
+Leaving ProcessDestroy for 0x36414.
+About to switch to PCB 0x37480,flags=0x202 @ 0x0
+Freeing zombie PCB 0x36414.
+Freed physical page 73,  map [2] = 0xfffffe00.
+Freed page table for process 30.
+Freed physical page 67,  map [2] = 0xfffffe08.
+Freed page 0, PTE=0x43001, physical page=67.
+Freed physical page 68,  map [2] = 0xfffffe18.
+Freed page 1, PTE=0x44001, physical page=68.
+Freed physical page 69,  map [2] = 0xfffffe38.
+Freed page 2, PTE=0x45001, physical page=69.
+Freed physical page 70,  map [2] = 0xfffffe78.
+Freed page 3, PTE=0x46001, physical page=70.
+Translating 0x13b0
+0x13b0 => 0x3d3b0 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1284
+0x1284 => 0x3d284 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1288
+0x1288 => 0x3d288 (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x128c
+0x128c => 0x3d28c (=64210001) using base1=0x42000/12, entry 1
+Translating 0x1290
+0x1290 => 0x3d290 (=10200034) using base1=0x42000/12, entry 1
+Translating 0x12c8
+0x12c8 => 0x3d2c8 (=20420001) using base1=0x42000/12, entry 1
+Translating 0x12cc
+0x12cc => 0x3d2cc (=0044082a) using base1=0x42000/12, entry 1
+Translating 0x12d0
+0x12d0 => 0x3d2d0 (=1420ff60) using base1=0x42000/12, entry 1
+Translating 0x1234
+0x1234 => 0x3d234 (=0c000138) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1238
+0x1238 => 0x3d238 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x123c
+0x123c => 0x3d23c (=23bdfff0) using base1=0x42000/12, entry 1
+Translating 0x1240
+0x1240 => 0x3d240 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1244
+0x1244 => 0x3d244 (=24e73138) using base1=0x42000/12, entry 1
+Translating 0x1248
+0x1248 => 0x3d248 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x124c
+0x124c => 0x3d24c (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=003ffed4) using base1=0x42000/12, entry 1023
+Translating 0x1250
+0x1250 => 0x3d250 (=afa20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1254
+0x1254 => 0x3d254 (=0c00010c) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating hello world #1
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1258
+0x1258 => 0x3d258 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x125c
+0x125c => 0x3d25c (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1260
+0x1260 => 0x3d260 (=24e73164) using base1=0x42000/12, entry 1
+Translating 0x1264
+0x1264 => 0x3d264 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003138) using base1=0x42000/12, entry 1023
+Translating 0x1268
+0x1268 => 0x3d268 (=afa50004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x126c
+0x126c => 0x3d26c (=20070000) using base1=0x42000/12, entry 1
+Translating 0x1270
+0x1270 => 0x3d270 (=afa70008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000001) using base1=0x42000/12, entry 1023
+Translating 0x1274
+0x1274 => 0x3d274 (=0c000104) using base1=0x42000/12, entry 1
+Translating 0x137c
+0x137c => 0x3d37c (=44000432) using base1=0x42000/12, entry 1
+TrapProcessCreateHandler: function started
+TrapProcessCreateHandler: creating user process
+TrapProcessCreateHandler: just parsed executable name (hello_world.dlx.obj) from trapArgs
+Entering ProcessFork args=0x0 0x41d1c hello_world.dlx.obj 1
+Got a link @ 0x3882c
+ProcessFork: Allocated page 67 for code and data.
+ProcessFork: Allocated page 68 for code and data.
+ProcessFork: Allocated page 69 for code and data.
+ProcessFork: Allocated page 70 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 73 for user stack.
+ProcessFork: Allocated page 74 for process 29, sysStackArea=0x0004a000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00043001)
+ProcessFork: AFTER: physPageTable[0] = 0x00043001 (from pagetable[0] = 0x00043001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00044001)
+ProcessFork: AFTER: physPageTable[1] = 0x00044001 (from pagetable[1] = 0x00044001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00045001)
+ProcessFork: AFTER: physPageTable[2] = 0x00045001 (from pagetable[2] = 0x00045001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00046001)
+ProcessFork: AFTER: physPageTable[3] = 0x00046001 (from pagetable[3] = 0x00046001)
+ProcessFork: Allocated page table at physical address 0x0004b000
+ProcessFork: Stackframe set to 0x0004ae8c.
+ProcessFork: stackframe = 0x4ae8c
+
+PTBASE=0x0004b000 PTSIZE=1024 PTBITS=786444
+About to load hello_world.dlx.obj
+File hello_world.dlx.obj -> start=0x000010d4
+File hello_world.dlx.obj -> code @ 0x00001000 (size=0x00001100)
+File hello_world.dlx.obj -> data @ 0x00003000 (size=0x000000a9)
+Placing 76 bytes at vaddr 0x00001000.
+Placing 80 bytes at vaddr 0x0000104c.
+Placing 56 bytes at vaddr 0x0000109c.
+Placing 49 bytes at vaddr 0x00003000.
+Placing 32 bytes at vaddr 0x00003034.
+Placing 57 bytes at vaddr 0x00003054.
+Placing 25 bytes at vaddr 0x00003090.
+Placing 76 bytes at vaddr 0x000010d4.
+Placing 80 bytes at vaddr 0x00001120.
+Placing 80 bytes at vaddr 0x00001170.
+Placing 80 bytes at vaddr 0x000011c0.
+Placing 80 bytes at vaddr 0x00001210.
+Placing 80 bytes at vaddr 0x00001260.
+Placing 80 bytes at vaddr 0x000012b0.
+Placing 80 bytes at vaddr 0x00001300.
+Placing 80 bytes at vaddr 0x00001350.
+Placing 80 bytes at vaddr 0x000013a0.
+Placing 80 bytes at vaddr 0x000013f0.
+Placing 80 bytes at vaddr 0x00001440.
+Placing 80 bytes at vaddr 0x00001490.
+Placing 80 bytes at vaddr 0x000014e0.
+Placing 80 bytes at vaddr 0x00001530.
+Placing 80 bytes at vaddr 0x00001580.
+Placing 80 bytes at vaddr 0x000015d0.
+Placing 80 bytes at vaddr 0x00001620.
+Placing 80 bytes at vaddr 0x00001670.
+Placing 80 bytes at vaddr 0x000016c0.
+Placing 80 bytes at vaddr 0x00001710.
+Placing 80 bytes at vaddr 0x00001760.
+Placing 80 bytes at vaddr 0x000017b0.
+Placing 80 bytes at vaddr 0x00001800.
+Placing 80 bytes at vaddr 0x00001850.
+Placing 80 bytes at vaddr 0x000018a0.
+Placing 80 bytes at vaddr 0x000018f0.
+Placing 80 bytes at vaddr 0x00001940.
+Placing 80 bytes at vaddr 0x00001990.
+Placing 80 bytes at vaddr 0x000019e0.
+Placing 80 bytes at vaddr 0x00001a30.
+Placing 80 bytes at vaddr 0x00001a80.
+Placing 80 bytes at vaddr 0x00001ad0.
+Placing 80 bytes at vaddr 0x00001b20.
+Placing 80 bytes at vaddr 0x00001b70.
+Placing 80 bytes at vaddr 0x00001bc0.
+Placing 80 bytes at vaddr 0x00001c10.
+Placing 80 bytes at vaddr 0x00001c60.
+Placing 80 bytes at vaddr 0x00001cb0.
+Placing 80 bytes at vaddr 0x00001d00.
+Placing 80 bytes at vaddr 0x00001d50.
+Placing 80 bytes at vaddr 0x00001da0.
+Placing 80 bytes at vaddr 0x00001df0.
+Placing 80 bytes at vaddr 0x00001e40.
+Placing 80 bytes at vaddr 0x00001e90.
+Placing 80 bytes at vaddr 0x00001ee0.
+Placing 80 bytes at vaddr 0x00001f30.
+Placing 80 bytes at vaddr 0x00001f80.
+Placing 80 bytes at vaddr 0x00001fd0.
+Placing 80 bytes at vaddr 0x00002020.
+Placing 80 bytes at vaddr 0x00002070.
+Placing 60 bytes at vaddr 0x000020c0.
+Leaving ProcessFork (hello_world.dlx.obj)
+
+PTBASE=0x0004b000 PTSIZE=1024 PTBITS=12
+Translating 0x1380
+0x1380 => 0x3d380 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1278
+0x1278 => 0x3d278 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x127c
+0x127c => 0x3d27c (=afa30000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003164) using base1=0x42000/12, entry 1023
+Translating 0x1280
+0x1280 => 0x3d280 (=0c000128) using base1=0x42000/12, entry 1
+Translating 0x13ac
+0x13ac => 0x3d3ac (=44000451) using base1=0x42000/12, entry 1
+Suspending PCB 0x37480 (makeprocs.dlx.obj).
+About to switch to PCB 0x353a8,flags=0x202 @ 0x10d4
+Translating 0x10d4
+0x10d4 => 0x440d4 (=afbefffc) using base1=0x4b000/12, entry 1
+Translating 0x3ffee8
+0x3ffee8 => 0x49ee8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x10d8
+0x10d8 => 0x440d8 (=001df020) using base1=0x4b000/12, entry 1
+Translating 0x10dc
+0x10dc => 0x440dc (=afbffff8) using base1=0x4b000/12, entry 1
+Translating 0x3ffee4
+0x3ffee4 => 0x49ee4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x10e0
+0x10e0 => 0x440e0 (=2fbd0008) using base1=0x4b000/12, entry 1
+Translating 0x10e4
+0x10e4 => 0x440e4 (=8fc20000) using base1=0x4b000/12, entry 1
+Translating 0x3ffeec
+0x3ffeec => 0x49eec (=00000002) using base1=0x4b000/12, entry 1023
+Translating 0x10e8
+0x10e8 => 0x440e8 (=8fc30004) using base1=0x4b000/12, entry 1
+Translating 0x3ffef0
+0x3ffef0 => 0x49ef0 (=003ffef4) using base1=0x4b000/12, entry 1023
+Translating 0x10ec
+0x10ec => 0x440ec (=0c001004) using base1=0x4b000/12, entry 1
+Translating 0x20f4
+0x20f4 => 0x450f4 (=4be00000) using base1=0x4b000/12, entry 2
+Translating 0x10f0
+0x10f0 => 0x440f0 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x10f4
+0x10f4 => 0x440f4 (=64410002) using base1=0x4b000/12, entry 1
+Translating 0x10f8
+0x10f8 => 0x440f8 (=10200028) using base1=0x4b000/12, entry 1
+Translating 0x1124
+0x1124 => 0x44124 (=23bdfff0) using base1=0x4b000/12, entry 1
+Translating 0x1128
+0x1128 => 0x44128 (=8c630004) using base1=0x4b000/12, entry 1
+Translating 0x3ffef8
+0x3ffef8 => 0x49ef8 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x112c
+0x112c => 0x4412c (=afa30000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1130
+0x1130 => 0x44130 (=20040000) using base1=0x4b000/12, entry 1
+Translating 0x1134
+0x1134 => 0x44134 (=afa40004) using base1=0x4b000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x49ed8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1138
+0x1138 => 0x44138 (=2004000a) using base1=0x4b000/12, entry 1
+Translating 0x113c
+0x113c => 0x4413c (=afa40008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1140
+0x1140 => 0x44140 (=0c000ab4) using base1=0x4b000/12, entry 1
+Translating 0x1bf8
+0x1bf8 => 0x44bf8 (=afbefffc) using base1=0x4b000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x49ed0 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1bfc
+0x1bfc => 0x44bfc (=001df020) using base1=0x4b000/12, entry 1
+Translating 0x1c00
+0x1c00 => 0x44c00 (=afbffff8) using base1=0x4b000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x49ecc (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c04
+0x1c04 => 0x44c04 (=2fbd0020) using base1=0x4b000/12, entry 1
+Translating 0x1c08
+0x1c08 => 0x44c08 (=afa20000) using base1=0x4b000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x49eb4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c0c
+0x1c0c => 0x44c0c (=20010000) using base1=0x4b000/12, entry 1
+Translating 0x1c10
+0x1c10 => 0x44c10 (=afc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c14
+0x1c14 => 0x44c14 (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1c18
+0x1c18 => 0x44c18 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c1c
+0x1c1c => 0x44c1c (=60410020) using base1=0x4b000/12, entry 1
+Translating 0x1c20
+0x1c20 => 0x44c20 (=14200034) using base1=0x4b000/12, entry 1
+Translating 0x1c24
+0x1c24 => 0x44c24 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1c28
+0x1c28 => 0x44c28 (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1c2c
+0x1c2c => 0x44c2c (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c30
+0x1c30 => 0x44c30 (=60410009) using base1=0x4b000/12, entry 1
+Translating 0x1c34
+0x1c34 => 0x44c34 (=14200020) using base1=0x4b000/12, entry 1
+Translating 0x1c38
+0x1c38 => 0x44c38 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1c3c
+0x1c3c => 0x44c3c (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1c40
+0x1c40 => 0x44c40 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c44
+0x1c44 => 0x44c44 (=6041000a) using base1=0x4b000/12, entry 1
+Translating 0x1c48
+0x1c48 => 0x44c48 (=1420000c) using base1=0x4b000/12, entry 1
+Translating 0x1c4c
+0x1c4c => 0x44c4c (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1c50
+0x1c50 => 0x44c50 (=0800001c) using base1=0x4b000/12, entry 1
+Translating 0x1c70
+0x1c70 => 0x44c70 (=8fc10004) using base1=0x4b000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x49ed8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c74
+0x1c74 => 0x44c74 (=64220000) using base1=0x4b000/12, entry 1
+Translating 0x1c78
+0x1c78 => 0x44c78 (=10400010) using base1=0x4b000/12, entry 1
+Translating 0x1c8c
+0x1c8c => 0x44c8c (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1c90
+0x1c90 => 0x44c90 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1c94
+0x1c94 => 0x44c94 (=64410000) using base1=0x4b000/12, entry 1
+Translating 0x1c98
+0x1c98 => 0x44c98 (=14200010) using base1=0x4b000/12, entry 1
+Translating 0x1cac
+0x1cac => 0x44cac (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1cb0
+0x1cb0 => 0x44cb0 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1cb4
+0x1cb4 => 0x44cb4 (=6041002d) using base1=0x4b000/12, entry 1
+Translating 0x1cb8
+0x1cb8 => 0x44cb8 (=10200024) using base1=0x4b000/12, entry 1
+Translating 0x1ce0
+0x1ce0 => 0x44ce0 (=20010001) using base1=0x4b000/12, entry 1
+Translating 0x1ce4
+0x1ce4 => 0x44ce4 (=afc1ffec) using base1=0x4b000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x49ec0 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1ce8
+0x1ce8 => 0x44ce8 (=8fc10008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1cec
+0x1cec => 0x44cec (=64220000) using base1=0x4b000/12, entry 1
+Translating 0x1cf0
+0x1cf0 => 0x44cf0 (=14400090) using base1=0x4b000/12, entry 1
+Translating 0x1d84
+0x1d84 => 0x44d84 (=8fc10008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1d88
+0x1d88 => 0x44d88 (=70220000) using base1=0x4b000/12, entry 1
+Translating 0x1d8c
+0x1d8c => 0x44d8c (=1440001c) using base1=0x4b000/12, entry 1
+Translating 0x1d90
+0x1d90 => 0x44d90 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1d94
+0x1d94 => 0x44d94 (=8fc10008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1d98
+0x1d98 => 0x44d98 (=6c220010) using base1=0x4b000/12, entry 1
+Translating 0x1d9c
+0x1d9c => 0x44d9c (=1440000c) using base1=0x4b000/12, entry 1
+Translating 0x1da0
+0x1da0 => 0x44da0 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1da4
+0x1da4 => 0x44da4 (=08000010) using base1=0x4b000/12, entry 1
+Translating 0x1db8
+0x1db8 => 0x44db8 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x4b000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x4b000/12, entry 1
+Translating 0x1dcc
+0x1dcc => 0x44dcc (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1dd0
+0x1dd0 => 0x44dd0 (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1dd4
+0x1dd4 => 0x44dd4 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1dd8
+0x1dd8 => 0x44dd8 (=70410039) using base1=0x4b000/12, entry 1
+Translating 0x1ddc
+0x1ddc => 0x44ddc (=1020001c) using base1=0x4b000/12, entry 1
+Translating 0x1de0
+0x1de0 => 0x44de0 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1de4
+0x1de4 => 0x44de4 (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1de8
+0x1de8 => 0x44de8 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1dec
+0x1dec => 0x44dec (=2041ffd0) using base1=0x4b000/12, entry 1
+Translating 0x1df0
+0x1df0 => 0x44df0 (=afc1fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1df4
+0x1df4 => 0x44df4 (=0800008c) using base1=0x4b000/12, entry 1
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x4b000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x4b000/12, entry 1
+Translating 0x1e94
+0x1e94 => 0x44e94 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1e98
+0x1e98 => 0x44e98 (=8fc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1e9c
+0x1e9c => 0x44e9c (=8fc20008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1ea0
+0x1ea0 => 0x44ea0 (=00200035) using base1=0x4b000/12, entry 1
+Translating 0x1ea4
+0x1ea4 => 0x44ea4 (=00400835) using base1=0x4b000/12, entry 1
+Translating 0x1ea8
+0x1ea8 => 0x44ea8 (=0401000e) using base1=0x4b000/12, entry 1
+Translating 0x1eac
+0x1eac => 0x44eac (=00000834) using base1=0x4b000/12, entry 1
+Translating 0x1eb0
+0x1eb0 => 0x44eb0 (=afc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1eb4
+0x1eb4 => 0x44eb4 (=8fc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1eb8
+0x1eb8 => 0x44eb8 (=8fc2fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1ebc
+0x1ebc => 0x44ebc (=00220820) using base1=0x4b000/12, entry 1
+Translating 0x1ec0
+0x1ec0 => 0x44ec0 (=afc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1ec4
+0x1ec4 => 0x44ec4 (=8fc20000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1ec8
+0x1ec8 => 0x44ec8 (=20410001) using base1=0x4b000/12, entry 1
+Translating 0x1ecc
+0x1ecc => 0x44ecc (=00011020) using base1=0x4b000/12, entry 1
+Translating 0x1ed0
+0x1ed0 => 0x44ed0 (=afc20000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff10) using base1=0x4b000/12, entry 1023
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x4b000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x4b000/12, entry 1
+Translating 0x1ef0
+0x1ef0 => 0x44ef0 (=0bfffec8) using base1=0x4b000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff11) using base1=0x4b000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x4b000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x4b000/12, entry 1
+Translating 0x1dfc
+0x1dfc => 0x44dfc (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff11) using base1=0x4b000/12, entry 1023
+Translating 0x1e00
+0x1e00 => 0x44e00 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1e04
+0x1e04 => 0x44e04 (=6c410060) using base1=0x4b000/12, entry 1
+Translating 0x1e08
+0x1e08 => 0x44e08 (=10200030) using base1=0x4b000/12, entry 1
+Translating 0x1e3c
+0x1e3c => 0x44e3c (=8fc10000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff11) using base1=0x4b000/12, entry 1023
+Translating 0x1e40
+0x1e40 => 0x44e40 (=90220000) using base1=0x4b000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x49f10 (=30000000) using base1=0x4b000/12, entry 1023
+Translating 0x1e44
+0x1e44 => 0x44e44 (=6c410040) using base1=0x4b000/12, entry 1
+Translating 0x1e48
+0x1e48 => 0x44e48 (=10200030) using base1=0x4b000/12, entry 1
+Translating 0x1e7c
+0x1e7c => 0x44e7c (=200103e8) using base1=0x4b000/12, entry 1
+Translating 0x1e80
+0x1e80 => 0x44e80 (=afc1fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=000003e8) using base1=0x4b000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x4b000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x4b000/12, entry 1
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x4b000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x49ec4 (=000003e8) using base1=0x4b000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x4b000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x4b000/12, entry 1
+Translating 0x1ee4
+0x1ee4 => 0x44ee4 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1ee8
+0x1ee8 => 0x44ee8 (=0800000c) using base1=0x4b000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x44ef8 (=8fc10004) using base1=0x4b000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x49ed8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1efc
+0x1efc => 0x44efc (=64220000) using base1=0x4b000/12, entry 1
+Translating 0x1f00
+0x1f00 => 0x44f00 (=10400010) using base1=0x4b000/12, entry 1
+Translating 0x1f14
+0x1f14 => 0x44f14 (=8fc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1f18
+0x1f18 => 0x44f18 (=8fc2ffec) using base1=0x4b000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x49ec0 (=00000001) using base1=0x4b000/12, entry 1023
+Translating 0x1f1c
+0x1f1c => 0x44f1c (=00200035) using base1=0x4b000/12, entry 1
+Translating 0x1f20
+0x1f20 => 0x44f20 (=00400835) using base1=0x4b000/12, entry 1
+Translating 0x1f24
+0x1f24 => 0x44f24 (=0401000e) using base1=0x4b000/12, entry 1
+Translating 0x1f28
+0x1f28 => 0x44f28 (=00000834) using base1=0x4b000/12, entry 1
+Translating 0x1f2c
+0x1f2c => 0x44f2c (=afc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1f30
+0x1f30 => 0x44f30 (=8fc1fff4) using base1=0x4b000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x49ec8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1f34
+0x1f34 => 0x44f34 (=08000004) using base1=0x4b000/12, entry 1
+Translating 0x1f3c
+0x1f3c => 0x44f3c (=8fa20000) using base1=0x4b000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x49eb4 (=00000002) using base1=0x4b000/12, entry 1023
+Translating 0x1f40
+0x1f40 => 0x44f40 (=8fdffff8) using base1=0x4b000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x49ecc (=00001144) using base1=0x4b000/12, entry 1023
+Translating 0x1f44
+0x1f44 => 0x44f44 (=001ee820) using base1=0x4b000/12, entry 1
+Translating 0x1f48
+0x1f48 => 0x44f48 (=8fdefffc) using base1=0x4b000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x49ed0 (=003ffeec) using base1=0x4b000/12, entry 1023
+Translating 0x1f4c
+0x1f4c => 0x44f4c (=4be00000) using base1=0x4b000/12, entry 1
+Translating 0x1144
+0x1144 => 0x44144 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1148
+0x1148 => 0x44148 (=00011020) using base1=0x4b000/12, entry 1
+Translating 0x114c
+0x114c => 0x4414c (=0c0000f0) using base1=0x4b000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x4b000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x4b000/12, entry 1
+Translating 0x1150
+0x1150 => 0x44150 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1154
+0x1154 => 0x44154 (=3c040000) using base1=0x4b000/12, entry 1
+Translating 0x1158
+0x1158 => 0x44158 (=24843034) using base1=0x4b000/12, entry 1
+Translating 0x115c
+0x115c => 0x4415c (=afa40000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=003fff11) using base1=0x4b000/12, entry 1023
+Translating 0x1160
+0x1160 => 0x44160 (=afa10004) using base1=0x4b000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x49ed8 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x1164
+0x1164 => 0x44164 (=0c0000cc) using base1=0x4b000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x4b000/12, entry 1
+hello_world (29): Hello world!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x4b000/12, entry 1
+Translating 0x1168
+0x1168 => 0x44168 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x116c
+0x116c => 0x4416c (=afa20000) using base1=0x4b000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x49ed4 (=00003034) using base1=0x4b000/12, entry 1023
+Translating 0x1170
+0x1170 => 0x44170 (=0c000114) using base1=0x4b000/12, entry 1
+Translating 0x1288
+0x1288 => 0x44288 (=44000452) using base1=0x4b000/12, entry 1
+Waking up PID 31.
+Translating 0x128c
+0x128c => 0x4428c (=4be00000) using base1=0x4b000/12, entry 1
+Translating 0x1174
+0x1174 => 0x44174 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x1178
+0x1178 => 0x44178 (=23bd0010) using base1=0x4b000/12, entry 1
+Translating 0x117c
+0x117c => 0x4417c (=64210001) using base1=0x4b000/12, entry 1
+Translating 0x1180
+0x1180 => 0x44180 (=10200038) using base1=0x4b000/12, entry 1
+Translating 0x11bc
+0x11bc => 0x441bc (=0c000080) using base1=0x4b000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x4b000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x4b000/12, entry 1
+Translating 0x11c0
+0x11c0 => 0x441c0 (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x11c4
+0x11c4 => 0x441c4 (=23bdfff8) using base1=0x4b000/12, entry 1
+Translating 0x11c8
+0x11c8 => 0x441c8 (=3c040000) using base1=0x4b000/12, entry 1
+Translating 0x11cc
+0x11cc => 0x441cc (=24843090) using base1=0x4b000/12, entry 1
+Translating 0x11d0
+0x11d0 => 0x441d0 (=afa40000) using base1=0x4b000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x49edc (=0000000a) using base1=0x4b000/12, entry 1023
+Translating 0x11d4
+0x11d4 => 0x441d4 (=afa10004) using base1=0x4b000/12, entry 1
+Translating 0x3ffee0
+0x3ffee0 => 0x49ee0 (=00000000) using base1=0x4b000/12, entry 1023
+Translating 0x11d8
+0x11d8 => 0x441d8 (=0c000058) using base1=0x4b000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x4b000/12, entry 1
+hello_world (29): Done!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x4b000/12, entry 1
+Translating 0x11dc
+0x11dc => 0x441dc (=54000000) using base1=0x4b000/12, entry 1
+Translating 0x11e0
+0x11e0 => 0x441e0 (=23bd0008) using base1=0x4b000/12, entry 1
+Translating 0x11e4
+0x11e4 => 0x441e4 (=0c000f00) using base1=0x4b000/12, entry 1
+Translating 0x20e8
+0x20e8 => 0x450e8 (=44000300) using base1=0x4b000/12, entry 2
+Entering ProcessDestroy for 0x353a8.
+Leaving ProcessDestroy for 0x353a8.
+About to switch to PCB 0x37480,flags=0x202 @ 0x0
+Freeing zombie PCB 0x353a8.
+Freed physical page 75,  map [2] = 0xfffff800.
+Freed page table for process 29.
+Freed physical page 67,  map [2] = 0xfffff808.
+Freed page 0, PTE=0x43001, physical page=67.
+Freed physical page 68,  map [2] = 0xfffff818.
+Freed page 1, PTE=0x44001, physical page=68.
+Freed physical page 69,  map [2] = 0xfffff838.
+Freed page 2, PTE=0x45001, physical page=69.
+Freed physical page 70,  map [2] = 0xfffff878.
+Freed page 3, PTE=0x46001, physical page=70.
+Translating 0x13b0
+0x13b0 => 0x3d3b0 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1284
+0x1284 => 0x3d284 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1288
+0x1288 => 0x3d288 (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x128c
+0x128c => 0x3d28c (=64210001) using base1=0x42000/12, entry 1
+Translating 0x1290
+0x1290 => 0x3d290 (=10200034) using base1=0x42000/12, entry 1
+Translating 0x12c8
+0x12c8 => 0x3d2c8 (=20420001) using base1=0x42000/12, entry 1
+Translating 0x12cc
+0x12cc => 0x3d2cc (=0044082a) using base1=0x42000/12, entry 1
+Translating 0x12d0
+0x12d0 => 0x3d2d0 (=1420ff60) using base1=0x42000/12, entry 1
+Translating 0x1234
+0x1234 => 0x3d234 (=0c000138) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1238
+0x1238 => 0x3d238 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x123c
+0x123c => 0x3d23c (=23bdfff0) using base1=0x42000/12, entry 1
+Translating 0x1240
+0x1240 => 0x3d240 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1244
+0x1244 => 0x3d244 (=24e73138) using base1=0x42000/12, entry 1
+Translating 0x1248
+0x1248 => 0x3d248 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x124c
+0x124c => 0x3d24c (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=003ffed4) using base1=0x42000/12, entry 1023
+Translating 0x1250
+0x1250 => 0x3d250 (=afa20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1254
+0x1254 => 0x3d254 (=0c00010c) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating hello world #2
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1258
+0x1258 => 0x3d258 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x125c
+0x125c => 0x3d25c (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1260
+0x1260 => 0x3d260 (=24e73164) using base1=0x42000/12, entry 1
+Translating 0x1264
+0x1264 => 0x3d264 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003138) using base1=0x42000/12, entry 1023
+Translating 0x1268
+0x1268 => 0x3d268 (=afa50004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x126c
+0x126c => 0x3d26c (=20070000) using base1=0x42000/12, entry 1
+Translating 0x1270
+0x1270 => 0x3d270 (=afa70008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000002) using base1=0x42000/12, entry 1023
+Translating 0x1274
+0x1274 => 0x3d274 (=0c000104) using base1=0x42000/12, entry 1
+Translating 0x137c
+0x137c => 0x3d37c (=44000432) using base1=0x42000/12, entry 1
+TrapProcessCreateHandler: function started
+TrapProcessCreateHandler: creating user process
+TrapProcessCreateHandler: just parsed executable name (hello_world.dlx.obj) from trapArgs
+Entering ProcessFork args=0x0 0x41d1c hello_world.dlx.obj 1
+Got a link @ 0x3881c
+ProcessFork: Allocated page 67 for code and data.
+ProcessFork: Allocated page 68 for code and data.
+ProcessFork: Allocated page 69 for code and data.
+ProcessFork: Allocated page 70 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 75 for user stack.
+ProcessFork: Allocated page 76 for process 28, sysStackArea=0x0004c000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00043001)
+ProcessFork: AFTER: physPageTable[0] = 0x00043001 (from pagetable[0] = 0x00043001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00044001)
+ProcessFork: AFTER: physPageTable[1] = 0x00044001 (from pagetable[1] = 0x00044001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00045001)
+ProcessFork: AFTER: physPageTable[2] = 0x00045001 (from pagetable[2] = 0x00045001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00046001)
+ProcessFork: AFTER: physPageTable[3] = 0x00046001 (from pagetable[3] = 0x00046001)
+ProcessFork: Allocated page table at physical address 0x0004d000
+ProcessFork: Stackframe set to 0x0004ce8c.
+ProcessFork: stackframe = 0x4ce8c
+
+PTBASE=0x0004d000 PTSIZE=1024 PTBITS=786444
+About to load hello_world.dlx.obj
+File hello_world.dlx.obj -> start=0x000010d4
+File hello_world.dlx.obj -> code @ 0x00001000 (size=0x00001100)
+File hello_world.dlx.obj -> data @ 0x00003000 (size=0x000000a9)
+Placing 76 bytes at vaddr 0x00001000.
+Placing 80 bytes at vaddr 0x0000104c.
+Placing 56 bytes at vaddr 0x0000109c.
+Placing 49 bytes at vaddr 0x00003000.
+Placing 32 bytes at vaddr 0x00003034.
+Placing 57 bytes at vaddr 0x00003054.
+Placing 25 bytes at vaddr 0x00003090.
+Placing 76 bytes at vaddr 0x000010d4.
+Placing 80 bytes at vaddr 0x00001120.
+Placing 80 bytes at vaddr 0x00001170.
+Placing 80 bytes at vaddr 0x000011c0.
+Placing 80 bytes at vaddr 0x00001210.
+Placing 80 bytes at vaddr 0x00001260.
+Placing 80 bytes at vaddr 0x000012b0.
+Placing 80 bytes at vaddr 0x00001300.
+Placing 80 bytes at vaddr 0x00001350.
+Placing 80 bytes at vaddr 0x000013a0.
+Placing 80 bytes at vaddr 0x000013f0.
+Placing 80 bytes at vaddr 0x00001440.
+Placing 80 bytes at vaddr 0x00001490.
+Placing 80 bytes at vaddr 0x000014e0.
+Placing 80 bytes at vaddr 0x00001530.
+Placing 80 bytes at vaddr 0x00001580.
+Placing 80 bytes at vaddr 0x000015d0.
+Placing 80 bytes at vaddr 0x00001620.
+Placing 80 bytes at vaddr 0x00001670.
+Placing 80 bytes at vaddr 0x000016c0.
+Placing 80 bytes at vaddr 0x00001710.
+Placing 80 bytes at vaddr 0x00001760.
+Placing 80 bytes at vaddr 0x000017b0.
+Placing 80 bytes at vaddr 0x00001800.
+Placing 80 bytes at vaddr 0x00001850.
+Placing 80 bytes at vaddr 0x000018a0.
+Placing 80 bytes at vaddr 0x000018f0.
+Placing 80 bytes at vaddr 0x00001940.
+Placing 80 bytes at vaddr 0x00001990.
+Placing 80 bytes at vaddr 0x000019e0.
+Placing 80 bytes at vaddr 0x00001a30.
+Placing 80 bytes at vaddr 0x00001a80.
+Placing 80 bytes at vaddr 0x00001ad0.
+Placing 80 bytes at vaddr 0x00001b20.
+Placing 80 bytes at vaddr 0x00001b70.
+Placing 80 bytes at vaddr 0x00001bc0.
+Placing 80 bytes at vaddr 0x00001c10.
+Placing 80 bytes at vaddr 0x00001c60.
+Placing 80 bytes at vaddr 0x00001cb0.
+Placing 80 bytes at vaddr 0x00001d00.
+Placing 80 bytes at vaddr 0x00001d50.
+Placing 80 bytes at vaddr 0x00001da0.
+Placing 80 bytes at vaddr 0x00001df0.
+Placing 80 bytes at vaddr 0x00001e40.
+Placing 80 bytes at vaddr 0x00001e90.
+Placing 80 bytes at vaddr 0x00001ee0.
+Placing 80 bytes at vaddr 0x00001f30.
+Placing 80 bytes at vaddr 0x00001f80.
+Placing 80 bytes at vaddr 0x00001fd0.
+Placing 80 bytes at vaddr 0x00002020.
+Placing 80 bytes at vaddr 0x00002070.
+Placing 60 bytes at vaddr 0x000020c0.
+Leaving ProcessFork (hello_world.dlx.obj)
+
+PTBASE=0x0004d000 PTSIZE=1024 PTBITS=12
+Translating 0x1380
+0x1380 => 0x3d380 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1278
+0x1278 => 0x3d278 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x127c
+0x127c => 0x3d27c (=afa30000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003164) using base1=0x42000/12, entry 1023
+Translating 0x1280
+0x1280 => 0x3d280 (=0c000128) using base1=0x42000/12, entry 1
+Translating 0x13ac
+0x13ac => 0x3d3ac (=44000451) using base1=0x42000/12, entry 1
+Suspending PCB 0x37480 (makeprocs.dlx.obj).
+About to switch to PCB 0x3433c,flags=0x202 @ 0x10d4
+Translating 0x10d4
+0x10d4 => 0x440d4 (=afbefffc) using base1=0x4d000/12, entry 1
+Translating 0x3ffee8
+0x3ffee8 => 0x4bee8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x10d8
+0x10d8 => 0x440d8 (=001df020) using base1=0x4d000/12, entry 1
+Translating 0x10dc
+0x10dc => 0x440dc (=afbffff8) using base1=0x4d000/12, entry 1
+Translating 0x3ffee4
+0x3ffee4 => 0x4bee4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x10e0
+0x10e0 => 0x440e0 (=2fbd0008) using base1=0x4d000/12, entry 1
+Translating 0x10e4
+0x10e4 => 0x440e4 (=8fc20000) using base1=0x4d000/12, entry 1
+Translating 0x3ffeec
+0x3ffeec => 0x4beec (=00000002) using base1=0x4d000/12, entry 1023
+Translating 0x10e8
+0x10e8 => 0x440e8 (=8fc30004) using base1=0x4d000/12, entry 1
+Translating 0x3ffef0
+0x3ffef0 => 0x4bef0 (=003ffef4) using base1=0x4d000/12, entry 1023
+Translating 0x10ec
+0x10ec => 0x440ec (=0c001004) using base1=0x4d000/12, entry 1
+Translating 0x20f4
+0x20f4 => 0x450f4 (=4be00000) using base1=0x4d000/12, entry 2
+Translating 0x10f0
+0x10f0 => 0x440f0 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x10f4
+0x10f4 => 0x440f4 (=64410002) using base1=0x4d000/12, entry 1
+Translating 0x10f8
+0x10f8 => 0x440f8 (=10200028) using base1=0x4d000/12, entry 1
+Translating 0x1124
+0x1124 => 0x44124 (=23bdfff0) using base1=0x4d000/12, entry 1
+Translating 0x1128
+0x1128 => 0x44128 (=8c630004) using base1=0x4d000/12, entry 1
+Translating 0x3ffef8
+0x3ffef8 => 0x4bef8 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x112c
+0x112c => 0x4412c (=afa30000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1130
+0x1130 => 0x44130 (=20040000) using base1=0x4d000/12, entry 1
+Translating 0x1134
+0x1134 => 0x44134 (=afa40004) using base1=0x4d000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4bed8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1138
+0x1138 => 0x44138 (=2004000a) using base1=0x4d000/12, entry 1
+Translating 0x113c
+0x113c => 0x4413c (=afa40008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1140
+0x1140 => 0x44140 (=0c000ab4) using base1=0x4d000/12, entry 1
+Translating 0x1bf8
+0x1bf8 => 0x44bf8 (=afbefffc) using base1=0x4d000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x4bed0 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1bfc
+0x1bfc => 0x44bfc (=001df020) using base1=0x4d000/12, entry 1
+Translating 0x1c00
+0x1c00 => 0x44c00 (=afbffff8) using base1=0x4d000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x4becc (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c04
+0x1c04 => 0x44c04 (=2fbd0020) using base1=0x4d000/12, entry 1
+Translating 0x1c08
+0x1c08 => 0x44c08 (=afa20000) using base1=0x4d000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x4beb4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c0c
+0x1c0c => 0x44c0c (=20010000) using base1=0x4d000/12, entry 1
+Translating 0x1c10
+0x1c10 => 0x44c10 (=afc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c14
+0x1c14 => 0x44c14 (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1c18
+0x1c18 => 0x44c18 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c1c
+0x1c1c => 0x44c1c (=60410020) using base1=0x4d000/12, entry 1
+Translating 0x1c20
+0x1c20 => 0x44c20 (=14200034) using base1=0x4d000/12, entry 1
+Translating 0x1c24
+0x1c24 => 0x44c24 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1c28
+0x1c28 => 0x44c28 (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1c2c
+0x1c2c => 0x44c2c (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c30
+0x1c30 => 0x44c30 (=60410009) using base1=0x4d000/12, entry 1
+Translating 0x1c34
+0x1c34 => 0x44c34 (=14200020) using base1=0x4d000/12, entry 1
+Translating 0x1c38
+0x1c38 => 0x44c38 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1c3c
+0x1c3c => 0x44c3c (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1c40
+0x1c40 => 0x44c40 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c44
+0x1c44 => 0x44c44 (=6041000a) using base1=0x4d000/12, entry 1
+Translating 0x1c48
+0x1c48 => 0x44c48 (=1420000c) using base1=0x4d000/12, entry 1
+Translating 0x1c4c
+0x1c4c => 0x44c4c (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1c50
+0x1c50 => 0x44c50 (=0800001c) using base1=0x4d000/12, entry 1
+Translating 0x1c70
+0x1c70 => 0x44c70 (=8fc10004) using base1=0x4d000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4bed8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c74
+0x1c74 => 0x44c74 (=64220000) using base1=0x4d000/12, entry 1
+Translating 0x1c78
+0x1c78 => 0x44c78 (=10400010) using base1=0x4d000/12, entry 1
+Translating 0x1c8c
+0x1c8c => 0x44c8c (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1c90
+0x1c90 => 0x44c90 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1c94
+0x1c94 => 0x44c94 (=64410000) using base1=0x4d000/12, entry 1
+Translating 0x1c98
+0x1c98 => 0x44c98 (=14200010) using base1=0x4d000/12, entry 1
+Translating 0x1cac
+0x1cac => 0x44cac (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1cb0
+0x1cb0 => 0x44cb0 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1cb4
+0x1cb4 => 0x44cb4 (=6041002d) using base1=0x4d000/12, entry 1
+Translating 0x1cb8
+0x1cb8 => 0x44cb8 (=10200024) using base1=0x4d000/12, entry 1
+Translating 0x1ce0
+0x1ce0 => 0x44ce0 (=20010001) using base1=0x4d000/12, entry 1
+Translating 0x1ce4
+0x1ce4 => 0x44ce4 (=afc1ffec) using base1=0x4d000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x4bec0 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1ce8
+0x1ce8 => 0x44ce8 (=8fc10008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1cec
+0x1cec => 0x44cec (=64220000) using base1=0x4d000/12, entry 1
+Translating 0x1cf0
+0x1cf0 => 0x44cf0 (=14400090) using base1=0x4d000/12, entry 1
+Translating 0x1d84
+0x1d84 => 0x44d84 (=8fc10008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1d88
+0x1d88 => 0x44d88 (=70220000) using base1=0x4d000/12, entry 1
+Translating 0x1d8c
+0x1d8c => 0x44d8c (=1440001c) using base1=0x4d000/12, entry 1
+Translating 0x1d90
+0x1d90 => 0x44d90 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1d94
+0x1d94 => 0x44d94 (=8fc10008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1d98
+0x1d98 => 0x44d98 (=6c220010) using base1=0x4d000/12, entry 1
+Translating 0x1d9c
+0x1d9c => 0x44d9c (=1440000c) using base1=0x4d000/12, entry 1
+Translating 0x1da0
+0x1da0 => 0x44da0 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1da4
+0x1da4 => 0x44da4 (=08000010) using base1=0x4d000/12, entry 1
+Translating 0x1db8
+0x1db8 => 0x44db8 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x4d000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x4d000/12, entry 1
+Translating 0x1dcc
+0x1dcc => 0x44dcc (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1dd0
+0x1dd0 => 0x44dd0 (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1dd4
+0x1dd4 => 0x44dd4 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1dd8
+0x1dd8 => 0x44dd8 (=70410039) using base1=0x4d000/12, entry 1
+Translating 0x1ddc
+0x1ddc => 0x44ddc (=1020001c) using base1=0x4d000/12, entry 1
+Translating 0x1de0
+0x1de0 => 0x44de0 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1de4
+0x1de4 => 0x44de4 (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1de8
+0x1de8 => 0x44de8 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1dec
+0x1dec => 0x44dec (=2041ffd0) using base1=0x4d000/12, entry 1
+Translating 0x1df0
+0x1df0 => 0x44df0 (=afc1fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1df4
+0x1df4 => 0x44df4 (=0800008c) using base1=0x4d000/12, entry 1
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x4d000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x4d000/12, entry 1
+Translating 0x1e94
+0x1e94 => 0x44e94 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1e98
+0x1e98 => 0x44e98 (=8fc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1e9c
+0x1e9c => 0x44e9c (=8fc20008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1ea0
+0x1ea0 => 0x44ea0 (=00200035) using base1=0x4d000/12, entry 1
+Translating 0x1ea4
+0x1ea4 => 0x44ea4 (=00400835) using base1=0x4d000/12, entry 1
+Translating 0x1ea8
+0x1ea8 => 0x44ea8 (=0401000e) using base1=0x4d000/12, entry 1
+Translating 0x1eac
+0x1eac => 0x44eac (=00000834) using base1=0x4d000/12, entry 1
+Translating 0x1eb0
+0x1eb0 => 0x44eb0 (=afc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1eb4
+0x1eb4 => 0x44eb4 (=8fc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1eb8
+0x1eb8 => 0x44eb8 (=8fc2fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1ebc
+0x1ebc => 0x44ebc (=00220820) using base1=0x4d000/12, entry 1
+Translating 0x1ec0
+0x1ec0 => 0x44ec0 (=afc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1ec4
+0x1ec4 => 0x44ec4 (=8fc20000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1ec8
+0x1ec8 => 0x44ec8 (=20410001) using base1=0x4d000/12, entry 1
+Translating 0x1ecc
+0x1ecc => 0x44ecc (=00011020) using base1=0x4d000/12, entry 1
+Translating 0x1ed0
+0x1ed0 => 0x44ed0 (=afc20000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff10) using base1=0x4d000/12, entry 1023
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x4d000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x4d000/12, entry 1
+Translating 0x1ef0
+0x1ef0 => 0x44ef0 (=0bfffec8) using base1=0x4d000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff11) using base1=0x4d000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x4d000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x4d000/12, entry 1
+Translating 0x1dfc
+0x1dfc => 0x44dfc (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff11) using base1=0x4d000/12, entry 1023
+Translating 0x1e00
+0x1e00 => 0x44e00 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1e04
+0x1e04 => 0x44e04 (=6c410060) using base1=0x4d000/12, entry 1
+Translating 0x1e08
+0x1e08 => 0x44e08 (=10200030) using base1=0x4d000/12, entry 1
+Translating 0x1e3c
+0x1e3c => 0x44e3c (=8fc10000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff11) using base1=0x4d000/12, entry 1023
+Translating 0x1e40
+0x1e40 => 0x44e40 (=90220000) using base1=0x4d000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4bf10 (=30000000) using base1=0x4d000/12, entry 1023
+Translating 0x1e44
+0x1e44 => 0x44e44 (=6c410040) using base1=0x4d000/12, entry 1
+Translating 0x1e48
+0x1e48 => 0x44e48 (=10200030) using base1=0x4d000/12, entry 1
+Translating 0x1e7c
+0x1e7c => 0x44e7c (=200103e8) using base1=0x4d000/12, entry 1
+Translating 0x1e80
+0x1e80 => 0x44e80 (=afc1fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=000003e8) using base1=0x4d000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x4d000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x4d000/12, entry 1
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x4d000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4bec4 (=000003e8) using base1=0x4d000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x4d000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x4d000/12, entry 1
+Translating 0x1ee4
+0x1ee4 => 0x44ee4 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1ee8
+0x1ee8 => 0x44ee8 (=0800000c) using base1=0x4d000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x44ef8 (=8fc10004) using base1=0x4d000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4bed8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1efc
+0x1efc => 0x44efc (=64220000) using base1=0x4d000/12, entry 1
+Translating 0x1f00
+0x1f00 => 0x44f00 (=10400010) using base1=0x4d000/12, entry 1
+Translating 0x1f14
+0x1f14 => 0x44f14 (=8fc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1f18
+0x1f18 => 0x44f18 (=8fc2ffec) using base1=0x4d000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x4bec0 (=00000001) using base1=0x4d000/12, entry 1023
+Translating 0x1f1c
+0x1f1c => 0x44f1c (=00200035) using base1=0x4d000/12, entry 1
+Translating 0x1f20
+0x1f20 => 0x44f20 (=00400835) using base1=0x4d000/12, entry 1
+Translating 0x1f24
+0x1f24 => 0x44f24 (=0401000e) using base1=0x4d000/12, entry 1
+Translating 0x1f28
+0x1f28 => 0x44f28 (=00000834) using base1=0x4d000/12, entry 1
+Translating 0x1f2c
+0x1f2c => 0x44f2c (=afc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1f30
+0x1f30 => 0x44f30 (=8fc1fff4) using base1=0x4d000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4bec8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1f34
+0x1f34 => 0x44f34 (=08000004) using base1=0x4d000/12, entry 1
+Translating 0x1f3c
+0x1f3c => 0x44f3c (=8fa20000) using base1=0x4d000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x4beb4 (=00000002) using base1=0x4d000/12, entry 1023
+Translating 0x1f40
+0x1f40 => 0x44f40 (=8fdffff8) using base1=0x4d000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x4becc (=00001144) using base1=0x4d000/12, entry 1023
+Translating 0x1f44
+0x1f44 => 0x44f44 (=001ee820) using base1=0x4d000/12, entry 1
+Translating 0x1f48
+0x1f48 => 0x44f48 (=8fdefffc) using base1=0x4d000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x4bed0 (=003ffeec) using base1=0x4d000/12, entry 1023
+Translating 0x1f4c
+0x1f4c => 0x44f4c (=4be00000) using base1=0x4d000/12, entry 1
+Translating 0x1144
+0x1144 => 0x44144 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1148
+0x1148 => 0x44148 (=00011020) using base1=0x4d000/12, entry 1
+Translating 0x114c
+0x114c => 0x4414c (=0c0000f0) using base1=0x4d000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x4d000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x4d000/12, entry 1
+Translating 0x1150
+0x1150 => 0x44150 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1154
+0x1154 => 0x44154 (=3c040000) using base1=0x4d000/12, entry 1
+Translating 0x1158
+0x1158 => 0x44158 (=24843034) using base1=0x4d000/12, entry 1
+Translating 0x115c
+0x115c => 0x4415c (=afa40000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=003fff11) using base1=0x4d000/12, entry 1023
+Translating 0x1160
+0x1160 => 0x44160 (=afa10004) using base1=0x4d000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4bed8 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x1164
+0x1164 => 0x44164 (=0c0000cc) using base1=0x4d000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x4d000/12, entry 1
+hello_world (28): Hello world!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x4d000/12, entry 1
+Translating 0x1168
+0x1168 => 0x44168 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x116c
+0x116c => 0x4416c (=afa20000) using base1=0x4d000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4bed4 (=00003034) using base1=0x4d000/12, entry 1023
+Translating 0x1170
+0x1170 => 0x44170 (=0c000114) using base1=0x4d000/12, entry 1
+Translating 0x1288
+0x1288 => 0x44288 (=44000452) using base1=0x4d000/12, entry 1
+Waking up PID 31.
+Translating 0x128c
+0x128c => 0x4428c (=4be00000) using base1=0x4d000/12, entry 1
+Translating 0x1174
+0x1174 => 0x44174 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x1178
+0x1178 => 0x44178 (=23bd0010) using base1=0x4d000/12, entry 1
+Translating 0x117c
+0x117c => 0x4417c (=64210001) using base1=0x4d000/12, entry 1
+Translating 0x1180
+0x1180 => 0x44180 (=10200038) using base1=0x4d000/12, entry 1
+Translating 0x11bc
+0x11bc => 0x441bc (=0c000080) using base1=0x4d000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x4d000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x4d000/12, entry 1
+Translating 0x11c0
+0x11c0 => 0x441c0 (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x11c4
+0x11c4 => 0x441c4 (=23bdfff8) using base1=0x4d000/12, entry 1
+Translating 0x11c8
+0x11c8 => 0x441c8 (=3c040000) using base1=0x4d000/12, entry 1
+Translating 0x11cc
+0x11cc => 0x441cc (=24843090) using base1=0x4d000/12, entry 1
+Translating 0x11d0
+0x11d0 => 0x441d0 (=afa40000) using base1=0x4d000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4bedc (=0000000a) using base1=0x4d000/12, entry 1023
+Translating 0x11d4
+0x11d4 => 0x441d4 (=afa10004) using base1=0x4d000/12, entry 1
+Translating 0x3ffee0
+0x3ffee0 => 0x4bee0 (=00000000) using base1=0x4d000/12, entry 1023
+Translating 0x11d8
+0x11d8 => 0x441d8 (=0c000058) using base1=0x4d000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x4d000/12, entry 1
+hello_world (28): Done!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x4d000/12, entry 1
+Translating 0x11dc
+0x11dc => 0x441dc (=54000000) using base1=0x4d000/12, entry 1
+Translating 0x11e0
+0x11e0 => 0x441e0 (=23bd0008) using base1=0x4d000/12, entry 1
+Translating 0x11e4
+0x11e4 => 0x441e4 (=0c000f00) using base1=0x4d000/12, entry 1
+Translating 0x20e8
+0x20e8 => 0x450e8 (=44000300) using base1=0x4d000/12, entry 2
+Entering ProcessDestroy for 0x3433c.
+Leaving ProcessDestroy for 0x3433c.
+About to switch to PCB 0x37480,flags=0x202 @ 0x0
+Freeing zombie PCB 0x3433c.
+Freed physical page 77,  map [2] = 0xffffe000.
+Freed page table for process 28.
+Freed physical page 67,  map [2] = 0xffffe008.
+Freed page 0, PTE=0x43001, physical page=67.
+Freed physical page 68,  map [2] = 0xffffe018.
+Freed page 1, PTE=0x44001, physical page=68.
+Freed physical page 69,  map [2] = 0xffffe038.
+Freed page 2, PTE=0x45001, physical page=69.
+Freed physical page 70,  map [2] = 0xffffe078.
+Freed page 3, PTE=0x46001, physical page=70.
+Translating 0x13b0
+0x13b0 => 0x3d3b0 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1284
+0x1284 => 0x3d284 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1288
+0x1288 => 0x3d288 (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x128c
+0x128c => 0x3d28c (=64210001) using base1=0x42000/12, entry 1
+Translating 0x1290
+0x1290 => 0x3d290 (=10200034) using base1=0x42000/12, entry 1
+Translating 0x12c8
+0x12c8 => 0x3d2c8 (=20420001) using base1=0x42000/12, entry 1
+Translating 0x12cc
+0x12cc => 0x3d2cc (=0044082a) using base1=0x42000/12, entry 1
+Translating 0x12d0
+0x12d0 => 0x3d2d0 (=1420ff60) using base1=0x42000/12, entry 1
+Translating 0x1234
+0x1234 => 0x3d234 (=0c000138) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1238
+0x1238 => 0x3d238 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x123c
+0x123c => 0x3d23c (=23bdfff0) using base1=0x42000/12, entry 1
+Translating 0x1240
+0x1240 => 0x3d240 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1244
+0x1244 => 0x3d244 (=24e73138) using base1=0x42000/12, entry 1
+Translating 0x1248
+0x1248 => 0x3d248 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x124c
+0x124c => 0x3d24c (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=003ffed4) using base1=0x42000/12, entry 1023
+Translating 0x1250
+0x1250 => 0x3d250 (=afa20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1254
+0x1254 => 0x3d254 (=0c00010c) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating hello world #3
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1258
+0x1258 => 0x3d258 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x125c
+0x125c => 0x3d25c (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1260
+0x1260 => 0x3d260 (=24e73164) using base1=0x42000/12, entry 1
+Translating 0x1264
+0x1264 => 0x3d264 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003138) using base1=0x42000/12, entry 1023
+Translating 0x1268
+0x1268 => 0x3d268 (=afa50004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x126c
+0x126c => 0x3d26c (=20070000) using base1=0x42000/12, entry 1
+Translating 0x1270
+0x1270 => 0x3d270 (=afa70008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000003) using base1=0x42000/12, entry 1023
+Translating 0x1274
+0x1274 => 0x3d274 (=0c000104) using base1=0x42000/12, entry 1
+Translating 0x137c
+0x137c => 0x3d37c (=44000432) using base1=0x42000/12, entry 1
+TrapProcessCreateHandler: function started
+TrapProcessCreateHandler: creating user process
+TrapProcessCreateHandler: just parsed executable name (hello_world.dlx.obj) from trapArgs
+Entering ProcessFork args=0x0 0x41d1c hello_world.dlx.obj 1
+Got a link @ 0x3880c
+ProcessFork: Allocated page 67 for code and data.
+ProcessFork: Allocated page 68 for code and data.
+ProcessFork: Allocated page 69 for code and data.
+ProcessFork: Allocated page 70 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 77 for user stack.
+ProcessFork: Allocated page 78 for process 27, sysStackArea=0x0004e000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00043001)
+ProcessFork: AFTER: physPageTable[0] = 0x00043001 (from pagetable[0] = 0x00043001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00044001)
+ProcessFork: AFTER: physPageTable[1] = 0x00044001 (from pagetable[1] = 0x00044001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00045001)
+ProcessFork: AFTER: physPageTable[2] = 0x00045001 (from pagetable[2] = 0x00045001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00046001)
+ProcessFork: AFTER: physPageTable[3] = 0x00046001 (from pagetable[3] = 0x00046001)
+ProcessFork: Allocated page table at physical address 0x0004f000
+ProcessFork: Stackframe set to 0x0004ee8c.
+ProcessFork: stackframe = 0x4ee8c
+
+PTBASE=0x0004f000 PTSIZE=1024 PTBITS=786444
+About to load hello_world.dlx.obj
+File hello_world.dlx.obj -> start=0x000010d4
+File hello_world.dlx.obj -> code @ 0x00001000 (size=0x00001100)
+File hello_world.dlx.obj -> data @ 0x00003000 (size=0x000000a9)
+Placing 76 bytes at vaddr 0x00001000.
+Placing 80 bytes at vaddr 0x0000104c.
+Placing 56 bytes at vaddr 0x0000109c.
+Placing 49 bytes at vaddr 0x00003000.
+Placing 32 bytes at vaddr 0x00003034.
+Placing 57 bytes at vaddr 0x00003054.
+Placing 25 bytes at vaddr 0x00003090.
+Placing 76 bytes at vaddr 0x000010d4.
+Placing 80 bytes at vaddr 0x00001120.
+Placing 80 bytes at vaddr 0x00001170.
+Placing 80 bytes at vaddr 0x000011c0.
+Placing 80 bytes at vaddr 0x00001210.
+Placing 80 bytes at vaddr 0x00001260.
+Placing 80 bytes at vaddr 0x000012b0.
+Placing 80 bytes at vaddr 0x00001300.
+Placing 80 bytes at vaddr 0x00001350.
+Placing 80 bytes at vaddr 0x000013a0.
+Placing 80 bytes at vaddr 0x000013f0.
+Placing 80 bytes at vaddr 0x00001440.
+Placing 80 bytes at vaddr 0x00001490.
+Placing 80 bytes at vaddr 0x000014e0.
+Placing 80 bytes at vaddr 0x00001530.
+Placing 80 bytes at vaddr 0x00001580.
+Placing 80 bytes at vaddr 0x000015d0.
+Placing 80 bytes at vaddr 0x00001620.
+Placing 80 bytes at vaddr 0x00001670.
+Placing 80 bytes at vaddr 0x000016c0.
+Placing 80 bytes at vaddr 0x00001710.
+Placing 80 bytes at vaddr 0x00001760.
+Placing 80 bytes at vaddr 0x000017b0.
+Placing 80 bytes at vaddr 0x00001800.
+Placing 80 bytes at vaddr 0x00001850.
+Placing 80 bytes at vaddr 0x000018a0.
+Placing 80 bytes at vaddr 0x000018f0.
+Placing 80 bytes at vaddr 0x00001940.
+Placing 80 bytes at vaddr 0x00001990.
+Placing 80 bytes at vaddr 0x000019e0.
+Placing 80 bytes at vaddr 0x00001a30.
+Placing 80 bytes at vaddr 0x00001a80.
+Placing 80 bytes at vaddr 0x00001ad0.
+Placing 80 bytes at vaddr 0x00001b20.
+Placing 80 bytes at vaddr 0x00001b70.
+Placing 80 bytes at vaddr 0x00001bc0.
+Placing 80 bytes at vaddr 0x00001c10.
+Placing 80 bytes at vaddr 0x00001c60.
+Placing 80 bytes at vaddr 0x00001cb0.
+Placing 80 bytes at vaddr 0x00001d00.
+Placing 80 bytes at vaddr 0x00001d50.
+Placing 80 bytes at vaddr 0x00001da0.
+Placing 80 bytes at vaddr 0x00001df0.
+Placing 80 bytes at vaddr 0x00001e40.
+Placing 80 bytes at vaddr 0x00001e90.
+Placing 80 bytes at vaddr 0x00001ee0.
+Placing 80 bytes at vaddr 0x00001f30.
+Placing 80 bytes at vaddr 0x00001f80.
+Placing 80 bytes at vaddr 0x00001fd0.
+Placing 80 bytes at vaddr 0x00002020.
+Placing 80 bytes at vaddr 0x00002070.
+Placing 60 bytes at vaddr 0x000020c0.
+Leaving ProcessFork (hello_world.dlx.obj)
+
+PTBASE=0x0004f000 PTSIZE=1024 PTBITS=12
+Translating 0x1380
+0x1380 => 0x3d380 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1278
+0x1278 => 0x3d278 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x127c
+0x127c => 0x3d27c (=afa30000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003164) using base1=0x42000/12, entry 1023
+Translating 0x1280
+0x1280 => 0x3d280 (=0c000128) using base1=0x42000/12, entry 1
+Translating 0x13ac
+0x13ac => 0x3d3ac (=44000451) using base1=0x42000/12, entry 1
+Suspending PCB 0x37480 (makeprocs.dlx.obj).
+About to switch to PCB 0x332d0,flags=0x202 @ 0x10d4
+Translating 0x10d4
+0x10d4 => 0x440d4 (=afbefffc) using base1=0x4f000/12, entry 1
+Translating 0x3ffee8
+0x3ffee8 => 0x4dee8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x10d8
+0x10d8 => 0x440d8 (=001df020) using base1=0x4f000/12, entry 1
+Translating 0x10dc
+0x10dc => 0x440dc (=afbffff8) using base1=0x4f000/12, entry 1
+Translating 0x3ffee4
+0x3ffee4 => 0x4dee4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x10e0
+0x10e0 => 0x440e0 (=2fbd0008) using base1=0x4f000/12, entry 1
+Translating 0x10e4
+0x10e4 => 0x440e4 (=8fc20000) using base1=0x4f000/12, entry 1
+Translating 0x3ffeec
+0x3ffeec => 0x4deec (=00000002) using base1=0x4f000/12, entry 1023
+Translating 0x10e8
+0x10e8 => 0x440e8 (=8fc30004) using base1=0x4f000/12, entry 1
+Translating 0x3ffef0
+0x3ffef0 => 0x4def0 (=003ffef4) using base1=0x4f000/12, entry 1023
+Translating 0x10ec
+0x10ec => 0x440ec (=0c001004) using base1=0x4f000/12, entry 1
+Translating 0x20f4
+0x20f4 => 0x450f4 (=4be00000) using base1=0x4f000/12, entry 2
+Translating 0x10f0
+0x10f0 => 0x440f0 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x10f4
+0x10f4 => 0x440f4 (=64410002) using base1=0x4f000/12, entry 1
+Translating 0x10f8
+0x10f8 => 0x440f8 (=10200028) using base1=0x4f000/12, entry 1
+Translating 0x1124
+0x1124 => 0x44124 (=23bdfff0) using base1=0x4f000/12, entry 1
+Translating 0x1128
+0x1128 => 0x44128 (=8c630004) using base1=0x4f000/12, entry 1
+Translating 0x3ffef8
+0x3ffef8 => 0x4def8 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x112c
+0x112c => 0x4412c (=afa30000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1130
+0x1130 => 0x44130 (=20040000) using base1=0x4f000/12, entry 1
+Translating 0x1134
+0x1134 => 0x44134 (=afa40004) using base1=0x4f000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4ded8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1138
+0x1138 => 0x44138 (=2004000a) using base1=0x4f000/12, entry 1
+Translating 0x113c
+0x113c => 0x4413c (=afa40008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1140
+0x1140 => 0x44140 (=0c000ab4) using base1=0x4f000/12, entry 1
+Translating 0x1bf8
+0x1bf8 => 0x44bf8 (=afbefffc) using base1=0x4f000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x4ded0 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1bfc
+0x1bfc => 0x44bfc (=001df020) using base1=0x4f000/12, entry 1
+Translating 0x1c00
+0x1c00 => 0x44c00 (=afbffff8) using base1=0x4f000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x4decc (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c04
+0x1c04 => 0x44c04 (=2fbd0020) using base1=0x4f000/12, entry 1
+Translating 0x1c08
+0x1c08 => 0x44c08 (=afa20000) using base1=0x4f000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x4deb4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c0c
+0x1c0c => 0x44c0c (=20010000) using base1=0x4f000/12, entry 1
+Translating 0x1c10
+0x1c10 => 0x44c10 (=afc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c14
+0x1c14 => 0x44c14 (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1c18
+0x1c18 => 0x44c18 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c1c
+0x1c1c => 0x44c1c (=60410020) using base1=0x4f000/12, entry 1
+Translating 0x1c20
+0x1c20 => 0x44c20 (=14200034) using base1=0x4f000/12, entry 1
+Translating 0x1c24
+0x1c24 => 0x44c24 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1c28
+0x1c28 => 0x44c28 (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1c2c
+0x1c2c => 0x44c2c (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c30
+0x1c30 => 0x44c30 (=60410009) using base1=0x4f000/12, entry 1
+Translating 0x1c34
+0x1c34 => 0x44c34 (=14200020) using base1=0x4f000/12, entry 1
+Translating 0x1c38
+0x1c38 => 0x44c38 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1c3c
+0x1c3c => 0x44c3c (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1c40
+0x1c40 => 0x44c40 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c44
+0x1c44 => 0x44c44 (=6041000a) using base1=0x4f000/12, entry 1
+Translating 0x1c48
+0x1c48 => 0x44c48 (=1420000c) using base1=0x4f000/12, entry 1
+Translating 0x1c4c
+0x1c4c => 0x44c4c (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1c50
+0x1c50 => 0x44c50 (=0800001c) using base1=0x4f000/12, entry 1
+Translating 0x1c70
+0x1c70 => 0x44c70 (=8fc10004) using base1=0x4f000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4ded8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c74
+0x1c74 => 0x44c74 (=64220000) using base1=0x4f000/12, entry 1
+Translating 0x1c78
+0x1c78 => 0x44c78 (=10400010) using base1=0x4f000/12, entry 1
+Translating 0x1c8c
+0x1c8c => 0x44c8c (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1c90
+0x1c90 => 0x44c90 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1c94
+0x1c94 => 0x44c94 (=64410000) using base1=0x4f000/12, entry 1
+Translating 0x1c98
+0x1c98 => 0x44c98 (=14200010) using base1=0x4f000/12, entry 1
+Translating 0x1cac
+0x1cac => 0x44cac (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1cb0
+0x1cb0 => 0x44cb0 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1cb4
+0x1cb4 => 0x44cb4 (=6041002d) using base1=0x4f000/12, entry 1
+Translating 0x1cb8
+0x1cb8 => 0x44cb8 (=10200024) using base1=0x4f000/12, entry 1
+Translating 0x1ce0
+0x1ce0 => 0x44ce0 (=20010001) using base1=0x4f000/12, entry 1
+Translating 0x1ce4
+0x1ce4 => 0x44ce4 (=afc1ffec) using base1=0x4f000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x4dec0 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1ce8
+0x1ce8 => 0x44ce8 (=8fc10008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1cec
+0x1cec => 0x44cec (=64220000) using base1=0x4f000/12, entry 1
+Translating 0x1cf0
+0x1cf0 => 0x44cf0 (=14400090) using base1=0x4f000/12, entry 1
+Translating 0x1d84
+0x1d84 => 0x44d84 (=8fc10008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1d88
+0x1d88 => 0x44d88 (=70220000) using base1=0x4f000/12, entry 1
+Translating 0x1d8c
+0x1d8c => 0x44d8c (=1440001c) using base1=0x4f000/12, entry 1
+Translating 0x1d90
+0x1d90 => 0x44d90 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1d94
+0x1d94 => 0x44d94 (=8fc10008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1d98
+0x1d98 => 0x44d98 (=6c220010) using base1=0x4f000/12, entry 1
+Translating 0x1d9c
+0x1d9c => 0x44d9c (=1440000c) using base1=0x4f000/12, entry 1
+Translating 0x1da0
+0x1da0 => 0x44da0 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1da4
+0x1da4 => 0x44da4 (=08000010) using base1=0x4f000/12, entry 1
+Translating 0x1db8
+0x1db8 => 0x44db8 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x4f000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x4f000/12, entry 1
+Translating 0x1dcc
+0x1dcc => 0x44dcc (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1dd0
+0x1dd0 => 0x44dd0 (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1dd4
+0x1dd4 => 0x44dd4 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1dd8
+0x1dd8 => 0x44dd8 (=70410039) using base1=0x4f000/12, entry 1
+Translating 0x1ddc
+0x1ddc => 0x44ddc (=1020001c) using base1=0x4f000/12, entry 1
+Translating 0x1de0
+0x1de0 => 0x44de0 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1de4
+0x1de4 => 0x44de4 (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1de8
+0x1de8 => 0x44de8 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1dec
+0x1dec => 0x44dec (=2041ffd0) using base1=0x4f000/12, entry 1
+Translating 0x1df0
+0x1df0 => 0x44df0 (=afc1fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1df4
+0x1df4 => 0x44df4 (=0800008c) using base1=0x4f000/12, entry 1
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x4f000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x4f000/12, entry 1
+Translating 0x1e94
+0x1e94 => 0x44e94 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1e98
+0x1e98 => 0x44e98 (=8fc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1e9c
+0x1e9c => 0x44e9c (=8fc20008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1ea0
+0x1ea0 => 0x44ea0 (=00200035) using base1=0x4f000/12, entry 1
+Translating 0x1ea4
+0x1ea4 => 0x44ea4 (=00400835) using base1=0x4f000/12, entry 1
+Translating 0x1ea8
+0x1ea8 => 0x44ea8 (=0401000e) using base1=0x4f000/12, entry 1
+Translating 0x1eac
+0x1eac => 0x44eac (=00000834) using base1=0x4f000/12, entry 1
+Translating 0x1eb0
+0x1eb0 => 0x44eb0 (=afc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1eb4
+0x1eb4 => 0x44eb4 (=8fc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1eb8
+0x1eb8 => 0x44eb8 (=8fc2fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1ebc
+0x1ebc => 0x44ebc (=00220820) using base1=0x4f000/12, entry 1
+Translating 0x1ec0
+0x1ec0 => 0x44ec0 (=afc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1ec4
+0x1ec4 => 0x44ec4 (=8fc20000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1ec8
+0x1ec8 => 0x44ec8 (=20410001) using base1=0x4f000/12, entry 1
+Translating 0x1ecc
+0x1ecc => 0x44ecc (=00011020) using base1=0x4f000/12, entry 1
+Translating 0x1ed0
+0x1ed0 => 0x44ed0 (=afc20000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff10) using base1=0x4f000/12, entry 1023
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x4f000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x4f000/12, entry 1
+Translating 0x1ef0
+0x1ef0 => 0x44ef0 (=0bfffec8) using base1=0x4f000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff11) using base1=0x4f000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x4f000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x4f000/12, entry 1
+Translating 0x1dfc
+0x1dfc => 0x44dfc (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff11) using base1=0x4f000/12, entry 1023
+Translating 0x1e00
+0x1e00 => 0x44e00 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1e04
+0x1e04 => 0x44e04 (=6c410060) using base1=0x4f000/12, entry 1
+Translating 0x1e08
+0x1e08 => 0x44e08 (=10200030) using base1=0x4f000/12, entry 1
+Translating 0x1e3c
+0x1e3c => 0x44e3c (=8fc10000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff11) using base1=0x4f000/12, entry 1023
+Translating 0x1e40
+0x1e40 => 0x44e40 (=90220000) using base1=0x4f000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4df10 (=30000000) using base1=0x4f000/12, entry 1023
+Translating 0x1e44
+0x1e44 => 0x44e44 (=6c410040) using base1=0x4f000/12, entry 1
+Translating 0x1e48
+0x1e48 => 0x44e48 (=10200030) using base1=0x4f000/12, entry 1
+Translating 0x1e7c
+0x1e7c => 0x44e7c (=200103e8) using base1=0x4f000/12, entry 1
+Translating 0x1e80
+0x1e80 => 0x44e80 (=afc1fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=000003e8) using base1=0x4f000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x4f000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x4f000/12, entry 1
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x4f000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4dec4 (=000003e8) using base1=0x4f000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x4f000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x4f000/12, entry 1
+Translating 0x1ee4
+0x1ee4 => 0x44ee4 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1ee8
+0x1ee8 => 0x44ee8 (=0800000c) using base1=0x4f000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x44ef8 (=8fc10004) using base1=0x4f000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4ded8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1efc
+0x1efc => 0x44efc (=64220000) using base1=0x4f000/12, entry 1
+Translating 0x1f00
+0x1f00 => 0x44f00 (=10400010) using base1=0x4f000/12, entry 1
+Translating 0x1f14
+0x1f14 => 0x44f14 (=8fc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1f18
+0x1f18 => 0x44f18 (=8fc2ffec) using base1=0x4f000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x4dec0 (=00000001) using base1=0x4f000/12, entry 1023
+Translating 0x1f1c
+0x1f1c => 0x44f1c (=00200035) using base1=0x4f000/12, entry 1
+Translating 0x1f20
+0x1f20 => 0x44f20 (=00400835) using base1=0x4f000/12, entry 1
+Translating 0x1f24
+0x1f24 => 0x44f24 (=0401000e) using base1=0x4f000/12, entry 1
+Translating 0x1f28
+0x1f28 => 0x44f28 (=00000834) using base1=0x4f000/12, entry 1
+Translating 0x1f2c
+0x1f2c => 0x44f2c (=afc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1f30
+0x1f30 => 0x44f30 (=8fc1fff4) using base1=0x4f000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4dec8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1f34
+0x1f34 => 0x44f34 (=08000004) using base1=0x4f000/12, entry 1
+Translating 0x1f3c
+0x1f3c => 0x44f3c (=8fa20000) using base1=0x4f000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x4deb4 (=00000002) using base1=0x4f000/12, entry 1023
+Translating 0x1f40
+0x1f40 => 0x44f40 (=8fdffff8) using base1=0x4f000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x4decc (=00001144) using base1=0x4f000/12, entry 1023
+Translating 0x1f44
+0x1f44 => 0x44f44 (=001ee820) using base1=0x4f000/12, entry 1
+Translating 0x1f48
+0x1f48 => 0x44f48 (=8fdefffc) using base1=0x4f000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x4ded0 (=003ffeec) using base1=0x4f000/12, entry 1023
+Translating 0x1f4c
+0x1f4c => 0x44f4c (=4be00000) using base1=0x4f000/12, entry 1
+Translating 0x1144
+0x1144 => 0x44144 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1148
+0x1148 => 0x44148 (=00011020) using base1=0x4f000/12, entry 1
+Translating 0x114c
+0x114c => 0x4414c (=0c0000f0) using base1=0x4f000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x4f000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x4f000/12, entry 1
+Translating 0x1150
+0x1150 => 0x44150 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1154
+0x1154 => 0x44154 (=3c040000) using base1=0x4f000/12, entry 1
+Translating 0x1158
+0x1158 => 0x44158 (=24843034) using base1=0x4f000/12, entry 1
+Translating 0x115c
+0x115c => 0x4415c (=afa40000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=003fff11) using base1=0x4f000/12, entry 1023
+Translating 0x1160
+0x1160 => 0x44160 (=afa10004) using base1=0x4f000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4ded8 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x1164
+0x1164 => 0x44164 (=0c0000cc) using base1=0x4f000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x4f000/12, entry 1
+hello_world (27): Hello world!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x4f000/12, entry 1
+Translating 0x1168
+0x1168 => 0x44168 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x116c
+0x116c => 0x4416c (=afa20000) using base1=0x4f000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4ded4 (=00003034) using base1=0x4f000/12, entry 1023
+Translating 0x1170
+0x1170 => 0x44170 (=0c000114) using base1=0x4f000/12, entry 1
+Translating 0x1288
+0x1288 => 0x44288 (=44000452) using base1=0x4f000/12, entry 1
+Waking up PID 31.
+Translating 0x128c
+0x128c => 0x4428c (=4be00000) using base1=0x4f000/12, entry 1
+Translating 0x1174
+0x1174 => 0x44174 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x1178
+0x1178 => 0x44178 (=23bd0010) using base1=0x4f000/12, entry 1
+Translating 0x117c
+0x117c => 0x4417c (=64210001) using base1=0x4f000/12, entry 1
+Translating 0x1180
+0x1180 => 0x44180 (=10200038) using base1=0x4f000/12, entry 1
+Translating 0x11bc
+0x11bc => 0x441bc (=0c000080) using base1=0x4f000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x4f000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x4f000/12, entry 1
+Translating 0x11c0
+0x11c0 => 0x441c0 (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x11c4
+0x11c4 => 0x441c4 (=23bdfff8) using base1=0x4f000/12, entry 1
+Translating 0x11c8
+0x11c8 => 0x441c8 (=3c040000) using base1=0x4f000/12, entry 1
+Translating 0x11cc
+0x11cc => 0x441cc (=24843090) using base1=0x4f000/12, entry 1
+Translating 0x11d0
+0x11d0 => 0x441d0 (=afa40000) using base1=0x4f000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4dedc (=0000000a) using base1=0x4f000/12, entry 1023
+Translating 0x11d4
+0x11d4 => 0x441d4 (=afa10004) using base1=0x4f000/12, entry 1
+Translating 0x3ffee0
+0x3ffee0 => 0x4dee0 (=00000000) using base1=0x4f000/12, entry 1023
+Translating 0x11d8
+0x11d8 => 0x441d8 (=0c000058) using base1=0x4f000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x4f000/12, entry 1
+hello_world (27): Done!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x4f000/12, entry 1
+Translating 0x11dc
+0x11dc => 0x441dc (=54000000) using base1=0x4f000/12, entry 1
+Translating 0x11e0
+0x11e0 => 0x441e0 (=23bd0008) using base1=0x4f000/12, entry 1
+Translating 0x11e4
+0x11e4 => 0x441e4 (=0c000f00) using base1=0x4f000/12, entry 1
+Translating 0x20e8
+0x20e8 => 0x450e8 (=44000300) using base1=0x4f000/12, entry 2
+Entering ProcessDestroy for 0x332d0.
+Leaving ProcessDestroy for 0x332d0.
+About to switch to PCB 0x37480,flags=0x202 @ 0x0
+Freeing zombie PCB 0x332d0.
+Freed physical page 79,  map [2] = 0xffff8000.
+Freed page table for process 27.
+Freed physical page 67,  map [2] = 0xffff8008.
+Freed page 0, PTE=0x43001, physical page=67.
+Freed physical page 68,  map [2] = 0xffff8018.
+Freed page 1, PTE=0x44001, physical page=68.
+Freed physical page 69,  map [2] = 0xffff8038.
+Freed page 2, PTE=0x45001, physical page=69.
+Freed physical page 70,  map [2] = 0xffff8078.
+Freed page 3, PTE=0x46001, physical page=70.
+Translating 0x13b0
+0x13b0 => 0x3d3b0 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1284
+0x1284 => 0x3d284 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1288
+0x1288 => 0x3d288 (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x128c
+0x128c => 0x3d28c (=64210001) using base1=0x42000/12, entry 1
+Translating 0x1290
+0x1290 => 0x3d290 (=10200034) using base1=0x42000/12, entry 1
+Translating 0x12c8
+0x12c8 => 0x3d2c8 (=20420001) using base1=0x42000/12, entry 1
+Translating 0x12cc
+0x12cc => 0x3d2cc (=0044082a) using base1=0x42000/12, entry 1
+Translating 0x12d0
+0x12d0 => 0x3d2d0 (=1420ff60) using base1=0x42000/12, entry 1
+Translating 0x1234
+0x1234 => 0x3d234 (=0c000138) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1238
+0x1238 => 0x3d238 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x123c
+0x123c => 0x3d23c (=23bdfff0) using base1=0x42000/12, entry 1
+Translating 0x1240
+0x1240 => 0x3d240 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1244
+0x1244 => 0x3d244 (=24e73138) using base1=0x42000/12, entry 1
+Translating 0x1248
+0x1248 => 0x3d248 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x124c
+0x124c => 0x3d24c (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=003ffed4) using base1=0x42000/12, entry 1023
+Translating 0x1250
+0x1250 => 0x3d250 (=afa20008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x1254
+0x1254 => 0x3d254 (=0c00010c) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): Creating hello world #4
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1258
+0x1258 => 0x3d258 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x125c
+0x125c => 0x3d25c (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x1260
+0x1260 => 0x3d260 (=24e73164) using base1=0x42000/12, entry 1
+Translating 0x1264
+0x1264 => 0x3d264 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003138) using base1=0x42000/12, entry 1023
+Translating 0x1268
+0x1268 => 0x3d268 (=afa50004) using base1=0x42000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x40ec8 (=0000001f) using base1=0x42000/12, entry 1023
+Translating 0x126c
+0x126c => 0x3d26c (=20070000) using base1=0x42000/12, entry 1
+Translating 0x1270
+0x1270 => 0x3d270 (=afa70008) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000004) using base1=0x42000/12, entry 1023
+Translating 0x1274
+0x1274 => 0x3d274 (=0c000104) using base1=0x42000/12, entry 1
+Translating 0x137c
+0x137c => 0x3d37c (=44000432) using base1=0x42000/12, entry 1
+TrapProcessCreateHandler: function started
+TrapProcessCreateHandler: creating user process
+TrapProcessCreateHandler: just parsed executable name (hello_world.dlx.obj) from trapArgs
+Entering ProcessFork args=0x0 0x41d1c hello_world.dlx.obj 1
+Got a link @ 0x387fc
+ProcessFork: Allocated page 67 for code and data.
+ProcessFork: Allocated page 68 for code and data.
+ProcessFork: Allocated page 69 for code and data.
+ProcessFork: Allocated page 70 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 79 for user stack.
+ProcessFork: Allocated page 80 for process 26, sysStackArea=0x00050000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00043001)
+ProcessFork: AFTER: physPageTable[0] = 0x00043001 (from pagetable[0] = 0x00043001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00044001)
+ProcessFork: AFTER: physPageTable[1] = 0x00044001 (from pagetable[1] = 0x00044001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00045001)
+ProcessFork: AFTER: physPageTable[2] = 0x00045001 (from pagetable[2] = 0x00045001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00046001)
+ProcessFork: AFTER: physPageTable[3] = 0x00046001 (from pagetable[3] = 0x00046001)
+ProcessFork: Allocated page table at physical address 0x00051000
+ProcessFork: Stackframe set to 0x00050e8c.
+ProcessFork: stackframe = 0x50e8c
+
+PTBASE=0x00051000 PTSIZE=1024 PTBITS=786444
+About to load hello_world.dlx.obj
+File hello_world.dlx.obj -> start=0x000010d4
+File hello_world.dlx.obj -> code @ 0x00001000 (size=0x00001100)
+File hello_world.dlx.obj -> data @ 0x00003000 (size=0x000000a9)
+Placing 76 bytes at vaddr 0x00001000.
+Placing 80 bytes at vaddr 0x0000104c.
+Placing 56 bytes at vaddr 0x0000109c.
+Placing 49 bytes at vaddr 0x00003000.
+Placing 32 bytes at vaddr 0x00003034.
+Placing 57 bytes at vaddr 0x00003054.
+Placing 25 bytes at vaddr 0x00003090.
+Placing 76 bytes at vaddr 0x000010d4.
+Placing 80 bytes at vaddr 0x00001120.
+Placing 80 bytes at vaddr 0x00001170.
+Placing 80 bytes at vaddr 0x000011c0.
+Placing 80 bytes at vaddr 0x00001210.
+Placing 80 bytes at vaddr 0x00001260.
+Placing 80 bytes at vaddr 0x000012b0.
+Placing 80 bytes at vaddr 0x00001300.
+Placing 80 bytes at vaddr 0x00001350.
+Placing 80 bytes at vaddr 0x000013a0.
+Placing 80 bytes at vaddr 0x000013f0.
+Placing 80 bytes at vaddr 0x00001440.
+Placing 80 bytes at vaddr 0x00001490.
+Placing 80 bytes at vaddr 0x000014e0.
+Placing 80 bytes at vaddr 0x00001530.
+Placing 80 bytes at vaddr 0x00001580.
+Placing 80 bytes at vaddr 0x000015d0.
+Placing 80 bytes at vaddr 0x00001620.
+Placing 80 bytes at vaddr 0x00001670.
+Placing 80 bytes at vaddr 0x000016c0.
+Placing 80 bytes at vaddr 0x00001710.
+Placing 80 bytes at vaddr 0x00001760.
+Placing 80 bytes at vaddr 0x000017b0.
+Placing 80 bytes at vaddr 0x00001800.
+Placing 80 bytes at vaddr 0x00001850.
+Placing 80 bytes at vaddr 0x000018a0.
+Placing 80 bytes at vaddr 0x000018f0.
+Placing 80 bytes at vaddr 0x00001940.
+Placing 80 bytes at vaddr 0x00001990.
+Placing 80 bytes at vaddr 0x000019e0.
+Placing 80 bytes at vaddr 0x00001a30.
+Placing 80 bytes at vaddr 0x00001a80.
+Placing 80 bytes at vaddr 0x00001ad0.
+Placing 80 bytes at vaddr 0x00001b20.
+Placing 80 bytes at vaddr 0x00001b70.
+Placing 80 bytes at vaddr 0x00001bc0.
+Placing 80 bytes at vaddr 0x00001c10.
+Placing 80 bytes at vaddr 0x00001c60.
+Placing 80 bytes at vaddr 0x00001cb0.
+Placing 80 bytes at vaddr 0x00001d00.
+Placing 80 bytes at vaddr 0x00001d50.
+Placing 80 bytes at vaddr 0x00001da0.
+Placing 80 bytes at vaddr 0x00001df0.
+Placing 80 bytes at vaddr 0x00001e40.
+Placing 80 bytes at vaddr 0x00001e90.
+Placing 80 bytes at vaddr 0x00001ee0.
+Placing 80 bytes at vaddr 0x00001f30.
+Placing 80 bytes at vaddr 0x00001f80.
+Placing 80 bytes at vaddr 0x00001fd0.
+Placing 80 bytes at vaddr 0x00002020.
+Placing 80 bytes at vaddr 0x00002070.
+Placing 60 bytes at vaddr 0x000020c0.
+Leaving ProcessFork (hello_world.dlx.obj)
+
+PTBASE=0x00051000 PTSIZE=1024 PTBITS=12
+Translating 0x1380
+0x1380 => 0x3d380 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1278
+0x1278 => 0x3d278 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x127c
+0x127c => 0x3d27c (=afa30000) using base1=0x42000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x40ec4 (=00003164) using base1=0x42000/12, entry 1023
+Translating 0x1280
+0x1280 => 0x3d280 (=0c000128) using base1=0x42000/12, entry 1
+Translating 0x13ac
+0x13ac => 0x3d3ac (=44000451) using base1=0x42000/12, entry 1
+Suspending PCB 0x37480 (makeprocs.dlx.obj).
+About to switch to PCB 0x32264,flags=0x202 @ 0x10d4
+Translating 0x10d4
+0x10d4 => 0x440d4 (=afbefffc) using base1=0x51000/12, entry 1
+Translating 0x3ffee8
+0x3ffee8 => 0x4fee8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x10d8
+0x10d8 => 0x440d8 (=001df020) using base1=0x51000/12, entry 1
+Translating 0x10dc
+0x10dc => 0x440dc (=afbffff8) using base1=0x51000/12, entry 1
+Translating 0x3ffee4
+0x3ffee4 => 0x4fee4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x10e0
+0x10e0 => 0x440e0 (=2fbd0008) using base1=0x51000/12, entry 1
+Translating 0x10e4
+0x10e4 => 0x440e4 (=8fc20000) using base1=0x51000/12, entry 1
+Translating 0x3ffeec
+0x3ffeec => 0x4feec (=00000002) using base1=0x51000/12, entry 1023
+Translating 0x10e8
+0x10e8 => 0x440e8 (=8fc30004) using base1=0x51000/12, entry 1
+Translating 0x3ffef0
+0x3ffef0 => 0x4fef0 (=003ffef4) using base1=0x51000/12, entry 1023
+Translating 0x10ec
+0x10ec => 0x440ec (=0c001004) using base1=0x51000/12, entry 1
+Translating 0x20f4
+0x20f4 => 0x450f4 (=4be00000) using base1=0x51000/12, entry 2
+Translating 0x10f0
+0x10f0 => 0x440f0 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x10f4
+0x10f4 => 0x440f4 (=64410002) using base1=0x51000/12, entry 1
+Translating 0x10f8
+0x10f8 => 0x440f8 (=10200028) using base1=0x51000/12, entry 1
+Translating 0x1124
+0x1124 => 0x44124 (=23bdfff0) using base1=0x51000/12, entry 1
+Translating 0x1128
+0x1128 => 0x44128 (=8c630004) using base1=0x51000/12, entry 1
+Translating 0x3ffef8
+0x3ffef8 => 0x4fef8 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x112c
+0x112c => 0x4412c (=afa30000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1130
+0x1130 => 0x44130 (=20040000) using base1=0x51000/12, entry 1
+Translating 0x1134
+0x1134 => 0x44134 (=afa40004) using base1=0x51000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4fed8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1138
+0x1138 => 0x44138 (=2004000a) using base1=0x51000/12, entry 1
+Translating 0x113c
+0x113c => 0x4413c (=afa40008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1140
+0x1140 => 0x44140 (=0c000ab4) using base1=0x51000/12, entry 1
+Translating 0x1bf8
+0x1bf8 => 0x44bf8 (=afbefffc) using base1=0x51000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x4fed0 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1bfc
+0x1bfc => 0x44bfc (=001df020) using base1=0x51000/12, entry 1
+Translating 0x1c00
+0x1c00 => 0x44c00 (=afbffff8) using base1=0x51000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x4fecc (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1c04
+0x1c04 => 0x44c04 (=2fbd0020) using base1=0x51000/12, entry 1
+Translating 0x1c08
+0x1c08 => 0x44c08 (=afa20000) using base1=0x51000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x4feb4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1c0c
+0x1c0c => 0x44c0c (=20010000) using base1=0x51000/12, entry 1
+Translating 0x1c10
+0x1c10 => 0x44c10 (=afc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1c14
+0x1c14 => 0x44c14 (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1c18
+0x1c18 => 0x44c18 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1c1c
+0x1c1c => 0x44c1c (=60410020) using base1=0x51000/12, entry 1
+Translating 0x1c20
+0x1c20 => 0x44c20 (=14200034) using base1=0x51000/12, entry 1
+Translating 0x1c24
+0x1c24 => 0x44c24 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1c28
+0x1c28 => 0x44c28 (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1c2c
+0x1c2c => 0x44c2c (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1c30
+0x1c30 => 0x44c30 (=60410009) using base1=0x51000/12, entry 1
+Translating 0x1c34
+0x1c34 => 0x44c34 (=14200020) using base1=0x51000/12, entry 1
+Translating 0x1c38
+0x1c38 => 0x44c38 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1c3c
+0x1c3c => 0x44c3c (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1c40
+0x1c40 => 0x44c40 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1c44
+0x1c44 => 0x44c44 (=6041000a) using base1=0x51000/12, entry 1
+Translating 0x1c48
+0x1c48 => 0x44c48 (=1420000c) using base1=0x51000/12, entry 1
+Translating 0x1c4c
+0x1c4c => 0x44c4c (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1c50
+0x1c50 => 0x44c50 (=0800001c) using base1=0x51000/12, entry 1
+Translating 0x1c70
+0x1c70 => 0x44c70 (=8fc10004) using base1=0x51000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4fed8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1c74
+0x1c74 => 0x44c74 (=64220000) using base1=0x51000/12, entry 1
+Translating 0x1c78
+0x1c78 => 0x44c78 (=10400010) using base1=0x51000/12, entry 1
+Translating 0x1c8c
+0x1c8c => 0x44c8c (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1c90
+0x1c90 => 0x44c90 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1c94
+0x1c94 => 0x44c94 (=64410000) using base1=0x51000/12, entry 1
+Translating 0x1c98
+0x1c98 => 0x44c98 (=14200010) using base1=0x51000/12, entry 1
+Translating 0x1cac
+0x1cac => 0x44cac (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1cb0
+0x1cb0 => 0x44cb0 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1cb4
+0x1cb4 => 0x44cb4 (=6041002d) using base1=0x51000/12, entry 1
+Translating 0x1cb8
+0x1cb8 => 0x44cb8 (=10200024) using base1=0x51000/12, entry 1
+Translating 0x1ce0
+0x1ce0 => 0x44ce0 (=20010001) using base1=0x51000/12, entry 1
+Translating 0x1ce4
+0x1ce4 => 0x44ce4 (=afc1ffec) using base1=0x51000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x4fec0 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1ce8
+0x1ce8 => 0x44ce8 (=8fc10008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1cec
+0x1cec => 0x44cec (=64220000) using base1=0x51000/12, entry 1
+Translating 0x1cf0
+0x1cf0 => 0x44cf0 (=14400090) using base1=0x51000/12, entry 1
+Translating 0x1d84
+0x1d84 => 0x44d84 (=8fc10008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1d88
+0x1d88 => 0x44d88 (=70220000) using base1=0x51000/12, entry 1
+Translating 0x1d8c
+0x1d8c => 0x44d8c (=1440001c) using base1=0x51000/12, entry 1
+Translating 0x1d90
+0x1d90 => 0x44d90 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1d94
+0x1d94 => 0x44d94 (=8fc10008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1d98
+0x1d98 => 0x44d98 (=6c220010) using base1=0x51000/12, entry 1
+Translating 0x1d9c
+0x1d9c => 0x44d9c (=1440000c) using base1=0x51000/12, entry 1
+Translating 0x1da0
+0x1da0 => 0x44da0 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1da4
+0x1da4 => 0x44da4 (=08000010) using base1=0x51000/12, entry 1
+Translating 0x1db8
+0x1db8 => 0x44db8 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x51000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x51000/12, entry 1
+Translating 0x1dcc
+0x1dcc => 0x44dcc (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1dd0
+0x1dd0 => 0x44dd0 (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1dd4
+0x1dd4 => 0x44dd4 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1dd8
+0x1dd8 => 0x44dd8 (=70410039) using base1=0x51000/12, entry 1
+Translating 0x1ddc
+0x1ddc => 0x44ddc (=1020001c) using base1=0x51000/12, entry 1
+Translating 0x1de0
+0x1de0 => 0x44de0 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1de4
+0x1de4 => 0x44de4 (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1de8
+0x1de8 => 0x44de8 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1dec
+0x1dec => 0x44dec (=2041ffd0) using base1=0x51000/12, entry 1
+Translating 0x1df0
+0x1df0 => 0x44df0 (=afc1fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1df4
+0x1df4 => 0x44df4 (=0800008c) using base1=0x51000/12, entry 1
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x51000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x51000/12, entry 1
+Translating 0x1e94
+0x1e94 => 0x44e94 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1e98
+0x1e98 => 0x44e98 (=8fc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1e9c
+0x1e9c => 0x44e9c (=8fc20008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1ea0
+0x1ea0 => 0x44ea0 (=00200035) using base1=0x51000/12, entry 1
+Translating 0x1ea4
+0x1ea4 => 0x44ea4 (=00400835) using base1=0x51000/12, entry 1
+Translating 0x1ea8
+0x1ea8 => 0x44ea8 (=0401000e) using base1=0x51000/12, entry 1
+Translating 0x1eac
+0x1eac => 0x44eac (=00000834) using base1=0x51000/12, entry 1
+Translating 0x1eb0
+0x1eb0 => 0x44eb0 (=afc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1eb4
+0x1eb4 => 0x44eb4 (=8fc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1eb8
+0x1eb8 => 0x44eb8 (=8fc2fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1ebc
+0x1ebc => 0x44ebc (=00220820) using base1=0x51000/12, entry 1
+Translating 0x1ec0
+0x1ec0 => 0x44ec0 (=afc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1ec4
+0x1ec4 => 0x44ec4 (=8fc20000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1ec8
+0x1ec8 => 0x44ec8 (=20410001) using base1=0x51000/12, entry 1
+Translating 0x1ecc
+0x1ecc => 0x44ecc (=00011020) using base1=0x51000/12, entry 1
+Translating 0x1ed0
+0x1ed0 => 0x44ed0 (=afc20000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff10) using base1=0x51000/12, entry 1023
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x51000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x51000/12, entry 1
+Translating 0x1ef0
+0x1ef0 => 0x44ef0 (=0bfffec8) using base1=0x51000/12, entry 1
+Translating 0x1dbc
+0x1dbc => 0x44dbc (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff11) using base1=0x51000/12, entry 1023
+Translating 0x1dc0
+0x1dc0 => 0x44dc0 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1dc4
+0x1dc4 => 0x44dc4 (=6c41002f) using base1=0x51000/12, entry 1
+Translating 0x1dc8
+0x1dc8 => 0x44dc8 (=10200030) using base1=0x51000/12, entry 1
+Translating 0x1dfc
+0x1dfc => 0x44dfc (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff11) using base1=0x51000/12, entry 1023
+Translating 0x1e00
+0x1e00 => 0x44e00 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1e04
+0x1e04 => 0x44e04 (=6c410060) using base1=0x51000/12, entry 1
+Translating 0x1e08
+0x1e08 => 0x44e08 (=10200030) using base1=0x51000/12, entry 1
+Translating 0x1e3c
+0x1e3c => 0x44e3c (=8fc10000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff11) using base1=0x51000/12, entry 1023
+Translating 0x1e40
+0x1e40 => 0x44e40 (=90220000) using base1=0x51000/12, entry 1
+Translating 0x3fff10
+0x3fff10 => 0x4ff10 (=30000000) using base1=0x51000/12, entry 1023
+Translating 0x1e44
+0x1e44 => 0x44e44 (=6c410040) using base1=0x51000/12, entry 1
+Translating 0x1e48
+0x1e48 => 0x44e48 (=10200030) using base1=0x51000/12, entry 1
+Translating 0x1e7c
+0x1e7c => 0x44e7c (=200103e8) using base1=0x51000/12, entry 1
+Translating 0x1e80
+0x1e80 => 0x44e80 (=afc1fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1e84
+0x1e84 => 0x44e84 (=8fc1fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=000003e8) using base1=0x51000/12, entry 1023
+Translating 0x1e88
+0x1e88 => 0x44e88 (=8fc20008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1e8c
+0x1e8c => 0x44e8c (=0022082a) using base1=0x51000/12, entry 1
+Translating 0x1e90
+0x1e90 => 0x44e90 (=10200040) using base1=0x51000/12, entry 1
+Translating 0x1ed4
+0x1ed4 => 0x44ed4 (=8fc1fff0) using base1=0x51000/12, entry 1
+Translating 0x3ffec4
+0x3ffec4 => 0x4fec4 (=000003e8) using base1=0x51000/12, entry 1023
+Translating 0x1ed8
+0x1ed8 => 0x44ed8 (=8fc20008) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x1edc
+0x1edc => 0x44edc (=0022082a) using base1=0x51000/12, entry 1
+Translating 0x1ee0
+0x1ee0 => 0x44ee0 (=1420000c) using base1=0x51000/12, entry 1
+Translating 0x1ee4
+0x1ee4 => 0x44ee4 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1ee8
+0x1ee8 => 0x44ee8 (=0800000c) using base1=0x51000/12, entry 1
+Translating 0x1ef8
+0x1ef8 => 0x44ef8 (=8fc10004) using base1=0x51000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4fed8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1efc
+0x1efc => 0x44efc (=64220000) using base1=0x51000/12, entry 1
+Translating 0x1f00
+0x1f00 => 0x44f00 (=10400010) using base1=0x51000/12, entry 1
+Translating 0x1f14
+0x1f14 => 0x44f14 (=8fc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1f18
+0x1f18 => 0x44f18 (=8fc2ffec) using base1=0x51000/12, entry 1
+Translating 0x3ffec0
+0x3ffec0 => 0x4fec0 (=00000001) using base1=0x51000/12, entry 1023
+Translating 0x1f1c
+0x1f1c => 0x44f1c (=00200035) using base1=0x51000/12, entry 1
+Translating 0x1f20
+0x1f20 => 0x44f20 (=00400835) using base1=0x51000/12, entry 1
+Translating 0x1f24
+0x1f24 => 0x44f24 (=0401000e) using base1=0x51000/12, entry 1
+Translating 0x1f28
+0x1f28 => 0x44f28 (=00000834) using base1=0x51000/12, entry 1
+Translating 0x1f2c
+0x1f2c => 0x44f2c (=afc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1f30
+0x1f30 => 0x44f30 (=8fc1fff4) using base1=0x51000/12, entry 1
+Translating 0x3ffec8
+0x3ffec8 => 0x4fec8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1f34
+0x1f34 => 0x44f34 (=08000004) using base1=0x51000/12, entry 1
+Translating 0x1f3c
+0x1f3c => 0x44f3c (=8fa20000) using base1=0x51000/12, entry 1
+Translating 0x3ffeb4
+0x3ffeb4 => 0x4feb4 (=00000002) using base1=0x51000/12, entry 1023
+Translating 0x1f40
+0x1f40 => 0x44f40 (=8fdffff8) using base1=0x51000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x4fecc (=00001144) using base1=0x51000/12, entry 1023
+Translating 0x1f44
+0x1f44 => 0x44f44 (=001ee820) using base1=0x51000/12, entry 1
+Translating 0x1f48
+0x1f48 => 0x44f48 (=8fdefffc) using base1=0x51000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x4fed0 (=003ffeec) using base1=0x51000/12, entry 1023
+Translating 0x1f4c
+0x1f4c => 0x44f4c (=4be00000) using base1=0x51000/12, entry 1
+Translating 0x1144
+0x1144 => 0x44144 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1148
+0x1148 => 0x44148 (=00011020) using base1=0x51000/12, entry 1
+Translating 0x114c
+0x114c => 0x4414c (=0c0000f0) using base1=0x51000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x51000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x51000/12, entry 1
+Translating 0x1150
+0x1150 => 0x44150 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1154
+0x1154 => 0x44154 (=3c040000) using base1=0x51000/12, entry 1
+Translating 0x1158
+0x1158 => 0x44158 (=24843034) using base1=0x51000/12, entry 1
+Translating 0x115c
+0x115c => 0x4415c (=afa40000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=003fff11) using base1=0x51000/12, entry 1023
+Translating 0x1160
+0x1160 => 0x44160 (=afa10004) using base1=0x51000/12, entry 1
+Translating 0x3ffed8
+0x3ffed8 => 0x4fed8 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x1164
+0x1164 => 0x44164 (=0c0000cc) using base1=0x51000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x51000/12, entry 1
+hello_world (26): Hello world!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x51000/12, entry 1
+Translating 0x1168
+0x1168 => 0x44168 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x116c
+0x116c => 0x4416c (=afa20000) using base1=0x51000/12, entry 1
+Translating 0x3ffed4
+0x3ffed4 => 0x4fed4 (=00003034) using base1=0x51000/12, entry 1023
+Translating 0x1170
+0x1170 => 0x44170 (=0c000114) using base1=0x51000/12, entry 1
+Translating 0x1288
+0x1288 => 0x44288 (=44000452) using base1=0x51000/12, entry 1
+Waking up PID 31.
+Translating 0x128c
+0x128c => 0x4428c (=4be00000) using base1=0x51000/12, entry 1
+Translating 0x1174
+0x1174 => 0x44174 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x1178
+0x1178 => 0x44178 (=23bd0010) using base1=0x51000/12, entry 1
+Translating 0x117c
+0x117c => 0x4417c (=64210001) using base1=0x51000/12, entry 1
+Translating 0x1180
+0x1180 => 0x44180 (=10200038) using base1=0x51000/12, entry 1
+Translating 0x11bc
+0x11bc => 0x441bc (=0c000080) using base1=0x51000/12, entry 1
+Translating 0x1240
+0x1240 => 0x44240 (=44000431) using base1=0x51000/12, entry 1
+Translating 0x1244
+0x1244 => 0x44244 (=4be00000) using base1=0x51000/12, entry 1
+Translating 0x11c0
+0x11c0 => 0x441c0 (=54000000) using base1=0x51000/12, entry 1
+Translating 0x11c4
+0x11c4 => 0x441c4 (=23bdfff8) using base1=0x51000/12, entry 1
+Translating 0x11c8
+0x11c8 => 0x441c8 (=3c040000) using base1=0x51000/12, entry 1
+Translating 0x11cc
+0x11cc => 0x441cc (=24843090) using base1=0x51000/12, entry 1
+Translating 0x11d0
+0x11d0 => 0x441d0 (=afa40000) using base1=0x51000/12, entry 1
+Translating 0x3ffedc
+0x3ffedc => 0x4fedc (=0000000a) using base1=0x51000/12, entry 1023
+Translating 0x11d4
+0x11d4 => 0x441d4 (=afa10004) using base1=0x51000/12, entry 1
+Translating 0x3ffee0
+0x3ffee0 => 0x4fee0 (=00000000) using base1=0x51000/12, entry 1023
+Translating 0x11d8
+0x11d8 => 0x441d8 (=0c000058) using base1=0x51000/12, entry 1
+Translating 0x1234
+0x1234 => 0x44234 (=44000201) using base1=0x51000/12, entry 1
+hello_world (26): Done!
+Translating 0x1238
+0x1238 => 0x44238 (=4be00000) using base1=0x51000/12, entry 1
+Translating 0x11dc
+0x11dc => 0x441dc (=54000000) using base1=0x51000/12, entry 1
+Translating 0x11e0
+0x11e0 => 0x441e0 (=23bd0008) using base1=0x51000/12, entry 1
+Translating 0x11e4
+0x11e4 => 0x441e4 (=0c000f00) using base1=0x51000/12, entry 1
+Translating 0x20e8
+0x20e8 => 0x450e8 (=44000300) using base1=0x51000/12, entry 2
+Entering ProcessDestroy for 0x32264.
+Leaving ProcessDestroy for 0x32264.
+About to switch to PCB 0x37480,flags=0x202 @ 0x0
+Freeing zombie PCB 0x32264.
+Freed physical page 81,  map [2] = 0xfffe0000.
+Freed page table for process 26.
+Freed physical page 67,  map [2] = 0xfffe0008.
+Freed page 0, PTE=0x43001, physical page=67.
+Freed physical page 68,  map [2] = 0xfffe0018.
+Freed page 1, PTE=0x44001, physical page=68.
+Freed physical page 69,  map [2] = 0xfffe0038.
+Freed page 2, PTE=0x45001, physical page=69.
+Freed physical page 70,  map [2] = 0xfffe0078.
+Freed page 3, PTE=0x46001, physical page=70.
+Translating 0x13b0
+0x13b0 => 0x3d3b0 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x1284
+0x1284 => 0x3d284 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1288
+0x1288 => 0x3d288 (=23bd0010) using base1=0x42000/12, entry 1
+Translating 0x128c
+0x128c => 0x3d28c (=64210001) using base1=0x42000/12, entry 1
+Translating 0x1290
+0x1290 => 0x3d290 (=10200034) using base1=0x42000/12, entry 1
+Translating 0x12c8
+0x12c8 => 0x3d2c8 (=20420001) using base1=0x42000/12, entry 1
+Translating 0x12cc
+0x12cc => 0x3d2cc (=0044082a) using base1=0x42000/12, entry 1
+Translating 0x12d0
+0x12d0 => 0x3d2d0 (=1420ff60) using base1=0x42000/12, entry 1
+Translating 0x12d4
+0x12d4 => 0x3d2d4 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x12d8
+0x12d8 => 0x3d2d8 (=23bdfff8) using base1=0x42000/12, entry 1
+Translating 0x12dc
+0x12dc => 0x3d2dc (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x12e0
+0x12e0 => 0x3d2e0 (=24e7308c) using base1=0x42000/12, entry 1
+Translating 0x12e4
+0x12e4 => 0x3d2e4 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=00000000) using base1=0x42000/12, entry 1023
+Translating 0x12e8
+0x12e8 => 0x3d2e8 (=0c000078) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+-------------------------------------------------------------------------------------
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x12ec
+0x12ec => 0x3d2ec (=54000000) using base1=0x42000/12, entry 1
+Translating 0x12f0
+0x12f0 => 0x3d2f0 (=0c00007c) using base1=0x42000/12, entry 1
+Translating 0x1370
+0x1370 => 0x3d370 (=44000431) using base1=0x42000/12, entry 1
+Translating 0x1374
+0x1374 => 0x3d374 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x12f4
+0x12f4 => 0x3d2f4 (=54000000) using base1=0x42000/12, entry 1
+Translating 0x12f8
+0x12f8 => 0x3d2f8 (=3c070000) using base1=0x42000/12, entry 1
+Translating 0x12fc
+0x12fc => 0x3d2fc (=24e731a4) using base1=0x42000/12, entry 1
+Translating 0x1300
+0x1300 => 0x3d300 (=afa70000) using base1=0x42000/12, entry 1
+Translating 0x3ffecc
+0x3ffecc => 0x40ecc (=0000308c) using base1=0x42000/12, entry 1023
+Translating 0x1304
+0x1304 => 0x3d304 (=afa10004) using base1=0x42000/12, entry 1
+Translating 0x3ffed0
+0x3ffed0 => 0x40ed0 (=003ffed5) using base1=0x42000/12, entry 1023
+Translating 0x1308
+0x1308 => 0x3d308 (=0c000058) using base1=0x42000/12, entry 1
+Translating 0x1364
+0x1364 => 0x3d364 (=44000201) using base1=0x42000/12, entry 1
+makeprocs (31): All other processes completed, exiting main process.
+Translating 0x1368
+0x1368 => 0x3d368 (=4be00000) using base1=0x42000/12, entry 1
+Translating 0x130c
+0x130c => 0x3d30c (=54000000) using base1=0x42000/12, entry 1
+Translating 0x1310
+0x1310 => 0x3d310 (=23bd0008) using base1=0x42000/12, entry 1
+Translating 0x1314
+0x1314 => 0x3d314 (=0c000f00) using base1=0x42000/12, entry 1
+Translating 0x2218
+0x2218 => 0x3e218 (=44000300) using base1=0x42000/12, entry 2
+Entering ProcessDestroy for 0x37480.
+Leaving ProcessDestroy for 0x37480.
+No runnable processes - exiting!
+Exiting at program request.
+Instructions executed: 19446521
+Time simulated: 19.447 secs
+Real time elapsed: 0.590 secs
+Execution rate: 32.95M simulated instructions per real second.

@@ -1,0 +1,21 @@
+cd ../../bin; dlxsim -x os.dlx.obj -a  -u fork.dlx.obj 5; ee469_fixterminal
+Stack=0x1fffcc, pc starting at 0x150c4
+Got 3 arguments.
+Available memory: 0x3e7e0 -> 0x200000.
+Argument count is 3.
+Argument 0 is -u.
+Argument 1 is fork.dlx.obj.
+Argument 2 is 5.
+Testing fork...
+Cpu: writing a read-only page, vaddr=0x3ff000
+Fork returned pid = 30
+Parent process (31) created child process (30)
+Cpu: writing a read-only page, vaddr=0x3ff000
+Fork returned pid = 0
+Child process (30) created
+No runnable processes - exiting!
+Exiting at program request.
+Instructions executed: 4113469
+Time simulated: 4.113 secs
+Real time elapsed: 0.102 secs
+Execution rate: 40.21M simulated instructions per real second.

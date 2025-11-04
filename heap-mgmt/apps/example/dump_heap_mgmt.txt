@@ -1,0 +1,1855 @@
+cd ../../bin; dlxsim  -x os.dlx.obj -a  -D m -u heap_mgmt.dlx.obj 5; ee469_fixterminal
+Stack=0x1fffb8, pc starting at 0x16108
+Got 5 arguments.
+Available memory: 0x7f3a0 -> 0x200000.
+Argument count is 5.
+Argument 0 is -D.
+Argument 1 is m.
+Argument 2 is -u.
+Argument 3 is heap_mgmt.dlx.obj.
+Argument 4 is 5.
+maxPage: 512
+Leaving MemoryModuleInit
+Initialized 384 free pages, freemapmax: 16, pagestart: 128
+Initialized PCB 0, page table=0x1af74, npages=0.
+Initialized PCB 0, pt_phys_base=0x0, npages=0.
+Initialized PCB 1, page table=0x1dfec, npages=0.
+Initialized PCB 1, pt_phys_base=0x0, npages=0.
+Initialized PCB 2, page table=0x21064, npages=0.
+Initialized PCB 2, pt_phys_base=0x0, npages=0.
+Initialized PCB 3, page table=0x240dc, npages=0.
+Initialized PCB 3, pt_phys_base=0x0, npages=0.
+Initialized PCB 4, page table=0x27154, npages=0.
+Initialized PCB 4, pt_phys_base=0x0, npages=0.
+Initialized PCB 5, page table=0x2a1cc, npages=0.
+Initialized PCB 5, pt_phys_base=0x0, npages=0.
+Initialized PCB 6, page table=0x2d244, npages=0.
+Initialized PCB 6, pt_phys_base=0x0, npages=0.
+Initialized PCB 7, page table=0x302bc, npages=0.
+Initialized PCB 7, pt_phys_base=0x0, npages=0.
+Initialized PCB 8, page table=0x33334, npages=0.
+Initialized PCB 8, pt_phys_base=0x0, npages=0.
+Initialized PCB 9, page table=0x363ac, npages=0.
+Initialized PCB 9, pt_phys_base=0x0, npages=0.
+Initialized PCB 10, page table=0x39424, npages=0.
+Initialized PCB 10, pt_phys_base=0x0, npages=0.
+Initialized PCB 11, page table=0x3c49c, npages=0.
+Initialized PCB 11, pt_phys_base=0x0, npages=0.
+Initialized PCB 12, page table=0x3f514, npages=0.
+Initialized PCB 12, pt_phys_base=0x0, npages=0.
+Initialized PCB 13, page table=0x4258c, npages=0.
+Initialized PCB 13, pt_phys_base=0x0, npages=0.
+Initialized PCB 14, page table=0x45604, npages=0.
+Initialized PCB 14, pt_phys_base=0x0, npages=0.
+Initialized PCB 15, page table=0x4867c, npages=0.
+Initialized PCB 15, pt_phys_base=0x0, npages=0.
+Initialized PCB 16, page table=0x4b6f4, npages=0.
+Initialized PCB 16, pt_phys_base=0x0, npages=0.
+Initialized PCB 17, page table=0x4e76c, npages=0.
+Initialized PCB 17, pt_phys_base=0x0, npages=0.
+Initialized PCB 18, page table=0x517e4, npages=0.
+Initialized PCB 18, pt_phys_base=0x0, npages=0.
+Initialized PCB 19, page table=0x5485c, npages=0.
+Initialized PCB 19, pt_phys_base=0x0, npages=0.
+Initialized PCB 20, page table=0x578d4, npages=0.
+Initialized PCB 20, pt_phys_base=0x0, npages=0.
+Initialized PCB 21, page table=0x5a94c, npages=0.
+Initialized PCB 21, pt_phys_base=0x0, npages=0.
+Initialized PCB 22, page table=0x5d9c4, npages=0.
+Initialized PCB 22, pt_phys_base=0x0, npages=0.
+Initialized PCB 23, page table=0x60a3c, npages=0.
+Initialized PCB 23, pt_phys_base=0x0, npages=0.
+Initialized PCB 24, page table=0x63ab4, npages=0.
+Initialized PCB 24, pt_phys_base=0x0, npages=0.
+Initialized PCB 25, page table=0x66b2c, npages=0.
+Initialized PCB 25, pt_phys_base=0x0, npages=0.
+Initialized PCB 26, page table=0x69ba4, npages=0.
+Initialized PCB 26, pt_phys_base=0x0, npages=0.
+Initialized PCB 27, page table=0x6cc1c, npages=0.
+Initialized PCB 27, pt_phys_base=0x0, npages=0.
+Initialized PCB 28, page table=0x6fc94, npages=0.
+Initialized PCB 28, pt_phys_base=0x0, npages=0.
+Initialized PCB 29, page table=0x72d0c, npages=0.
+Initialized PCB 29, pt_phys_base=0x0, npages=0.
+Initialized PCB 30, page table=0x75d84, npages=0.
+Initialized PCB 30, pt_phys_base=0x0, npages=0.
+Initialized PCB 31, page table=0x78dfc, npages=0.
+Initialized PCB 31, pt_phys_base=0x0, npages=0.
+ProcessFork: Allocated page 128 for code and data.
+ProcessFork: Allocated page 129 for code and data.
+ProcessFork: Allocated page 130 for code and data.
+ProcessFork: Allocated page 131 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 132 for buddy heap.
+BuddyAllocatorInit: Initializing buddy allocator with 256 nodes, max heap size = 0x1000 bytes
+BuddyAllocatorInit: Set all nodes to not in use
+allocate_buddy_node: Allocated node 0x79e0c at index [0/255]
+BuddyAllocatorInit: Initialized buddy allocator, root node order = 12
+ProcessFork: Allocated page 133 for user stack.
+ProcessFork: Allocated page 134 for process 31, sysStackArea=0x00086000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00080001)
+ProcessFork: AFTER: physPageTable[0] = 0x00080001 (from pagetable[0] = 0x00080001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00081001)
+ProcessFork: AFTER: physPageTable[1] = 0x00081001 (from pagetable[1] = 0x00081001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00082001)
+ProcessFork: AFTER: physPageTable[2] = 0x00082001 (from pagetable[2] = 0x00082001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00083001)
+ProcessFork: AFTER: physPageTable[3] = 0x00083001 (from pagetable[3] = 0x00083001)
+ProcessFork: BEFORE: physPageTable[4] = 0x00000000 (from pagetable[4] = 0x00084001)
+ProcessFork: AFTER: physPageTable[4] = 0x00084001 (from pagetable[4] = 0x00084001)
+ProcessFork: Allocated page table at physical address 0x00087000
+ProcessFork: Stackframe set to 0x00086e8c.
+ProcessFork: stackframe = 0x86e8c
+
+PTBASE=0x00087000 PTSIZE=1024 PTBITS=786444
+
+PTBASE=0x00087000 PTSIZE=1024 PTBITS=12
+malloc: block size 32 fits requested size 4, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79e0c, is NULL = 0
+allocate_buddy_node: Allocated node 0x79e2c at index [1/255]
+Created a left child node (order = 6, addr = 0, size = 2048) of parent (order = 7, addr = 0, size = 4096)
+allocate_buddy_node: Allocated node 0x79e4c at index [2/255]
+Created a right child node (order = 6, addr = 2048, size = 2048) of parent (order = 7, addr = 0, size = 4096)
+allocate_buddy_node: Allocated node 0x79e6c at index [3/255]
+Created a left child node (order = 5, addr = 0, size = 1024) of parent (order = 6, addr = 0, size = 2048)
+allocate_buddy_node: Allocated node 0x79e8c at index [4/255]
+Created a right child node (order = 5, addr = 1024, size = 1024) of parent (order = 6, addr = 0, size = 2048)
+allocate_buddy_node: Allocated node 0x79eac at index [5/255]
+Created a left child node (order = 4, addr = 0, size = 512) of parent (order = 5, addr = 0, size = 1024)
+allocate_buddy_node: Allocated node 0x79ecc at index [6/255]
+Created a right child node (order = 4, addr = 512, size = 512) of parent (order = 5, addr = 0, size = 1024)
+allocate_buddy_node: Allocated node 0x79eec at index [7/255]
+Created a left child node (order = 3, addr = 0, size = 256) of parent (order = 4, addr = 0, size = 512)
+allocate_buddy_node: Allocated node 0x79f0c at index [8/255]
+Created a right child node (order = 3, addr = 256, size = 256) of parent (order = 4, addr = 0, size = 512)
+allocate_buddy_node: Allocated node 0x79f2c at index [9/255]
+Created a left child node (order = 2, addr = 0, size = 128) of parent (order = 3, addr = 0, size = 256)
+allocate_buddy_node: Allocated node 0x79f4c at index [10/255]
+Created a right child node (order = 2, addr = 128, size = 128) of parent (order = 3, addr = 0, size = 256)
+allocate_buddy_node: Allocated node 0x79f6c at index [11/255]
+Created a left child node (order = 1, addr = 0, size = 64) of parent (order = 2, addr = 0, size = 128)
+allocate_buddy_node: Allocated node 0x79f8c at index [12/255]
+Created a right child node (order = 1, addr = 64, size = 64) of parent (order = 2, addr = 0, size = 128)
+allocate_buddy_node: Allocated node 0x79fac at index [13/255]
+Created a left child node (order = 0, addr = 0, size = 32) of parent (order = 1, addr = 0, size = 64)
+allocate_buddy_node: Allocated node 0x79fcc at index [14/255]
+Created a right child node (order = 0, addr = 32, size = 32) of parent (order = 1, addr = 0, size = 64)
+Allocated the block: order = 0, addr = 0, requested mem size = 4, block size = 32
+test1:[1/2] var32: 256 == 0x100
+Freed the block: order 0, addr = 0, size = 4
+Coalesced buddy nodes (order = 0, addr = 0, size = 32) & (order = 0, addr = 32, size = 32)
+into the parent node (order = 1, addr = 0, size = 64)
+free_buddy_node: Freed node 0x79fac
+free_buddy_node: Freed node 0x79fcc
+Coalesced buddy nodes (order = 1, addr = 0, size = 64) & (order = 1, addr = 64, size = 64)
+into the parent node (order = 2, addr = 0, size = 128)
+free_buddy_node: Freed node 0x79f6c
+free_buddy_node: Freed node 0x79f8c
+Coalesced buddy nodes (order = 2, addr = 0, size = 128) & (order = 2, addr = 128, size = 128)
+into the parent node (order = 3, addr = 0, size = 256)
+free_buddy_node: Freed node 0x79f2c
+free_buddy_node: Freed node 0x79f4c
+Coalesced buddy nodes (order = 3, addr = 0, size = 256) & (order = 3, addr = 256, size = 256)
+into the parent node (order = 4, addr = 0, size = 512)
+free_buddy_node: Freed node 0x79eec
+free_buddy_node: Freed node 0x79f0c
+Coalesced buddy nodes (order = 4, addr = 0, size = 512) & (order = 4, addr = 512, size = 512)
+into the parent node (order = 5, addr = 0, size = 1024)
+free_buddy_node: Freed node 0x79eac
+free_buddy_node: Freed node 0x79ecc
+Coalesced buddy nodes (order = 5, addr = 0, size = 1024) & (order = 5, addr = 1024, size = 1024)
+into the parent node (order = 6, addr = 0, size = 2048)
+free_buddy_node: Freed node 0x79e6c
+free_buddy_node: Freed node 0x79e8c
+Coalesced buddy nodes (order = 6, addr = 0, size = 2048) & (order = 6, addr = 2048, size = 2048)
+into the parent node (order = 7, addr = 0, size = 4096)
+free_buddy_node: Freed node 0x79e2c
+free_buddy_node: Freed node 0x79e4c
+test1:[2/2] mfree returned: 4 bytes freed == 4
+test1: Done!
+test2: [1/3] Allocating 128 32-byte blocks
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79e0c, is NULL = 0
+allocate_buddy_node: Allocated node 0x79e2c at index [1/255]
+Created a left child node (order = 6, addr = 0, size = 2048) of parent (order = 7, addr = 0, size = 4096)
+allocate_buddy_node: Allocated node 0x79e4c at index [2/255]
+Created a right child node (order = 6, addr = 2048, size = 2048) of parent (order = 7, addr = 0, size = 4096)
+allocate_buddy_node: Allocated node 0x79e6c at index [3/255]
+Created a left child node (order = 5, addr = 0, size = 1024) of parent (order = 6, addr = 0, size = 2048)
+allocate_buddy_node: Allocated node 0x79e8c at index [4/255]
+Created a right child node (order = 5, addr = 1024, size = 1024) of parent (order = 6, addr = 0, size = 2048)
+allocate_buddy_node: Allocated node 0x79eac at index [5/255]
+Created a left child node (order = 4, addr = 0, size = 512) of parent (order = 5, addr = 0, size = 1024)
+allocate_buddy_node: Allocated node 0x79ecc at index [6/255]
+Created a right child node (order = 4, addr = 512, size = 512) of parent (order = 5, addr = 0, size = 1024)
+allocate_buddy_node: Allocated node 0x79eec at index [7/255]
+Created a left child node (order = 3, addr = 0, size = 256) of parent (order = 4, addr = 0, size = 512)
+allocate_buddy_node: Allocated node 0x79f0c at index [8/255]
+Created a right child node (order = 3, addr = 256, size = 256) of parent (order = 4, addr = 0, size = 512)
+allocate_buddy_node: Allocated node 0x79f2c at index [9/255]
+Created a left child node (order = 2, addr = 0, size = 128) of parent (order = 3, addr = 0, size = 256)
+allocate_buddy_node: Allocated node 0x79f4c at index [10/255]
+Created a right child node (order = 2, addr = 128, size = 128) of parent (order = 3, addr = 0, size = 256)
+allocate_buddy_node: Allocated node 0x79f6c at index [11/255]
+Created a left child node (order = 1, addr = 0, size = 64) of parent (order = 2, addr = 0, size = 128)
+allocate_buddy_node: Allocated node 0x79f8c at index [12/255]
+Created a right child node (order = 1, addr = 64, size = 64) of parent (order = 2, addr = 0, size = 128)
+allocate_buddy_node: Allocated node 0x79fac at index [13/255]
+Created a left child node (order = 0, addr = 0, size = 32) of parent (order = 1, addr = 0, size = 64)
+allocate_buddy_node: Allocated node 0x79fcc at index [14/255]
+Created a right child node (order = 0, addr = 32, size = 32) of parent (order = 1, addr = 0, size = 64)
+Allocated the block: order = 0, addr = 0, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79fcc, is NULL = 0
+Allocated the block: order = 0, addr = 32, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79f8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x79fec at index [15/255]
+Created a left child node (order = 0, addr = 64, size = 32) of parent (order = 1, addr = 64, size = 64)
+allocate_buddy_node: Allocated node 0x7a00c at index [16/255]
+Created a right child node (order = 0, addr = 96, size = 32) of parent (order = 1, addr = 64, size = 64)
+Allocated the block: order = 0, addr = 64, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a00c, is NULL = 0
+Allocated the block: order = 0, addr = 96, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79f4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a02c at index [17/255]
+Created a left child node (order = 1, addr = 128, size = 64) of parent (order = 2, addr = 128, size = 128)
+allocate_buddy_node: Allocated node 0x7a04c at index [18/255]
+Created a right child node (order = 1, addr = 192, size = 64) of parent (order = 2, addr = 128, size = 128)
+allocate_buddy_node: Allocated node 0x7a06c at index [19/255]
+Created a left child node (order = 0, addr = 128, size = 32) of parent (order = 1, addr = 128, size = 64)
+allocate_buddy_node: Allocated node 0x7a08c at index [20/255]
+Created a right child node (order = 0, addr = 160, size = 32) of parent (order = 1, addr = 128, size = 64)
+Allocated the block: order = 0, addr = 128, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a08c, is NULL = 0
+Allocated the block: order = 0, addr = 160, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a04c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a0ac at index [21/255]
+Created a left child node (order = 0, addr = 192, size = 32) of parent (order = 1, addr = 192, size = 64)
+allocate_buddy_node: Allocated node 0x7a0cc at index [22/255]
+Created a right child node (order = 0, addr = 224, size = 32) of parent (order = 1, addr = 192, size = 64)
+Allocated the block: order = 0, addr = 192, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a0cc, is NULL = 0
+Allocated the block: order = 0, addr = 224, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79f0c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a0ec at index [23/255]
+Created a left child node (order = 2, addr = 256, size = 128) of parent (order = 3, addr = 256, size = 256)
+allocate_buddy_node: Allocated node 0x7a10c at index [24/255]
+Created a right child node (order = 2, addr = 384, size = 128) of parent (order = 3, addr = 256, size = 256)
+allocate_buddy_node: Allocated node 0x7a12c at index [25/255]
+Created a left child node (order = 1, addr = 256, size = 64) of parent (order = 2, addr = 256, size = 128)
+allocate_buddy_node: Allocated node 0x7a14c at index [26/255]
+Created a right child node (order = 1, addr = 320, size = 64) of parent (order = 2, addr = 256, size = 128)
+allocate_buddy_node: Allocated node 0x7a16c at index [27/255]
+Created a left child node (order = 0, addr = 256, size = 32) of parent (order = 1, addr = 256, size = 64)
+allocate_buddy_node: Allocated node 0x7a18c at index [28/255]
+Created a right child node (order = 0, addr = 288, size = 32) of parent (order = 1, addr = 256, size = 64)
+Allocated the block: order = 0, addr = 256, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a18c, is NULL = 0
+Allocated the block: order = 0, addr = 288, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a14c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a1ac at index [29/255]
+Created a left child node (order = 0, addr = 320, size = 32) of parent (order = 1, addr = 320, size = 64)
+allocate_buddy_node: Allocated node 0x7a1cc at index [30/255]
+Created a right child node (order = 0, addr = 352, size = 32) of parent (order = 1, addr = 320, size = 64)
+Allocated the block: order = 0, addr = 320, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a1cc, is NULL = 0
+Allocated the block: order = 0, addr = 352, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a10c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a1ec at index [31/255]
+Created a left child node (order = 1, addr = 384, size = 64) of parent (order = 2, addr = 384, size = 128)
+allocate_buddy_node: Allocated node 0x7a20c at index [32/255]
+Created a right child node (order = 1, addr = 448, size = 64) of parent (order = 2, addr = 384, size = 128)
+allocate_buddy_node: Allocated node 0x7a22c at index [33/255]
+Created a left child node (order = 0, addr = 384, size = 32) of parent (order = 1, addr = 384, size = 64)
+allocate_buddy_node: Allocated node 0x7a24c at index [34/255]
+Created a right child node (order = 0, addr = 416, size = 32) of parent (order = 1, addr = 384, size = 64)
+Allocated the block: order = 0, addr = 384, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a24c, is NULL = 0
+Allocated the block: order = 0, addr = 416, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a20c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a26c at index [35/255]
+Created a left child node (order = 0, addr = 448, size = 32) of parent (order = 1, addr = 448, size = 64)
+allocate_buddy_node: Allocated node 0x7a28c at index [36/255]
+Created a right child node (order = 0, addr = 480, size = 32) of parent (order = 1, addr = 448, size = 64)
+Allocated the block: order = 0, addr = 448, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a28c, is NULL = 0
+Allocated the block: order = 0, addr = 480, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79ecc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a2ac at index [37/255]
+Created a left child node (order = 3, addr = 512, size = 256) of parent (order = 4, addr = 512, size = 512)
+allocate_buddy_node: Allocated node 0x7a2cc at index [38/255]
+Created a right child node (order = 3, addr = 768, size = 256) of parent (order = 4, addr = 512, size = 512)
+allocate_buddy_node: Allocated node 0x7a2ec at index [39/255]
+Created a left child node (order = 2, addr = 512, size = 128) of parent (order = 3, addr = 512, size = 256)
+allocate_buddy_node: Allocated node 0x7a30c at index [40/255]
+Created a right child node (order = 2, addr = 640, size = 128) of parent (order = 3, addr = 512, size = 256)
+allocate_buddy_node: Allocated node 0x7a32c at index [41/255]
+Created a left child node (order = 1, addr = 512, size = 64) of parent (order = 2, addr = 512, size = 128)
+allocate_buddy_node: Allocated node 0x7a34c at index [42/255]
+Created a right child node (order = 1, addr = 576, size = 64) of parent (order = 2, addr = 512, size = 128)
+allocate_buddy_node: Allocated node 0x7a36c at index [43/255]
+Created a left child node (order = 0, addr = 512, size = 32) of parent (order = 1, addr = 512, size = 64)
+allocate_buddy_node: Allocated node 0x7a38c at index [44/255]
+Created a right child node (order = 0, addr = 544, size = 32) of parent (order = 1, addr = 512, size = 64)
+Allocated the block: order = 0, addr = 512, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a38c, is NULL = 0
+Allocated the block: order = 0, addr = 544, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a34c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a3ac at index [45/255]
+Created a left child node (order = 0, addr = 576, size = 32) of parent (order = 1, addr = 576, size = 64)
+allocate_buddy_node: Allocated node 0x7a3cc at index [46/255]
+Created a right child node (order = 0, addr = 608, size = 32) of parent (order = 1, addr = 576, size = 64)
+Allocated the block: order = 0, addr = 576, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a3cc, is NULL = 0
+Allocated the block: order = 0, addr = 608, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a30c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a3ec at index [47/255]
+Created a left child node (order = 1, addr = 640, size = 64) of parent (order = 2, addr = 640, size = 128)
+allocate_buddy_node: Allocated node 0x7a40c at index [48/255]
+Created a right child node (order = 1, addr = 704, size = 64) of parent (order = 2, addr = 640, size = 128)
+allocate_buddy_node: Allocated node 0x7a42c at index [49/255]
+Created a left child node (order = 0, addr = 640, size = 32) of parent (order = 1, addr = 640, size = 64)
+allocate_buddy_node: Allocated node 0x7a44c at index [50/255]
+Created a right child node (order = 0, addr = 672, size = 32) of parent (order = 1, addr = 640, size = 64)
+Allocated the block: order = 0, addr = 640, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a44c, is NULL = 0
+Allocated the block: order = 0, addr = 672, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a40c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a46c at index [51/255]
+Created a left child node (order = 0, addr = 704, size = 32) of parent (order = 1, addr = 704, size = 64)
+allocate_buddy_node: Allocated node 0x7a48c at index [52/255]
+Created a right child node (order = 0, addr = 736, size = 32) of parent (order = 1, addr = 704, size = 64)
+Allocated the block: order = 0, addr = 704, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a48c, is NULL = 0
+Allocated the block: order = 0, addr = 736, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a2cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a4ac at index [53/255]
+Created a left child node (order = 2, addr = 768, size = 128) of parent (order = 3, addr = 768, size = 256)
+allocate_buddy_node: Allocated node 0x7a4cc at index [54/255]
+Created a right child node (order = 2, addr = 896, size = 128) of parent (order = 3, addr = 768, size = 256)
+allocate_buddy_node: Allocated node 0x7a4ec at index [55/255]
+Created a left child node (order = 1, addr = 768, size = 64) of parent (order = 2, addr = 768, size = 128)
+allocate_buddy_node: Allocated node 0x7a50c at index [56/255]
+Created a right child node (order = 1, addr = 832, size = 64) of parent (order = 2, addr = 768, size = 128)
+allocate_buddy_node: Allocated node 0x7a52c at index [57/255]
+Created a left child node (order = 0, addr = 768, size = 32) of parent (order = 1, addr = 768, size = 64)
+allocate_buddy_node: Allocated node 0x7a54c at index [58/255]
+Created a right child node (order = 0, addr = 800, size = 32) of parent (order = 1, addr = 768, size = 64)
+Allocated the block: order = 0, addr = 768, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a54c, is NULL = 0
+Allocated the block: order = 0, addr = 800, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a50c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a56c at index [59/255]
+Created a left child node (order = 0, addr = 832, size = 32) of parent (order = 1, addr = 832, size = 64)
+allocate_buddy_node: Allocated node 0x7a58c at index [60/255]
+Created a right child node (order = 0, addr = 864, size = 32) of parent (order = 1, addr = 832, size = 64)
+Allocated the block: order = 0, addr = 832, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a58c, is NULL = 0
+Allocated the block: order = 0, addr = 864, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a4cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a5ac at index [61/255]
+Created a left child node (order = 1, addr = 896, size = 64) of parent (order = 2, addr = 896, size = 128)
+allocate_buddy_node: Allocated node 0x7a5cc at index [62/255]
+Created a right child node (order = 1, addr = 960, size = 64) of parent (order = 2, addr = 896, size = 128)
+allocate_buddy_node: Allocated node 0x7a5ec at index [63/255]
+Created a left child node (order = 0, addr = 896, size = 32) of parent (order = 1, addr = 896, size = 64)
+allocate_buddy_node: Allocated node 0x7a60c at index [64/255]
+Created a right child node (order = 0, addr = 928, size = 32) of parent (order = 1, addr = 896, size = 64)
+Allocated the block: order = 0, addr = 896, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a60c, is NULL = 0
+Allocated the block: order = 0, addr = 928, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a5cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a62c at index [65/255]
+Created a left child node (order = 0, addr = 960, size = 32) of parent (order = 1, addr = 960, size = 64)
+allocate_buddy_node: Allocated node 0x7a64c at index [66/255]
+Created a right child node (order = 0, addr = 992, size = 32) of parent (order = 1, addr = 960, size = 64)
+Allocated the block: order = 0, addr = 960, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a64c, is NULL = 0
+Allocated the block: order = 0, addr = 992, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79e8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a66c at index [67/255]
+Created a left child node (order = 4, addr = 1024, size = 512) of parent (order = 5, addr = 1024, size = 1024)
+allocate_buddy_node: Allocated node 0x7a68c at index [68/255]
+Created a right child node (order = 4, addr = 1536, size = 512) of parent (order = 5, addr = 1024, size = 1024)
+allocate_buddy_node: Allocated node 0x7a6ac at index [69/255]
+Created a left child node (order = 3, addr = 1024, size = 256) of parent (order = 4, addr = 1024, size = 512)
+allocate_buddy_node: Allocated node 0x7a6cc at index [70/255]
+Created a right child node (order = 3, addr = 1280, size = 256) of parent (order = 4, addr = 1024, size = 512)
+allocate_buddy_node: Allocated node 0x7a6ec at index [71/255]
+Created a left child node (order = 2, addr = 1024, size = 128) of parent (order = 3, addr = 1024, size = 256)
+allocate_buddy_node: Allocated node 0x7a70c at index [72/255]
+Created a right child node (order = 2, addr = 1152, size = 128) of parent (order = 3, addr = 1024, size = 256)
+allocate_buddy_node: Allocated node 0x7a72c at index [73/255]
+Created a left child node (order = 1, addr = 1024, size = 64) of parent (order = 2, addr = 1024, size = 128)
+allocate_buddy_node: Allocated node 0x7a74c at index [74/255]
+Created a right child node (order = 1, addr = 1088, size = 64) of parent (order = 2, addr = 1024, size = 128)
+allocate_buddy_node: Allocated node 0x7a76c at index [75/255]
+Created a left child node (order = 0, addr = 1024, size = 32) of parent (order = 1, addr = 1024, size = 64)
+allocate_buddy_node: Allocated node 0x7a78c at index [76/255]
+Created a right child node (order = 0, addr = 1056, size = 32) of parent (order = 1, addr = 1024, size = 64)
+Allocated the block: order = 0, addr = 1024, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a78c, is NULL = 0
+Allocated the block: order = 0, addr = 1056, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a74c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a7ac at index [77/255]
+Created a left child node (order = 0, addr = 1088, size = 32) of parent (order = 1, addr = 1088, size = 64)
+allocate_buddy_node: Allocated node 0x7a7cc at index [78/255]
+Created a right child node (order = 0, addr = 1120, size = 32) of parent (order = 1, addr = 1088, size = 64)
+Allocated the block: order = 0, addr = 1088, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a7cc, is NULL = 0
+Allocated the block: order = 0, addr = 1120, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a70c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a7ec at index [79/255]
+Created a left child node (order = 1, addr = 1152, size = 64) of parent (order = 2, addr = 1152, size = 128)
+allocate_buddy_node: Allocated node 0x7a80c at index [80/255]
+Created a right child node (order = 1, addr = 1216, size = 64) of parent (order = 2, addr = 1152, size = 128)
+allocate_buddy_node: Allocated node 0x7a82c at index [81/255]
+Created a left child node (order = 0, addr = 1152, size = 32) of parent (order = 1, addr = 1152, size = 64)
+allocate_buddy_node: Allocated node 0x7a84c at index [82/255]
+Created a right child node (order = 0, addr = 1184, size = 32) of parent (order = 1, addr = 1152, size = 64)
+Allocated the block: order = 0, addr = 1152, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a84c, is NULL = 0
+Allocated the block: order = 0, addr = 1184, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a80c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a86c at index [83/255]
+Created a left child node (order = 0, addr = 1216, size = 32) of parent (order = 1, addr = 1216, size = 64)
+allocate_buddy_node: Allocated node 0x7a88c at index [84/255]
+Created a right child node (order = 0, addr = 1248, size = 32) of parent (order = 1, addr = 1216, size = 64)
+Allocated the block: order = 0, addr = 1216, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a88c, is NULL = 0
+Allocated the block: order = 0, addr = 1248, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a6cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a8ac at index [85/255]
+Created a left child node (order = 2, addr = 1280, size = 128) of parent (order = 3, addr = 1280, size = 256)
+allocate_buddy_node: Allocated node 0x7a8cc at index [86/255]
+Created a right child node (order = 2, addr = 1408, size = 128) of parent (order = 3, addr = 1280, size = 256)
+allocate_buddy_node: Allocated node 0x7a8ec at index [87/255]
+Created a left child node (order = 1, addr = 1280, size = 64) of parent (order = 2, addr = 1280, size = 128)
+allocate_buddy_node: Allocated node 0x7a90c at index [88/255]
+Created a right child node (order = 1, addr = 1344, size = 64) of parent (order = 2, addr = 1280, size = 128)
+allocate_buddy_node: Allocated node 0x7a92c at index [89/255]
+Created a left child node (order = 0, addr = 1280, size = 32) of parent (order = 1, addr = 1280, size = 64)
+allocate_buddy_node: Allocated node 0x7a94c at index [90/255]
+Created a right child node (order = 0, addr = 1312, size = 32) of parent (order = 1, addr = 1280, size = 64)
+Allocated the block: order = 0, addr = 1280, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a94c, is NULL = 0
+Allocated the block: order = 0, addr = 1312, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a90c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a96c at index [91/255]
+Created a left child node (order = 0, addr = 1344, size = 32) of parent (order = 1, addr = 1344, size = 64)
+allocate_buddy_node: Allocated node 0x7a98c at index [92/255]
+Created a right child node (order = 0, addr = 1376, size = 32) of parent (order = 1, addr = 1344, size = 64)
+Allocated the block: order = 0, addr = 1344, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a98c, is NULL = 0
+Allocated the block: order = 0, addr = 1376, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a8cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7a9ac at index [93/255]
+Created a left child node (order = 1, addr = 1408, size = 64) of parent (order = 2, addr = 1408, size = 128)
+allocate_buddy_node: Allocated node 0x7a9cc at index [94/255]
+Created a right child node (order = 1, addr = 1472, size = 64) of parent (order = 2, addr = 1408, size = 128)
+allocate_buddy_node: Allocated node 0x7a9ec at index [95/255]
+Created a left child node (order = 0, addr = 1408, size = 32) of parent (order = 1, addr = 1408, size = 64)
+allocate_buddy_node: Allocated node 0x7aa0c at index [96/255]
+Created a right child node (order = 0, addr = 1440, size = 32) of parent (order = 1, addr = 1408, size = 64)
+Allocated the block: order = 0, addr = 1408, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7aa0c, is NULL = 0
+Allocated the block: order = 0, addr = 1440, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a9cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7aa2c at index [97/255]
+Created a left child node (order = 0, addr = 1472, size = 32) of parent (order = 1, addr = 1472, size = 64)
+allocate_buddy_node: Allocated node 0x7aa4c at index [98/255]
+Created a right child node (order = 0, addr = 1504, size = 32) of parent (order = 1, addr = 1472, size = 64)
+Allocated the block: order = 0, addr = 1472, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7aa4c, is NULL = 0
+Allocated the block: order = 0, addr = 1504, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7a68c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7aa6c at index [99/255]
+Created a left child node (order = 3, addr = 1536, size = 256) of parent (order = 4, addr = 1536, size = 512)
+allocate_buddy_node: Allocated node 0x7aa8c at index [100/255]
+Created a right child node (order = 3, addr = 1792, size = 256) of parent (order = 4, addr = 1536, size = 512)
+allocate_buddy_node: Allocated node 0x7aaac at index [101/255]
+Created a left child node (order = 2, addr = 1536, size = 128) of parent (order = 3, addr = 1536, size = 256)
+allocate_buddy_node: Allocated node 0x7aacc at index [102/255]
+Created a right child node (order = 2, addr = 1664, size = 128) of parent (order = 3, addr = 1536, size = 256)
+allocate_buddy_node: Allocated node 0x7aaec at index [103/255]
+Created a left child node (order = 1, addr = 1536, size = 64) of parent (order = 2, addr = 1536, size = 128)
+allocate_buddy_node: Allocated node 0x7ab0c at index [104/255]
+Created a right child node (order = 1, addr = 1600, size = 64) of parent (order = 2, addr = 1536, size = 128)
+allocate_buddy_node: Allocated node 0x7ab2c at index [105/255]
+Created a left child node (order = 0, addr = 1536, size = 32) of parent (order = 1, addr = 1536, size = 64)
+allocate_buddy_node: Allocated node 0x7ab4c at index [106/255]
+Created a right child node (order = 0, addr = 1568, size = 32) of parent (order = 1, addr = 1536, size = 64)
+Allocated the block: order = 0, addr = 1536, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ab4c, is NULL = 0
+Allocated the block: order = 0, addr = 1568, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ab0c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ab6c at index [107/255]
+Created a left child node (order = 0, addr = 1600, size = 32) of parent (order = 1, addr = 1600, size = 64)
+allocate_buddy_node: Allocated node 0x7ab8c at index [108/255]
+Created a right child node (order = 0, addr = 1632, size = 32) of parent (order = 1, addr = 1600, size = 64)
+Allocated the block: order = 0, addr = 1600, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ab8c, is NULL = 0
+Allocated the block: order = 0, addr = 1632, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7aacc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7abac at index [109/255]
+Created a left child node (order = 1, addr = 1664, size = 64) of parent (order = 2, addr = 1664, size = 128)
+allocate_buddy_node: Allocated node 0x7abcc at index [110/255]
+Created a right child node (order = 1, addr = 1728, size = 64) of parent (order = 2, addr = 1664, size = 128)
+allocate_buddy_node: Allocated node 0x7abec at index [111/255]
+Created a left child node (order = 0, addr = 1664, size = 32) of parent (order = 1, addr = 1664, size = 64)
+allocate_buddy_node: Allocated node 0x7ac0c at index [112/255]
+Created a right child node (order = 0, addr = 1696, size = 32) of parent (order = 1, addr = 1664, size = 64)
+Allocated the block: order = 0, addr = 1664, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ac0c, is NULL = 0
+Allocated the block: order = 0, addr = 1696, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7abcc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ac2c at index [113/255]
+Created a left child node (order = 0, addr = 1728, size = 32) of parent (order = 1, addr = 1728, size = 64)
+allocate_buddy_node: Allocated node 0x7ac4c at index [114/255]
+Created a right child node (order = 0, addr = 1760, size = 32) of parent (order = 1, addr = 1728, size = 64)
+Allocated the block: order = 0, addr = 1728, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ac4c, is NULL = 0
+Allocated the block: order = 0, addr = 1760, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7aa8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ac6c at index [115/255]
+Created a left child node (order = 2, addr = 1792, size = 128) of parent (order = 3, addr = 1792, size = 256)
+allocate_buddy_node: Allocated node 0x7ac8c at index [116/255]
+Created a right child node (order = 2, addr = 1920, size = 128) of parent (order = 3, addr = 1792, size = 256)
+allocate_buddy_node: Allocated node 0x7acac at index [117/255]
+Created a left child node (order = 1, addr = 1792, size = 64) of parent (order = 2, addr = 1792, size = 128)
+allocate_buddy_node: Allocated node 0x7accc at index [118/255]
+Created a right child node (order = 1, addr = 1856, size = 64) of parent (order = 2, addr = 1792, size = 128)
+allocate_buddy_node: Allocated node 0x7acec at index [119/255]
+Created a left child node (order = 0, addr = 1792, size = 32) of parent (order = 1, addr = 1792, size = 64)
+allocate_buddy_node: Allocated node 0x7ad0c at index [120/255]
+Created a right child node (order = 0, addr = 1824, size = 32) of parent (order = 1, addr = 1792, size = 64)
+Allocated the block: order = 0, addr = 1792, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ad0c, is NULL = 0
+Allocated the block: order = 0, addr = 1824, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7accc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ad2c at index [121/255]
+Created a left child node (order = 0, addr = 1856, size = 32) of parent (order = 1, addr = 1856, size = 64)
+allocate_buddy_node: Allocated node 0x7ad4c at index [122/255]
+Created a right child node (order = 0, addr = 1888, size = 32) of parent (order = 1, addr = 1856, size = 64)
+Allocated the block: order = 0, addr = 1856, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ad4c, is NULL = 0
+Allocated the block: order = 0, addr = 1888, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ac8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ad6c at index [123/255]
+Created a left child node (order = 1, addr = 1920, size = 64) of parent (order = 2, addr = 1920, size = 128)
+allocate_buddy_node: Allocated node 0x7ad8c at index [124/255]
+Created a right child node (order = 1, addr = 1984, size = 64) of parent (order = 2, addr = 1920, size = 128)
+allocate_buddy_node: Allocated node 0x7adac at index [125/255]
+Created a left child node (order = 0, addr = 1920, size = 32) of parent (order = 1, addr = 1920, size = 64)
+allocate_buddy_node: Allocated node 0x7adcc at index [126/255]
+Created a right child node (order = 0, addr = 1952, size = 32) of parent (order = 1, addr = 1920, size = 64)
+Allocated the block: order = 0, addr = 1920, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7adcc, is NULL = 0
+Allocated the block: order = 0, addr = 1952, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ad8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7adec at index [127/255]
+Created a left child node (order = 0, addr = 1984, size = 32) of parent (order = 1, addr = 1984, size = 64)
+allocate_buddy_node: Allocated node 0x7ae0c at index [128/255]
+Created a right child node (order = 0, addr = 2016, size = 32) of parent (order = 1, addr = 1984, size = 64)
+Allocated the block: order = 0, addr = 1984, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ae0c, is NULL = 0
+Allocated the block: order = 0, addr = 2016, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79e4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ae2c at index [129/255]
+Created a left child node (order = 5, addr = 2048, size = 1024) of parent (order = 6, addr = 2048, size = 2048)
+allocate_buddy_node: Allocated node 0x7ae4c at index [130/255]
+Created a right child node (order = 5, addr = 3072, size = 1024) of parent (order = 6, addr = 2048, size = 2048)
+allocate_buddy_node: Allocated node 0x7ae6c at index [131/255]
+Created a left child node (order = 4, addr = 2048, size = 512) of parent (order = 5, addr = 2048, size = 1024)
+allocate_buddy_node: Allocated node 0x7ae8c at index [132/255]
+Created a right child node (order = 4, addr = 2560, size = 512) of parent (order = 5, addr = 2048, size = 1024)
+allocate_buddy_node: Allocated node 0x7aeac at index [133/255]
+Created a left child node (order = 3, addr = 2048, size = 256) of parent (order = 4, addr = 2048, size = 512)
+allocate_buddy_node: Allocated node 0x7aecc at index [134/255]
+Created a right child node (order = 3, addr = 2304, size = 256) of parent (order = 4, addr = 2048, size = 512)
+allocate_buddy_node: Allocated node 0x7aeec at index [135/255]
+Created a left child node (order = 2, addr = 2048, size = 128) of parent (order = 3, addr = 2048, size = 256)
+allocate_buddy_node: Allocated node 0x7af0c at index [136/255]
+Created a right child node (order = 2, addr = 2176, size = 128) of parent (order = 3, addr = 2048, size = 256)
+allocate_buddy_node: Allocated node 0x7af2c at index [137/255]
+Created a left child node (order = 1, addr = 2048, size = 64) of parent (order = 2, addr = 2048, size = 128)
+allocate_buddy_node: Allocated node 0x7af4c at index [138/255]
+Created a right child node (order = 1, addr = 2112, size = 64) of parent (order = 2, addr = 2048, size = 128)
+allocate_buddy_node: Allocated node 0x7af6c at index [139/255]
+Created a left child node (order = 0, addr = 2048, size = 32) of parent (order = 1, addr = 2048, size = 64)
+allocate_buddy_node: Allocated node 0x7af8c at index [140/255]
+Created a right child node (order = 0, addr = 2080, size = 32) of parent (order = 1, addr = 2048, size = 64)
+Allocated the block: order = 0, addr = 2048, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7af8c, is NULL = 0
+Allocated the block: order = 0, addr = 2080, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7af4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7afac at index [141/255]
+Created a left child node (order = 0, addr = 2112, size = 32) of parent (order = 1, addr = 2112, size = 64)
+allocate_buddy_node: Allocated node 0x7afcc at index [142/255]
+Created a right child node (order = 0, addr = 2144, size = 32) of parent (order = 1, addr = 2112, size = 64)
+Allocated the block: order = 0, addr = 2112, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7afcc, is NULL = 0
+Allocated the block: order = 0, addr = 2144, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7af0c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7afec at index [143/255]
+Created a left child node (order = 1, addr = 2176, size = 64) of parent (order = 2, addr = 2176, size = 128)
+allocate_buddy_node: Allocated node 0x7b00c at index [144/255]
+Created a right child node (order = 1, addr = 2240, size = 64) of parent (order = 2, addr = 2176, size = 128)
+allocate_buddy_node: Allocated node 0x7b02c at index [145/255]
+Created a left child node (order = 0, addr = 2176, size = 32) of parent (order = 1, addr = 2176, size = 64)
+allocate_buddy_node: Allocated node 0x7b04c at index [146/255]
+Created a right child node (order = 0, addr = 2208, size = 32) of parent (order = 1, addr = 2176, size = 64)
+Allocated the block: order = 0, addr = 2176, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b04c, is NULL = 0
+Allocated the block: order = 0, addr = 2208, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b00c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b06c at index [147/255]
+Created a left child node (order = 0, addr = 2240, size = 32) of parent (order = 1, addr = 2240, size = 64)
+allocate_buddy_node: Allocated node 0x7b08c at index [148/255]
+Created a right child node (order = 0, addr = 2272, size = 32) of parent (order = 1, addr = 2240, size = 64)
+Allocated the block: order = 0, addr = 2240, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b08c, is NULL = 0
+Allocated the block: order = 0, addr = 2272, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7aecc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b0ac at index [149/255]
+Created a left child node (order = 2, addr = 2304, size = 128) of parent (order = 3, addr = 2304, size = 256)
+allocate_buddy_node: Allocated node 0x7b0cc at index [150/255]
+Created a right child node (order = 2, addr = 2432, size = 128) of parent (order = 3, addr = 2304, size = 256)
+allocate_buddy_node: Allocated node 0x7b0ec at index [151/255]
+Created a left child node (order = 1, addr = 2304, size = 64) of parent (order = 2, addr = 2304, size = 128)
+allocate_buddy_node: Allocated node 0x7b10c at index [152/255]
+Created a right child node (order = 1, addr = 2368, size = 64) of parent (order = 2, addr = 2304, size = 128)
+allocate_buddy_node: Allocated node 0x7b12c at index [153/255]
+Created a left child node (order = 0, addr = 2304, size = 32) of parent (order = 1, addr = 2304, size = 64)
+allocate_buddy_node: Allocated node 0x7b14c at index [154/255]
+Created a right child node (order = 0, addr = 2336, size = 32) of parent (order = 1, addr = 2304, size = 64)
+Allocated the block: order = 0, addr = 2304, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b14c, is NULL = 0
+Allocated the block: order = 0, addr = 2336, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b10c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b16c at index [155/255]
+Created a left child node (order = 0, addr = 2368, size = 32) of parent (order = 1, addr = 2368, size = 64)
+allocate_buddy_node: Allocated node 0x7b18c at index [156/255]
+Created a right child node (order = 0, addr = 2400, size = 32) of parent (order = 1, addr = 2368, size = 64)
+Allocated the block: order = 0, addr = 2368, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b18c, is NULL = 0
+Allocated the block: order = 0, addr = 2400, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b0cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b1ac at index [157/255]
+Created a left child node (order = 1, addr = 2432, size = 64) of parent (order = 2, addr = 2432, size = 128)
+allocate_buddy_node: Allocated node 0x7b1cc at index [158/255]
+Created a right child node (order = 1, addr = 2496, size = 64) of parent (order = 2, addr = 2432, size = 128)
+allocate_buddy_node: Allocated node 0x7b1ec at index [159/255]
+Created a left child node (order = 0, addr = 2432, size = 32) of parent (order = 1, addr = 2432, size = 64)
+allocate_buddy_node: Allocated node 0x7b20c at index [160/255]
+Created a right child node (order = 0, addr = 2464, size = 32) of parent (order = 1, addr = 2432, size = 64)
+Allocated the block: order = 0, addr = 2432, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b20c, is NULL = 0
+Allocated the block: order = 0, addr = 2464, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b1cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b22c at index [161/255]
+Created a left child node (order = 0, addr = 2496, size = 32) of parent (order = 1, addr = 2496, size = 64)
+allocate_buddy_node: Allocated node 0x7b24c at index [162/255]
+Created a right child node (order = 0, addr = 2528, size = 32) of parent (order = 1, addr = 2496, size = 64)
+Allocated the block: order = 0, addr = 2496, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b24c, is NULL = 0
+Allocated the block: order = 0, addr = 2528, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ae8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b26c at index [163/255]
+Created a left child node (order = 3, addr = 2560, size = 256) of parent (order = 4, addr = 2560, size = 512)
+allocate_buddy_node: Allocated node 0x7b28c at index [164/255]
+Created a right child node (order = 3, addr = 2816, size = 256) of parent (order = 4, addr = 2560, size = 512)
+allocate_buddy_node: Allocated node 0x7b2ac at index [165/255]
+Created a left child node (order = 2, addr = 2560, size = 128) of parent (order = 3, addr = 2560, size = 256)
+allocate_buddy_node: Allocated node 0x7b2cc at index [166/255]
+Created a right child node (order = 2, addr = 2688, size = 128) of parent (order = 3, addr = 2560, size = 256)
+allocate_buddy_node: Allocated node 0x7b2ec at index [167/255]
+Created a left child node (order = 1, addr = 2560, size = 64) of parent (order = 2, addr = 2560, size = 128)
+allocate_buddy_node: Allocated node 0x7b30c at index [168/255]
+Created a right child node (order = 1, addr = 2624, size = 64) of parent (order = 2, addr = 2560, size = 128)
+allocate_buddy_node: Allocated node 0x7b32c at index [169/255]
+Created a left child node (order = 0, addr = 2560, size = 32) of parent (order = 1, addr = 2560, size = 64)
+allocate_buddy_node: Allocated node 0x7b34c at index [170/255]
+Created a right child node (order = 0, addr = 2592, size = 32) of parent (order = 1, addr = 2560, size = 64)
+Allocated the block: order = 0, addr = 2560, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b34c, is NULL = 0
+Allocated the block: order = 0, addr = 2592, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b30c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b36c at index [171/255]
+Created a left child node (order = 0, addr = 2624, size = 32) of parent (order = 1, addr = 2624, size = 64)
+allocate_buddy_node: Allocated node 0x7b38c at index [172/255]
+Created a right child node (order = 0, addr = 2656, size = 32) of parent (order = 1, addr = 2624, size = 64)
+Allocated the block: order = 0, addr = 2624, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b38c, is NULL = 0
+Allocated the block: order = 0, addr = 2656, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b2cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b3ac at index [173/255]
+Created a left child node (order = 1, addr = 2688, size = 64) of parent (order = 2, addr = 2688, size = 128)
+allocate_buddy_node: Allocated node 0x7b3cc at index [174/255]
+Created a right child node (order = 1, addr = 2752, size = 64) of parent (order = 2, addr = 2688, size = 128)
+allocate_buddy_node: Allocated node 0x7b3ec at index [175/255]
+Created a left child node (order = 0, addr = 2688, size = 32) of parent (order = 1, addr = 2688, size = 64)
+allocate_buddy_node: Allocated node 0x7b40c at index [176/255]
+Created a right child node (order = 0, addr = 2720, size = 32) of parent (order = 1, addr = 2688, size = 64)
+Allocated the block: order = 0, addr = 2688, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b40c, is NULL = 0
+Allocated the block: order = 0, addr = 2720, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b3cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b42c at index [177/255]
+Created a left child node (order = 0, addr = 2752, size = 32) of parent (order = 1, addr = 2752, size = 64)
+allocate_buddy_node: Allocated node 0x7b44c at index [178/255]
+Created a right child node (order = 0, addr = 2784, size = 32) of parent (order = 1, addr = 2752, size = 64)
+Allocated the block: order = 0, addr = 2752, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b44c, is NULL = 0
+Allocated the block: order = 0, addr = 2784, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b28c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b46c at index [179/255]
+Created a left child node (order = 2, addr = 2816, size = 128) of parent (order = 3, addr = 2816, size = 256)
+allocate_buddy_node: Allocated node 0x7b48c at index [180/255]
+Created a right child node (order = 2, addr = 2944, size = 128) of parent (order = 3, addr = 2816, size = 256)
+allocate_buddy_node: Allocated node 0x7b4ac at index [181/255]
+Created a left child node (order = 1, addr = 2816, size = 64) of parent (order = 2, addr = 2816, size = 128)
+allocate_buddy_node: Allocated node 0x7b4cc at index [182/255]
+Created a right child node (order = 1, addr = 2880, size = 64) of parent (order = 2, addr = 2816, size = 128)
+allocate_buddy_node: Allocated node 0x7b4ec at index [183/255]
+Created a left child node (order = 0, addr = 2816, size = 32) of parent (order = 1, addr = 2816, size = 64)
+allocate_buddy_node: Allocated node 0x7b50c at index [184/255]
+Created a right child node (order = 0, addr = 2848, size = 32) of parent (order = 1, addr = 2816, size = 64)
+Allocated the block: order = 0, addr = 2816, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b50c, is NULL = 0
+Allocated the block: order = 0, addr = 2848, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b4cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b52c at index [185/255]
+Created a left child node (order = 0, addr = 2880, size = 32) of parent (order = 1, addr = 2880, size = 64)
+allocate_buddy_node: Allocated node 0x7b54c at index [186/255]
+Created a right child node (order = 0, addr = 2912, size = 32) of parent (order = 1, addr = 2880, size = 64)
+Allocated the block: order = 0, addr = 2880, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b54c, is NULL = 0
+Allocated the block: order = 0, addr = 2912, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b48c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b56c at index [187/255]
+Created a left child node (order = 1, addr = 2944, size = 64) of parent (order = 2, addr = 2944, size = 128)
+allocate_buddy_node: Allocated node 0x7b58c at index [188/255]
+Created a right child node (order = 1, addr = 3008, size = 64) of parent (order = 2, addr = 2944, size = 128)
+allocate_buddy_node: Allocated node 0x7b5ac at index [189/255]
+Created a left child node (order = 0, addr = 2944, size = 32) of parent (order = 1, addr = 2944, size = 64)
+allocate_buddy_node: Allocated node 0x7b5cc at index [190/255]
+Created a right child node (order = 0, addr = 2976, size = 32) of parent (order = 1, addr = 2944, size = 64)
+Allocated the block: order = 0, addr = 2944, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b5cc, is NULL = 0
+Allocated the block: order = 0, addr = 2976, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b58c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b5ec at index [191/255]
+Created a left child node (order = 0, addr = 3008, size = 32) of parent (order = 1, addr = 3008, size = 64)
+allocate_buddy_node: Allocated node 0x7b60c at index [192/255]
+Created a right child node (order = 0, addr = 3040, size = 32) of parent (order = 1, addr = 3008, size = 64)
+Allocated the block: order = 0, addr = 3008, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b60c, is NULL = 0
+Allocated the block: order = 0, addr = 3040, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ae4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b62c at index [193/255]
+Created a left child node (order = 4, addr = 3072, size = 512) of parent (order = 5, addr = 3072, size = 1024)
+allocate_buddy_node: Allocated node 0x7b64c at index [194/255]
+Created a right child node (order = 4, addr = 3584, size = 512) of parent (order = 5, addr = 3072, size = 1024)
+allocate_buddy_node: Allocated node 0x7b66c at index [195/255]
+Created a left child node (order = 3, addr = 3072, size = 256) of parent (order = 4, addr = 3072, size = 512)
+allocate_buddy_node: Allocated node 0x7b68c at index [196/255]
+Created a right child node (order = 3, addr = 3328, size = 256) of parent (order = 4, addr = 3072, size = 512)
+allocate_buddy_node: Allocated node 0x7b6ac at index [197/255]
+Created a left child node (order = 2, addr = 3072, size = 128) of parent (order = 3, addr = 3072, size = 256)
+allocate_buddy_node: Allocated node 0x7b6cc at index [198/255]
+Created a right child node (order = 2, addr = 3200, size = 128) of parent (order = 3, addr = 3072, size = 256)
+allocate_buddy_node: Allocated node 0x7b6ec at index [199/255]
+Created a left child node (order = 1, addr = 3072, size = 64) of parent (order = 2, addr = 3072, size = 128)
+allocate_buddy_node: Allocated node 0x7b70c at index [200/255]
+Created a right child node (order = 1, addr = 3136, size = 64) of parent (order = 2, addr = 3072, size = 128)
+allocate_buddy_node: Allocated node 0x7b72c at index [201/255]
+Created a left child node (order = 0, addr = 3072, size = 32) of parent (order = 1, addr = 3072, size = 64)
+allocate_buddy_node: Allocated node 0x7b74c at index [202/255]
+Created a right child node (order = 0, addr = 3104, size = 32) of parent (order = 1, addr = 3072, size = 64)
+Allocated the block: order = 0, addr = 3072, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b74c, is NULL = 0
+Allocated the block: order = 0, addr = 3104, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b70c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b76c at index [203/255]
+Created a left child node (order = 0, addr = 3136, size = 32) of parent (order = 1, addr = 3136, size = 64)
+allocate_buddy_node: Allocated node 0x7b78c at index [204/255]
+Created a right child node (order = 0, addr = 3168, size = 32) of parent (order = 1, addr = 3136, size = 64)
+Allocated the block: order = 0, addr = 3136, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b78c, is NULL = 0
+Allocated the block: order = 0, addr = 3168, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b6cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b7ac at index [205/255]
+Created a left child node (order = 1, addr = 3200, size = 64) of parent (order = 2, addr = 3200, size = 128)
+allocate_buddy_node: Allocated node 0x7b7cc at index [206/255]
+Created a right child node (order = 1, addr = 3264, size = 64) of parent (order = 2, addr = 3200, size = 128)
+allocate_buddy_node: Allocated node 0x7b7ec at index [207/255]
+Created a left child node (order = 0, addr = 3200, size = 32) of parent (order = 1, addr = 3200, size = 64)
+allocate_buddy_node: Allocated node 0x7b80c at index [208/255]
+Created a right child node (order = 0, addr = 3232, size = 32) of parent (order = 1, addr = 3200, size = 64)
+Allocated the block: order = 0, addr = 3200, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b80c, is NULL = 0
+Allocated the block: order = 0, addr = 3232, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b7cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b82c at index [209/255]
+Created a left child node (order = 0, addr = 3264, size = 32) of parent (order = 1, addr = 3264, size = 64)
+allocate_buddy_node: Allocated node 0x7b84c at index [210/255]
+Created a right child node (order = 0, addr = 3296, size = 32) of parent (order = 1, addr = 3264, size = 64)
+Allocated the block: order = 0, addr = 3264, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b84c, is NULL = 0
+Allocated the block: order = 0, addr = 3296, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b68c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b86c at index [211/255]
+Created a left child node (order = 2, addr = 3328, size = 128) of parent (order = 3, addr = 3328, size = 256)
+allocate_buddy_node: Allocated node 0x7b88c at index [212/255]
+Created a right child node (order = 2, addr = 3456, size = 128) of parent (order = 3, addr = 3328, size = 256)
+allocate_buddy_node: Allocated node 0x7b8ac at index [213/255]
+Created a left child node (order = 1, addr = 3328, size = 64) of parent (order = 2, addr = 3328, size = 128)
+allocate_buddy_node: Allocated node 0x7b8cc at index [214/255]
+Created a right child node (order = 1, addr = 3392, size = 64) of parent (order = 2, addr = 3328, size = 128)
+allocate_buddy_node: Allocated node 0x7b8ec at index [215/255]
+Created a left child node (order = 0, addr = 3328, size = 32) of parent (order = 1, addr = 3328, size = 64)
+allocate_buddy_node: Allocated node 0x7b90c at index [216/255]
+Created a right child node (order = 0, addr = 3360, size = 32) of parent (order = 1, addr = 3328, size = 64)
+Allocated the block: order = 0, addr = 3328, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b90c, is NULL = 0
+Allocated the block: order = 0, addr = 3360, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b8cc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b92c at index [217/255]
+Created a left child node (order = 0, addr = 3392, size = 32) of parent (order = 1, addr = 3392, size = 64)
+allocate_buddy_node: Allocated node 0x7b94c at index [218/255]
+Created a right child node (order = 0, addr = 3424, size = 32) of parent (order = 1, addr = 3392, size = 64)
+Allocated the block: order = 0, addr = 3392, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b94c, is NULL = 0
+Allocated the block: order = 0, addr = 3424, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b88c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b96c at index [219/255]
+Created a left child node (order = 1, addr = 3456, size = 64) of parent (order = 2, addr = 3456, size = 128)
+allocate_buddy_node: Allocated node 0x7b98c at index [220/255]
+Created a right child node (order = 1, addr = 3520, size = 64) of parent (order = 2, addr = 3456, size = 128)
+allocate_buddy_node: Allocated node 0x7b9ac at index [221/255]
+Created a left child node (order = 0, addr = 3456, size = 32) of parent (order = 1, addr = 3456, size = 64)
+allocate_buddy_node: Allocated node 0x7b9cc at index [222/255]
+Created a right child node (order = 0, addr = 3488, size = 32) of parent (order = 1, addr = 3456, size = 64)
+Allocated the block: order = 0, addr = 3456, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b9cc, is NULL = 0
+Allocated the block: order = 0, addr = 3488, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b98c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7b9ec at index [223/255]
+Created a left child node (order = 0, addr = 3520, size = 32) of parent (order = 1, addr = 3520, size = 64)
+allocate_buddy_node: Allocated node 0x7ba0c at index [224/255]
+Created a right child node (order = 0, addr = 3552, size = 32) of parent (order = 1, addr = 3520, size = 64)
+Allocated the block: order = 0, addr = 3520, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ba0c, is NULL = 0
+Allocated the block: order = 0, addr = 3552, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7b64c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7ba2c at index [225/255]
+Created a left child node (order = 3, addr = 3584, size = 256) of parent (order = 4, addr = 3584, size = 512)
+allocate_buddy_node: Allocated node 0x7ba4c at index [226/255]
+Created a right child node (order = 3, addr = 3840, size = 256) of parent (order = 4, addr = 3584, size = 512)
+allocate_buddy_node: Allocated node 0x7ba6c at index [227/255]
+Created a left child node (order = 2, addr = 3584, size = 128) of parent (order = 3, addr = 3584, size = 256)
+allocate_buddy_node: Allocated node 0x7ba8c at index [228/255]
+Created a right child node (order = 2, addr = 3712, size = 128) of parent (order = 3, addr = 3584, size = 256)
+allocate_buddy_node: Allocated node 0x7baac at index [229/255]
+Created a left child node (order = 1, addr = 3584, size = 64) of parent (order = 2, addr = 3584, size = 128)
+allocate_buddy_node: Allocated node 0x7bacc at index [230/255]
+Created a right child node (order = 1, addr = 3648, size = 64) of parent (order = 2, addr = 3584, size = 128)
+allocate_buddy_node: Allocated node 0x7baec at index [231/255]
+Created a left child node (order = 0, addr = 3584, size = 32) of parent (order = 1, addr = 3584, size = 64)
+allocate_buddy_node: Allocated node 0x7bb0c at index [232/255]
+Created a right child node (order = 0, addr = 3616, size = 32) of parent (order = 1, addr = 3584, size = 64)
+Allocated the block: order = 0, addr = 3584, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bb0c, is NULL = 0
+Allocated the block: order = 0, addr = 3616, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bacc, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bb2c at index [233/255]
+Created a left child node (order = 0, addr = 3648, size = 32) of parent (order = 1, addr = 3648, size = 64)
+allocate_buddy_node: Allocated node 0x7bb4c at index [234/255]
+Created a right child node (order = 0, addr = 3680, size = 32) of parent (order = 1, addr = 3648, size = 64)
+Allocated the block: order = 0, addr = 3648, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bb4c, is NULL = 0
+Allocated the block: order = 0, addr = 3680, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ba8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bb6c at index [235/255]
+Created a left child node (order = 1, addr = 3712, size = 64) of parent (order = 2, addr = 3712, size = 128)
+allocate_buddy_node: Allocated node 0x7bb8c at index [236/255]
+Created a right child node (order = 1, addr = 3776, size = 64) of parent (order = 2, addr = 3712, size = 128)
+allocate_buddy_node: Allocated node 0x7bbac at index [237/255]
+Created a left child node (order = 0, addr = 3712, size = 32) of parent (order = 1, addr = 3712, size = 64)
+allocate_buddy_node: Allocated node 0x7bbcc at index [238/255]
+Created a right child node (order = 0, addr = 3744, size = 32) of parent (order = 1, addr = 3712, size = 64)
+Allocated the block: order = 0, addr = 3712, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bbcc, is NULL = 0
+Allocated the block: order = 0, addr = 3744, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bb8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bbec at index [239/255]
+Created a left child node (order = 0, addr = 3776, size = 32) of parent (order = 1, addr = 3776, size = 64)
+allocate_buddy_node: Allocated node 0x7bc0c at index [240/255]
+Created a right child node (order = 0, addr = 3808, size = 32) of parent (order = 1, addr = 3776, size = 64)
+Allocated the block: order = 0, addr = 3776, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bc0c, is NULL = 0
+Allocated the block: order = 0, addr = 3808, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7ba4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bc2c at index [241/255]
+Created a left child node (order = 2, addr = 3840, size = 128) of parent (order = 3, addr = 3840, size = 256)
+allocate_buddy_node: Allocated node 0x7bc4c at index [242/255]
+Created a right child node (order = 2, addr = 3968, size = 128) of parent (order = 3, addr = 3840, size = 256)
+allocate_buddy_node: Allocated node 0x7bc6c at index [243/255]
+Created a left child node (order = 1, addr = 3840, size = 64) of parent (order = 2, addr = 3840, size = 128)
+allocate_buddy_node: Allocated node 0x7bc8c at index [244/255]
+Created a right child node (order = 1, addr = 3904, size = 64) of parent (order = 2, addr = 3840, size = 128)
+allocate_buddy_node: Allocated node 0x7bcac at index [245/255]
+Created a left child node (order = 0, addr = 3840, size = 32) of parent (order = 1, addr = 3840, size = 64)
+allocate_buddy_node: Allocated node 0x7bccc at index [246/255]
+Created a right child node (order = 0, addr = 3872, size = 32) of parent (order = 1, addr = 3840, size = 64)
+Allocated the block: order = 0, addr = 3840, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bccc, is NULL = 0
+Allocated the block: order = 0, addr = 3872, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bc8c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bcec at index [247/255]
+Created a left child node (order = 0, addr = 3904, size = 32) of parent (order = 1, addr = 3904, size = 64)
+allocate_buddy_node: Allocated node 0x7bd0c at index [248/255]
+Created a right child node (order = 0, addr = 3936, size = 32) of parent (order = 1, addr = 3904, size = 64)
+Allocated the block: order = 0, addr = 3904, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bd0c, is NULL = 0
+Allocated the block: order = 0, addr = 3936, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bc4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bd2c at index [249/255]
+Created a left child node (order = 1, addr = 3968, size = 64) of parent (order = 2, addr = 3968, size = 128)
+allocate_buddy_node: Allocated node 0x7bd4c at index [250/255]
+Created a right child node (order = 1, addr = 4032, size = 64) of parent (order = 2, addr = 3968, size = 128)
+allocate_buddy_node: Allocated node 0x7bd6c at index [251/255]
+Created a left child node (order = 0, addr = 3968, size = 32) of parent (order = 1, addr = 3968, size = 64)
+allocate_buddy_node: Allocated node 0x7bd8c at index [252/255]
+Created a right child node (order = 0, addr = 4000, size = 32) of parent (order = 1, addr = 3968, size = 64)
+Allocated the block: order = 0, addr = 3968, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bd8c, is NULL = 0
+Allocated the block: order = 0, addr = 4000, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bd4c, is NULL = 0
+allocate_buddy_node: Allocated node 0x7bdac at index [253/255]
+Created a left child node (order = 0, addr = 4032, size = 32) of parent (order = 1, addr = 4032, size = 64)
+allocate_buddy_node: Allocated node 0x7bdcc at index [254/255]
+Created a right child node (order = 0, addr = 4064, size = 32) of parent (order = 1, addr = 4032, size = 64)
+Allocated the block: order = 0, addr = 4032, requested mem size = 32, block size = 32
+malloc: block size 32 fits requested size 32, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = 0x7bdcc, is NULL = 0
+Allocated the block: order = 0, addr = 4064, requested mem size = 32, block size = 32
+test2: [2/3] Allocated 128 blocks
+test2: [2/3] Total memory allocated: 4096 bytes, expected: 4096 bytes
+test2: [3/3] Allocating 1 1-byte block after all blocks allocated
+malloc: block size 32 fits requested size 1, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = (nil), is NULL = 1
+malloc: no suitable block found
+test2:[3/3] malloc(1) returned NULL
+Freed the block: order 0, addr = 0, size = 32
+Freed the block: order 0, addr = 32, size = 32
+Coalesced buddy nodes (order = 0, addr = 32, size = 32) & (order = 0, addr = 0, size = 32)
+into the parent node (order = 1, addr = 0, size = 64)
+free_buddy_node: Freed node 0x79fcc
+free_buddy_node: Freed node 0x79fac
+Freed the block: order 0, addr = 64, size = 32
+Freed the block: order 0, addr = 96, size = 32
+Coalesced buddy nodes (order = 0, addr = 96, size = 32) & (order = 0, addr = 64, size = 32)
+into the parent node (order = 1, addr = 64, size = 64)
+free_buddy_node: Freed node 0x7a00c
+free_buddy_node: Freed node 0x79fec
+Coalesced buddy nodes (order = 1, addr = 64, size = 64) & (order = 1, addr = 0, size = 64)
+into the parent node (order = 2, addr = 0, size = 128)
+free_buddy_node: Freed node 0x79f8c
+free_buddy_node: Freed node 0x79f6c
+Freed the block: order 0, addr = 128, size = 32
+Freed the block: order 0, addr = 160, size = 32
+Coalesced buddy nodes (order = 0, addr = 160, size = 32) & (order = 0, addr = 128, size = 32)
+into the parent node (order = 1, addr = 128, size = 64)
+free_buddy_node: Freed node 0x7a08c
+free_buddy_node: Freed node 0x7a06c
+Freed the block: order 0, addr = 192, size = 32
+Freed the block: order 0, addr = 224, size = 32
+Coalesced buddy nodes (order = 0, addr = 224, size = 32) & (order = 0, addr = 192, size = 32)
+into the parent node (order = 1, addr = 192, size = 64)
+free_buddy_node: Freed node 0x7a0cc
+free_buddy_node: Freed node 0x7a0ac
+Coalesced buddy nodes (order = 1, addr = 192, size = 64) & (order = 1, addr = 128, size = 64)
+into the parent node (order = 2, addr = 128, size = 128)
+free_buddy_node: Freed node 0x7a04c
+free_buddy_node: Freed node 0x7a02c
+Coalesced buddy nodes (order = 2, addr = 128, size = 128) & (order = 2, addr = 0, size = 128)
+into the parent node (order = 3, addr = 0, size = 256)
+free_buddy_node: Freed node 0x79f4c
+free_buddy_node: Freed node 0x79f2c
+Freed the block: order 0, addr = 256, size = 32
+Freed the block: order 0, addr = 288, size = 32
+Coalesced buddy nodes (order = 0, addr = 288, size = 32) & (order = 0, addr = 256, size = 32)
+into the parent node (order = 1, addr = 256, size = 64)
+free_buddy_node: Freed node 0x7a18c
+free_buddy_node: Freed node 0x7a16c
+Freed the block: order 0, addr = 320, size = 32
+Freed the block: order 0, addr = 352, size = 32
+Coalesced buddy nodes (order = 0, addr = 352, size = 32) & (order = 0, addr = 320, size = 32)
+into the parent node (order = 1, addr = 320, size = 64)
+free_buddy_node: Freed node 0x7a1cc
+free_buddy_node: Freed node 0x7a1ac
+Coalesced buddy nodes (order = 1, addr = 320, size = 64) & (order = 1, addr = 256, size = 64)
+into the parent node (order = 2, addr = 256, size = 128)
+free_buddy_node: Freed node 0x7a14c
+free_buddy_node: Freed node 0x7a12c
+Freed the block: order 0, addr = 384, size = 32
+Freed the block: order 0, addr = 416, size = 32
+Coalesced buddy nodes (order = 0, addr = 416, size = 32) & (order = 0, addr = 384, size = 32)
+into the parent node (order = 1, addr = 384, size = 64)
+free_buddy_node: Freed node 0x7a24c
+free_buddy_node: Freed node 0x7a22c
+Freed the block: order 0, addr = 448, size = 32
+Freed the block: order 0, addr = 480, size = 32
+Coalesced buddy nodes (order = 0, addr = 480, size = 32) & (order = 0, addr = 448, size = 32)
+into the parent node (order = 1, addr = 448, size = 64)
+free_buddy_node: Freed node 0x7a28c
+free_buddy_node: Freed node 0x7a26c
+Coalesced buddy nodes (order = 1, addr = 448, size = 64) & (order = 1, addr = 384, size = 64)
+into the parent node (order = 2, addr = 384, size = 128)
+free_buddy_node: Freed node 0x7a20c
+free_buddy_node: Freed node 0x7a1ec
+Coalesced buddy nodes (order = 2, addr = 384, size = 128) & (order = 2, addr = 256, size = 128)
+into the parent node (order = 3, addr = 256, size = 256)
+free_buddy_node: Freed node 0x7a10c
+free_buddy_node: Freed node 0x7a0ec
+Coalesced buddy nodes (order = 3, addr = 256, size = 256) & (order = 3, addr = 0, size = 256)
+into the parent node (order = 4, addr = 0, size = 512)
+free_buddy_node: Freed node 0x79f0c
+free_buddy_node: Freed node 0x79eec
+Freed the block: order 0, addr = 512, size = 32
+Freed the block: order 0, addr = 544, size = 32
+Coalesced buddy nodes (order = 0, addr = 544, size = 32) & (order = 0, addr = 512, size = 32)
+into the parent node (order = 1, addr = 512, size = 64)
+free_buddy_node: Freed node 0x7a38c
+free_buddy_node: Freed node 0x7a36c
+Freed the block: order 0, addr = 576, size = 32
+Freed the block: order 0, addr = 608, size = 32
+Coalesced buddy nodes (order = 0, addr = 608, size = 32) & (order = 0, addr = 576, size = 32)
+into the parent node (order = 1, addr = 576, size = 64)
+free_buddy_node: Freed node 0x7a3cc
+free_buddy_node: Freed node 0x7a3ac
+Coalesced buddy nodes (order = 1, addr = 576, size = 64) & (order = 1, addr = 512, size = 64)
+into the parent node (order = 2, addr = 512, size = 128)
+free_buddy_node: Freed node 0x7a34c
+free_buddy_node: Freed node 0x7a32c
+Freed the block: order 0, addr = 640, size = 32
+Freed the block: order 0, addr = 672, size = 32
+Coalesced buddy nodes (order = 0, addr = 672, size = 32) & (order = 0, addr = 640, size = 32)
+into the parent node (order = 1, addr = 640, size = 64)
+free_buddy_node: Freed node 0x7a44c
+free_buddy_node: Freed node 0x7a42c
+Freed the block: order 0, addr = 704, size = 32
+Freed the block: order 0, addr = 736, size = 32
+Coalesced buddy nodes (order = 0, addr = 736, size = 32) & (order = 0, addr = 704, size = 32)
+into the parent node (order = 1, addr = 704, size = 64)
+free_buddy_node: Freed node 0x7a48c
+free_buddy_node: Freed node 0x7a46c
+Coalesced buddy nodes (order = 1, addr = 704, size = 64) & (order = 1, addr = 640, size = 64)
+into the parent node (order = 2, addr = 640, size = 128)
+free_buddy_node: Freed node 0x7a40c
+free_buddy_node: Freed node 0x7a3ec
+Coalesced buddy nodes (order = 2, addr = 640, size = 128) & (order = 2, addr = 512, size = 128)
+into the parent node (order = 3, addr = 512, size = 256)
+free_buddy_node: Freed node 0x7a30c
+free_buddy_node: Freed node 0x7a2ec
+Freed the block: order 0, addr = 768, size = 32
+Freed the block: order 0, addr = 800, size = 32
+Coalesced buddy nodes (order = 0, addr = 800, size = 32) & (order = 0, addr = 768, size = 32)
+into the parent node (order = 1, addr = 768, size = 64)
+free_buddy_node: Freed node 0x7a54c
+free_buddy_node: Freed node 0x7a52c
+Freed the block: order 0, addr = 832, size = 32
+Freed the block: order 0, addr = 864, size = 32
+Coalesced buddy nodes (order = 0, addr = 864, size = 32) & (order = 0, addr = 832, size = 32)
+into the parent node (order = 1, addr = 832, size = 64)
+free_buddy_node: Freed node 0x7a58c
+free_buddy_node: Freed node 0x7a56c
+Coalesced buddy nodes (order = 1, addr = 832, size = 64) & (order = 1, addr = 768, size = 64)
+into the parent node (order = 2, addr = 768, size = 128)
+free_buddy_node: Freed node 0x7a50c
+free_buddy_node: Freed node 0x7a4ec
+Freed the block: order 0, addr = 896, size = 32
+Freed the block: order 0, addr = 928, size = 32
+Coalesced buddy nodes (order = 0, addr = 928, size = 32) & (order = 0, addr = 896, size = 32)
+into the parent node (order = 1, addr = 896, size = 64)
+free_buddy_node: Freed node 0x7a60c
+free_buddy_node: Freed node 0x7a5ec
+Freed the block: order 0, addr = 960, size = 32
+Freed the block: order 0, addr = 992, size = 32
+Coalesced buddy nodes (order = 0, addr = 992, size = 32) & (order = 0, addr = 960, size = 32)
+into the parent node (order = 1, addr = 960, size = 64)
+free_buddy_node: Freed node 0x7a64c
+free_buddy_node: Freed node 0x7a62c
+Coalesced buddy nodes (order = 1, addr = 960, size = 64) & (order = 1, addr = 896, size = 64)
+into the parent node (order = 2, addr = 896, size = 128)
+free_buddy_node: Freed node 0x7a5cc
+free_buddy_node: Freed node 0x7a5ac
+Coalesced buddy nodes (order = 2, addr = 896, size = 128) & (order = 2, addr = 768, size = 128)
+into the parent node (order = 3, addr = 768, size = 256)
+free_buddy_node: Freed node 0x7a4cc
+free_buddy_node: Freed node 0x7a4ac
+Coalesced buddy nodes (order = 3, addr = 768, size = 256) & (order = 3, addr = 512, size = 256)
+into the parent node (order = 4, addr = 512, size = 512)
+free_buddy_node: Freed node 0x7a2cc
+free_buddy_node: Freed node 0x7a2ac
+Coalesced buddy nodes (order = 4, addr = 512, size = 512) & (order = 4, addr = 0, size = 512)
+into the parent node (order = 5, addr = 0, size = 1024)
+free_buddy_node: Freed node 0x79ecc
+free_buddy_node: Freed node 0x79eac
+Freed the block: order 0, addr = 1024, size = 32
+Freed the block: order 0, addr = 1056, size = 32
+Coalesced buddy nodes (order = 0, addr = 1056, size = 32) & (order = 0, addr = 1024, size = 32)
+into the parent node (order = 1, addr = 1024, size = 64)
+free_buddy_node: Freed node 0x7a78c
+free_buddy_node: Freed node 0x7a76c
+Freed the block: order 0, addr = 1088, size = 32
+Freed the block: order 0, addr = 1120, size = 32
+Coalesced buddy nodes (order = 0, addr = 1120, size = 32) & (order = 0, addr = 1088, size = 32)
+into the parent node (order = 1, addr = 1088, size = 64)
+free_buddy_node: Freed node 0x7a7cc
+free_buddy_node: Freed node 0x7a7ac
+Coalesced buddy nodes (order = 1, addr = 1088, size = 64) & (order = 1, addr = 1024, size = 64)
+into the parent node (order = 2, addr = 1024, size = 128)
+free_buddy_node: Freed node 0x7a74c
+free_buddy_node: Freed node 0x7a72c
+Freed the block: order 0, addr = 1152, size = 32
+Freed the block: order 0, addr = 1184, size = 32
+Coalesced buddy nodes (order = 0, addr = 1184, size = 32) & (order = 0, addr = 1152, size = 32)
+into the parent node (order = 1, addr = 1152, size = 64)
+free_buddy_node: Freed node 0x7a84c
+free_buddy_node: Freed node 0x7a82c
+Freed the block: order 0, addr = 1216, size = 32
+Freed the block: order 0, addr = 1248, size = 32
+Coalesced buddy nodes (order = 0, addr = 1248, size = 32) & (order = 0, addr = 1216, size = 32)
+into the parent node (order = 1, addr = 1216, size = 64)
+free_buddy_node: Freed node 0x7a88c
+free_buddy_node: Freed node 0x7a86c
+Coalesced buddy nodes (order = 1, addr = 1216, size = 64) & (order = 1, addr = 1152, size = 64)
+into the parent node (order = 2, addr = 1152, size = 128)
+free_buddy_node: Freed node 0x7a80c
+free_buddy_node: Freed node 0x7a7ec
+Coalesced buddy nodes (order = 2, addr = 1152, size = 128) & (order = 2, addr = 1024, size = 128)
+into the parent node (order = 3, addr = 1024, size = 256)
+free_buddy_node: Freed node 0x7a70c
+free_buddy_node: Freed node 0x7a6ec
+Freed the block: order 0, addr = 1280, size = 32
+Freed the block: order 0, addr = 1312, size = 32
+Coalesced buddy nodes (order = 0, addr = 1312, size = 32) & (order = 0, addr = 1280, size = 32)
+into the parent node (order = 1, addr = 1280, size = 64)
+free_buddy_node: Freed node 0x7a94c
+free_buddy_node: Freed node 0x7a92c
+Freed the block: order 0, addr = 1344, size = 32
+Freed the block: order 0, addr = 1376, size = 32
+Coalesced buddy nodes (order = 0, addr = 1376, size = 32) & (order = 0, addr = 1344, size = 32)
+into the parent node (order = 1, addr = 1344, size = 64)
+free_buddy_node: Freed node 0x7a98c
+free_buddy_node: Freed node 0x7a96c
+Coalesced buddy nodes (order = 1, addr = 1344, size = 64) & (order = 1, addr = 1280, size = 64)
+into the parent node (order = 2, addr = 1280, size = 128)
+free_buddy_node: Freed node 0x7a90c
+free_buddy_node: Freed node 0x7a8ec
+Freed the block: order 0, addr = 1408, size = 32
+Freed the block: order 0, addr = 1440, size = 32
+Coalesced buddy nodes (order = 0, addr = 1440, size = 32) & (order = 0, addr = 1408, size = 32)
+into the parent node (order = 1, addr = 1408, size = 64)
+free_buddy_node: Freed node 0x7aa0c
+free_buddy_node: Freed node 0x7a9ec
+Freed the block: order 0, addr = 1472, size = 32
+Freed the block: order 0, addr = 1504, size = 32
+Coalesced buddy nodes (order = 0, addr = 1504, size = 32) & (order = 0, addr = 1472, size = 32)
+into the parent node (order = 1, addr = 1472, size = 64)
+free_buddy_node: Freed node 0x7aa4c
+free_buddy_node: Freed node 0x7aa2c
+Coalesced buddy nodes (order = 1, addr = 1472, size = 64) & (order = 1, addr = 1408, size = 64)
+into the parent node (order = 2, addr = 1408, size = 128)
+free_buddy_node: Freed node 0x7a9cc
+free_buddy_node: Freed node 0x7a9ac
+Coalesced buddy nodes (order = 2, addr = 1408, size = 128) & (order = 2, addr = 1280, size = 128)
+into the parent node (order = 3, addr = 1280, size = 256)
+free_buddy_node: Freed node 0x7a8cc
+free_buddy_node: Freed node 0x7a8ac
+Coalesced buddy nodes (order = 3, addr = 1280, size = 256) & (order = 3, addr = 1024, size = 256)
+into the parent node (order = 4, addr = 1024, size = 512)
+free_buddy_node: Freed node 0x7a6cc
+free_buddy_node: Freed node 0x7a6ac
+Freed the block: order 0, addr = 1536, size = 32
+Freed the block: order 0, addr = 1568, size = 32
+Coalesced buddy nodes (order = 0, addr = 1568, size = 32) & (order = 0, addr = 1536, size = 32)
+into the parent node (order = 1, addr = 1536, size = 64)
+free_buddy_node: Freed node 0x7ab4c
+free_buddy_node: Freed node 0x7ab2c
+Freed the block: order 0, addr = 1600, size = 32
+Freed the block: order 0, addr = 1632, size = 32
+Coalesced buddy nodes (order = 0, addr = 1632, size = 32) & (order = 0, addr = 1600, size = 32)
+into the parent node (order = 1, addr = 1600, size = 64)
+free_buddy_node: Freed node 0x7ab8c
+free_buddy_node: Freed node 0x7ab6c
+Coalesced buddy nodes (order = 1, addr = 1600, size = 64) & (order = 1, addr = 1536, size = 64)
+into the parent node (order = 2, addr = 1536, size = 128)
+free_buddy_node: Freed node 0x7ab0c
+free_buddy_node: Freed node 0x7aaec
+Freed the block: order 0, addr = 1664, size = 32
+Freed the block: order 0, addr = 1696, size = 32
+Coalesced buddy nodes (order = 0, addr = 1696, size = 32) & (order = 0, addr = 1664, size = 32)
+into the parent node (order = 1, addr = 1664, size = 64)
+free_buddy_node: Freed node 0x7ac0c
+free_buddy_node: Freed node 0x7abec
+Freed the block: order 0, addr = 1728, size = 32
+Freed the block: order 0, addr = 1760, size = 32
+Coalesced buddy nodes (order = 0, addr = 1760, size = 32) & (order = 0, addr = 1728, size = 32)
+into the parent node (order = 1, addr = 1728, size = 64)
+free_buddy_node: Freed node 0x7ac4c
+free_buddy_node: Freed node 0x7ac2c
+Coalesced buddy nodes (order = 1, addr = 1728, size = 64) & (order = 1, addr = 1664, size = 64)
+into the parent node (order = 2, addr = 1664, size = 128)
+free_buddy_node: Freed node 0x7abcc
+free_buddy_node: Freed node 0x7abac
+Coalesced buddy nodes (order = 2, addr = 1664, size = 128) & (order = 2, addr = 1536, size = 128)
+into the parent node (order = 3, addr = 1536, size = 256)
+free_buddy_node: Freed node 0x7aacc
+free_buddy_node: Freed node 0x7aaac
+Freed the block: order 0, addr = 1792, size = 32
+Freed the block: order 0, addr = 1824, size = 32
+Coalesced buddy nodes (order = 0, addr = 1824, size = 32) & (order = 0, addr = 1792, size = 32)
+into the parent node (order = 1, addr = 1792, size = 64)
+free_buddy_node: Freed node 0x7ad0c
+free_buddy_node: Freed node 0x7acec
+Freed the block: order 0, addr = 1856, size = 32
+Freed the block: order 0, addr = 1888, size = 32
+Coalesced buddy nodes (order = 0, addr = 1888, size = 32) & (order = 0, addr = 1856, size = 32)
+into the parent node (order = 1, addr = 1856, size = 64)
+free_buddy_node: Freed node 0x7ad4c
+free_buddy_node: Freed node 0x7ad2c
+Coalesced buddy nodes (order = 1, addr = 1856, size = 64) & (order = 1, addr = 1792, size = 64)
+into the parent node (order = 2, addr = 1792, size = 128)
+free_buddy_node: Freed node 0x7accc
+free_buddy_node: Freed node 0x7acac
+Freed the block: order 0, addr = 1920, size = 32
+Freed the block: order 0, addr = 1952, size = 32
+Coalesced buddy nodes (order = 0, addr = 1952, size = 32) & (order = 0, addr = 1920, size = 32)
+into the parent node (order = 1, addr = 1920, size = 64)
+free_buddy_node: Freed node 0x7adcc
+free_buddy_node: Freed node 0x7adac
+Freed the block: order 0, addr = 1984, size = 32
+Freed the block: order 0, addr = 2016, size = 32
+Coalesced buddy nodes (order = 0, addr = 2016, size = 32) & (order = 0, addr = 1984, size = 32)
+into the parent node (order = 1, addr = 1984, size = 64)
+free_buddy_node: Freed node 0x7ae0c
+free_buddy_node: Freed node 0x7adec
+Coalesced buddy nodes (order = 1, addr = 1984, size = 64) & (order = 1, addr = 1920, size = 64)
+into the parent node (order = 2, addr = 1920, size = 128)
+free_buddy_node: Freed node 0x7ad8c
+free_buddy_node: Freed node 0x7ad6c
+Coalesced buddy nodes (order = 2, addr = 1920, size = 128) & (order = 2, addr = 1792, size = 128)
+into the parent node (order = 3, addr = 1792, size = 256)
+free_buddy_node: Freed node 0x7ac8c
+free_buddy_node: Freed node 0x7ac6c
+Coalesced buddy nodes (order = 3, addr = 1792, size = 256) & (order = 3, addr = 1536, size = 256)
+into the parent node (order = 4, addr = 1536, size = 512)
+free_buddy_node: Freed node 0x7aa8c
+free_buddy_node: Freed node 0x7aa6c
+Coalesced buddy nodes (order = 4, addr = 1536, size = 512) & (order = 4, addr = 1024, size = 512)
+into the parent node (order = 5, addr = 1024, size = 1024)
+free_buddy_node: Freed node 0x7a68c
+free_buddy_node: Freed node 0x7a66c
+Coalesced buddy nodes (order = 5, addr = 1024, size = 1024) & (order = 5, addr = 0, size = 1024)
+into the parent node (order = 6, addr = 0, size = 2048)
+free_buddy_node: Freed node 0x79e8c
+free_buddy_node: Freed node 0x79e6c
+Freed the block: order 0, addr = 2048, size = 32
+Freed the block: order 0, addr = 2080, size = 32
+Coalesced buddy nodes (order = 0, addr = 2080, size = 32) & (order = 0, addr = 2048, size = 32)
+into the parent node (order = 1, addr = 2048, size = 64)
+free_buddy_node: Freed node 0x7af8c
+free_buddy_node: Freed node 0x7af6c
+Freed the block: order 0, addr = 2112, size = 32
+Freed the block: order 0, addr = 2144, size = 32
+Coalesced buddy nodes (order = 0, addr = 2144, size = 32) & (order = 0, addr = 2112, size = 32)
+into the parent node (order = 1, addr = 2112, size = 64)
+free_buddy_node: Freed node 0x7afcc
+free_buddy_node: Freed node 0x7afac
+Coalesced buddy nodes (order = 1, addr = 2112, size = 64) & (order = 1, addr = 2048, size = 64)
+into the parent node (order = 2, addr = 2048, size = 128)
+free_buddy_node: Freed node 0x7af4c
+free_buddy_node: Freed node 0x7af2c
+Freed the block: order 0, addr = 2176, size = 32
+Freed the block: order 0, addr = 2208, size = 32
+Coalesced buddy nodes (order = 0, addr = 2208, size = 32) & (order = 0, addr = 2176, size = 32)
+into the parent node (order = 1, addr = 2176, size = 64)
+free_buddy_node: Freed node 0x7b04c
+free_buddy_node: Freed node 0x7b02c
+Freed the block: order 0, addr = 2240, size = 32
+Freed the block: order 0, addr = 2272, size = 32
+Coalesced buddy nodes (order = 0, addr = 2272, size = 32) & (order = 0, addr = 2240, size = 32)
+into the parent node (order = 1, addr = 2240, size = 64)
+free_buddy_node: Freed node 0x7b08c
+free_buddy_node: Freed node 0x7b06c
+Coalesced buddy nodes (order = 1, addr = 2240, size = 64) & (order = 1, addr = 2176, size = 64)
+into the parent node (order = 2, addr = 2176, size = 128)
+free_buddy_node: Freed node 0x7b00c
+free_buddy_node: Freed node 0x7afec
+Coalesced buddy nodes (order = 2, addr = 2176, size = 128) & (order = 2, addr = 2048, size = 128)
+into the parent node (order = 3, addr = 2048, size = 256)
+free_buddy_node: Freed node 0x7af0c
+free_buddy_node: Freed node 0x7aeec
+Freed the block: order 0, addr = 2304, size = 32
+Freed the block: order 0, addr = 2336, size = 32
+Coalesced buddy nodes (order = 0, addr = 2336, size = 32) & (order = 0, addr = 2304, size = 32)
+into the parent node (order = 1, addr = 2304, size = 64)
+free_buddy_node: Freed node 0x7b14c
+free_buddy_node: Freed node 0x7b12c
+Freed the block: order 0, addr = 2368, size = 32
+Freed the block: order 0, addr = 2400, size = 32
+Coalesced buddy nodes (order = 0, addr = 2400, size = 32) & (order = 0, addr = 2368, size = 32)
+into the parent node (order = 1, addr = 2368, size = 64)
+free_buddy_node: Freed node 0x7b18c
+free_buddy_node: Freed node 0x7b16c
+Coalesced buddy nodes (order = 1, addr = 2368, size = 64) & (order = 1, addr = 2304, size = 64)
+into the parent node (order = 2, addr = 2304, size = 128)
+free_buddy_node: Freed node 0x7b10c
+free_buddy_node: Freed node 0x7b0ec
+Freed the block: order 0, addr = 2432, size = 32
+Freed the block: order 0, addr = 2464, size = 32
+Coalesced buddy nodes (order = 0, addr = 2464, size = 32) & (order = 0, addr = 2432, size = 32)
+into the parent node (order = 1, addr = 2432, size = 64)
+free_buddy_node: Freed node 0x7b20c
+free_buddy_node: Freed node 0x7b1ec
+Freed the block: order 0, addr = 2496, size = 32
+Freed the block: order 0, addr = 2528, size = 32
+Coalesced buddy nodes (order = 0, addr = 2528, size = 32) & (order = 0, addr = 2496, size = 32)
+into the parent node (order = 1, addr = 2496, size = 64)
+free_buddy_node: Freed node 0x7b24c
+free_buddy_node: Freed node 0x7b22c
+Coalesced buddy nodes (order = 1, addr = 2496, size = 64) & (order = 1, addr = 2432, size = 64)
+into the parent node (order = 2, addr = 2432, size = 128)
+free_buddy_node: Freed node 0x7b1cc
+free_buddy_node: Freed node 0x7b1ac
+Coalesced buddy nodes (order = 2, addr = 2432, size = 128) & (order = 2, addr = 2304, size = 128)
+into the parent node (order = 3, addr = 2304, size = 256)
+free_buddy_node: Freed node 0x7b0cc
+free_buddy_node: Freed node 0x7b0ac
+Coalesced buddy nodes (order = 3, addr = 2304, size = 256) & (order = 3, addr = 2048, size = 256)
+into the parent node (order = 4, addr = 2048, size = 512)
+free_buddy_node: Freed node 0x7aecc
+free_buddy_node: Freed node 0x7aeac
+Freed the block: order 0, addr = 2560, size = 32
+Freed the block: order 0, addr = 2592, size = 32
+Coalesced buddy nodes (order = 0, addr = 2592, size = 32) & (order = 0, addr = 2560, size = 32)
+into the parent node (order = 1, addr = 2560, size = 64)
+free_buddy_node: Freed node 0x7b34c
+free_buddy_node: Freed node 0x7b32c
+Freed the block: order 0, addr = 2624, size = 32
+Freed the block: order 0, addr = 2656, size = 32
+Coalesced buddy nodes (order = 0, addr = 2656, size = 32) & (order = 0, addr = 2624, size = 32)
+into the parent node (order = 1, addr = 2624, size = 64)
+free_buddy_node: Freed node 0x7b38c
+free_buddy_node: Freed node 0x7b36c
+Coalesced buddy nodes (order = 1, addr = 2624, size = 64) & (order = 1, addr = 2560, size = 64)
+into the parent node (order = 2, addr = 2560, size = 128)
+free_buddy_node: Freed node 0x7b30c
+free_buddy_node: Freed node 0x7b2ec
+Freed the block: order 0, addr = 2688, size = 32
+Freed the block: order 0, addr = 2720, size = 32
+Coalesced buddy nodes (order = 0, addr = 2720, size = 32) & (order = 0, addr = 2688, size = 32)
+into the parent node (order = 1, addr = 2688, size = 64)
+free_buddy_node: Freed node 0x7b40c
+free_buddy_node: Freed node 0x7b3ec
+Freed the block: order 0, addr = 2752, size = 32
+Freed the block: order 0, addr = 2784, size = 32
+Coalesced buddy nodes (order = 0, addr = 2784, size = 32) & (order = 0, addr = 2752, size = 32)
+into the parent node (order = 1, addr = 2752, size = 64)
+free_buddy_node: Freed node 0x7b44c
+free_buddy_node: Freed node 0x7b42c
+Coalesced buddy nodes (order = 1, addr = 2752, size = 64) & (order = 1, addr = 2688, size = 64)
+into the parent node (order = 2, addr = 2688, size = 128)
+free_buddy_node: Freed node 0x7b3cc
+free_buddy_node: Freed node 0x7b3ac
+Coalesced buddy nodes (order = 2, addr = 2688, size = 128) & (order = 2, addr = 2560, size = 128)
+into the parent node (order = 3, addr = 2560, size = 256)
+free_buddy_node: Freed node 0x7b2cc
+free_buddy_node: Freed node 0x7b2ac
+Freed the block: order 0, addr = 2816, size = 32
+Freed the block: order 0, addr = 2848, size = 32
+Coalesced buddy nodes (order = 0, addr = 2848, size = 32) & (order = 0, addr = 2816, size = 32)
+into the parent node (order = 1, addr = 2816, size = 64)
+free_buddy_node: Freed node 0x7b50c
+free_buddy_node: Freed node 0x7b4ec
+Freed the block: order 0, addr = 2880, size = 32
+Freed the block: order 0, addr = 2912, size = 32
+Coalesced buddy nodes (order = 0, addr = 2912, size = 32) & (order = 0, addr = 2880, size = 32)
+into the parent node (order = 1, addr = 2880, size = 64)
+free_buddy_node: Freed node 0x7b54c
+free_buddy_node: Freed node 0x7b52c
+Coalesced buddy nodes (order = 1, addr = 2880, size = 64) & (order = 1, addr = 2816, size = 64)
+into the parent node (order = 2, addr = 2816, size = 128)
+free_buddy_node: Freed node 0x7b4cc
+free_buddy_node: Freed node 0x7b4ac
+Freed the block: order 0, addr = 2944, size = 32
+Freed the block: order 0, addr = 2976, size = 32
+Coalesced buddy nodes (order = 0, addr = 2976, size = 32) & (order = 0, addr = 2944, size = 32)
+into the parent node (order = 1, addr = 2944, size = 64)
+free_buddy_node: Freed node 0x7b5cc
+free_buddy_node: Freed node 0x7b5ac
+Freed the block: order 0, addr = 3008, size = 32
+Freed the block: order 0, addr = 3040, size = 32
+Coalesced buddy nodes (order = 0, addr = 3040, size = 32) & (order = 0, addr = 3008, size = 32)
+into the parent node (order = 1, addr = 3008, size = 64)
+free_buddy_node: Freed node 0x7b60c
+free_buddy_node: Freed node 0x7b5ec
+Coalesced buddy nodes (order = 1, addr = 3008, size = 64) & (order = 1, addr = 2944, size = 64)
+into the parent node (order = 2, addr = 2944, size = 128)
+free_buddy_node: Freed node 0x7b58c
+free_buddy_node: Freed node 0x7b56c
+Coalesced buddy nodes (order = 2, addr = 2944, size = 128) & (order = 2, addr = 2816, size = 128)
+into the parent node (order = 3, addr = 2816, size = 256)
+free_buddy_node: Freed node 0x7b48c
+free_buddy_node: Freed node 0x7b46c
+Coalesced buddy nodes (order = 3, addr = 2816, size = 256) & (order = 3, addr = 2560, size = 256)
+into the parent node (order = 4, addr = 2560, size = 512)
+free_buddy_node: Freed node 0x7b28c
+free_buddy_node: Freed node 0x7b26c
+Coalesced buddy nodes (order = 4, addr = 2560, size = 512) & (order = 4, addr = 2048, size = 512)
+into the parent node (order = 5, addr = 2048, size = 1024)
+free_buddy_node: Freed node 0x7ae8c
+free_buddy_node: Freed node 0x7ae6c
+Freed the block: order 0, addr = 3072, size = 32
+Freed the block: order 0, addr = 3104, size = 32
+Coalesced buddy nodes (order = 0, addr = 3104, size = 32) & (order = 0, addr = 3072, size = 32)
+into the parent node (order = 1, addr = 3072, size = 64)
+free_buddy_node: Freed node 0x7b74c
+free_buddy_node: Freed node 0x7b72c
+Freed the block: order 0, addr = 3136, size = 32
+Freed the block: order 0, addr = 3168, size = 32
+Coalesced buddy nodes (order = 0, addr = 3168, size = 32) & (order = 0, addr = 3136, size = 32)
+into the parent node (order = 1, addr = 3136, size = 64)
+free_buddy_node: Freed node 0x7b78c
+free_buddy_node: Freed node 0x7b76c
+Coalesced buddy nodes (order = 1, addr = 3136, size = 64) & (order = 1, addr = 3072, size = 64)
+into the parent node (order = 2, addr = 3072, size = 128)
+free_buddy_node: Freed node 0x7b70c
+free_buddy_node: Freed node 0x7b6ec
+Freed the block: order 0, addr = 3200, size = 32
+Freed the block: order 0, addr = 3232, size = 32
+Coalesced buddy nodes (order = 0, addr = 3232, size = 32) & (order = 0, addr = 3200, size = 32)
+into the parent node (order = 1, addr = 3200, size = 64)
+free_buddy_node: Freed node 0x7b80c
+free_buddy_node: Freed node 0x7b7ec
+Freed the block: order 0, addr = 3264, size = 32
+Freed the block: order 0, addr = 3296, size = 32
+Coalesced buddy nodes (order = 0, addr = 3296, size = 32) & (order = 0, addr = 3264, size = 32)
+into the parent node (order = 1, addr = 3264, size = 64)
+free_buddy_node: Freed node 0x7b84c
+free_buddy_node: Freed node 0x7b82c
+Coalesced buddy nodes (order = 1, addr = 3264, size = 64) & (order = 1, addr = 3200, size = 64)
+into the parent node (order = 2, addr = 3200, size = 128)
+free_buddy_node: Freed node 0x7b7cc
+free_buddy_node: Freed node 0x7b7ac
+Coalesced buddy nodes (order = 2, addr = 3200, size = 128) & (order = 2, addr = 3072, size = 128)
+into the parent node (order = 3, addr = 3072, size = 256)
+free_buddy_node: Freed node 0x7b6cc
+free_buddy_node: Freed node 0x7b6ac
+Freed the block: order 0, addr = 3328, size = 32
+Freed the block: order 0, addr = 3360, size = 32
+Coalesced buddy nodes (order = 0, addr = 3360, size = 32) & (order = 0, addr = 3328, size = 32)
+into the parent node (order = 1, addr = 3328, size = 64)
+free_buddy_node: Freed node 0x7b90c
+free_buddy_node: Freed node 0x7b8ec
+Freed the block: order 0, addr = 3392, size = 32
+Freed the block: order 0, addr = 3424, size = 32
+Coalesced buddy nodes (order = 0, addr = 3424, size = 32) & (order = 0, addr = 3392, size = 32)
+into the parent node (order = 1, addr = 3392, size = 64)
+free_buddy_node: Freed node 0x7b94c
+free_buddy_node: Freed node 0x7b92c
+Coalesced buddy nodes (order = 1, addr = 3392, size = 64) & (order = 1, addr = 3328, size = 64)
+into the parent node (order = 2, addr = 3328, size = 128)
+free_buddy_node: Freed node 0x7b8cc
+free_buddy_node: Freed node 0x7b8ac
+Freed the block: order 0, addr = 3456, size = 32
+Freed the block: order 0, addr = 3488, size = 32
+Coalesced buddy nodes (order = 0, addr = 3488, size = 32) & (order = 0, addr = 3456, size = 32)
+into the parent node (order = 1, addr = 3456, size = 64)
+free_buddy_node: Freed node 0x7b9cc
+free_buddy_node: Freed node 0x7b9ac
+Freed the block: order 0, addr = 3520, size = 32
+Freed the block: order 0, addr = 3552, size = 32
+Coalesced buddy nodes (order = 0, addr = 3552, size = 32) & (order = 0, addr = 3520, size = 32)
+into the parent node (order = 1, addr = 3520, size = 64)
+free_buddy_node: Freed node 0x7ba0c
+free_buddy_node: Freed node 0x7b9ec
+Coalesced buddy nodes (order = 1, addr = 3520, size = 64) & (order = 1, addr = 3456, size = 64)
+into the parent node (order = 2, addr = 3456, size = 128)
+free_buddy_node: Freed node 0x7b98c
+free_buddy_node: Freed node 0x7b96c
+Coalesced buddy nodes (order = 2, addr = 3456, size = 128) & (order = 2, addr = 3328, size = 128)
+into the parent node (order = 3, addr = 3328, size = 256)
+free_buddy_node: Freed node 0x7b88c
+free_buddy_node: Freed node 0x7b86c
+Coalesced buddy nodes (order = 3, addr = 3328, size = 256) & (order = 3, addr = 3072, size = 256)
+into the parent node (order = 4, addr = 3072, size = 512)
+free_buddy_node: Freed node 0x7b68c
+free_buddy_node: Freed node 0x7b66c
+Freed the block: order 0, addr = 3584, size = 32
+Freed the block: order 0, addr = 3616, size = 32
+Coalesced buddy nodes (order = 0, addr = 3616, size = 32) & (order = 0, addr = 3584, size = 32)
+into the parent node (order = 1, addr = 3584, size = 64)
+free_buddy_node: Freed node 0x7bb0c
+free_buddy_node: Freed node 0x7baec
+Freed the block: order 0, addr = 3648, size = 32
+Freed the block: order 0, addr = 3680, size = 32
+Coalesced buddy nodes (order = 0, addr = 3680, size = 32) & (order = 0, addr = 3648, size = 32)
+into the parent node (order = 1, addr = 3648, size = 64)
+free_buddy_node: Freed node 0x7bb4c
+free_buddy_node: Freed node 0x7bb2c
+Coalesced buddy nodes (order = 1, addr = 3648, size = 64) & (order = 1, addr = 3584, size = 64)
+into the parent node (order = 2, addr = 3584, size = 128)
+free_buddy_node: Freed node 0x7bacc
+free_buddy_node: Freed node 0x7baac
+Freed the block: order 0, addr = 3712, size = 32
+Freed the block: order 0, addr = 3744, size = 32
+Coalesced buddy nodes (order = 0, addr = 3744, size = 32) & (order = 0, addr = 3712, size = 32)
+into the parent node (order = 1, addr = 3712, size = 64)
+free_buddy_node: Freed node 0x7bbcc
+free_buddy_node: Freed node 0x7bbac
+Freed the block: order 0, addr = 3776, size = 32
+Freed the block: order 0, addr = 3808, size = 32
+Coalesced buddy nodes (order = 0, addr = 3808, size = 32) & (order = 0, addr = 3776, size = 32)
+into the parent node (order = 1, addr = 3776, size = 64)
+free_buddy_node: Freed node 0x7bc0c
+free_buddy_node: Freed node 0x7bbec
+Coalesced buddy nodes (order = 1, addr = 3776, size = 64) & (order = 1, addr = 3712, size = 64)
+into the parent node (order = 2, addr = 3712, size = 128)
+free_buddy_node: Freed node 0x7bb8c
+free_buddy_node: Freed node 0x7bb6c
+Coalesced buddy nodes (order = 2, addr = 3712, size = 128) & (order = 2, addr = 3584, size = 128)
+into the parent node (order = 3, addr = 3584, size = 256)
+free_buddy_node: Freed node 0x7ba8c
+free_buddy_node: Freed node 0x7ba6c
+Freed the block: order 0, addr = 3840, size = 32
+Freed the block: order 0, addr = 3872, size = 32
+Coalesced buddy nodes (order = 0, addr = 3872, size = 32) & (order = 0, addr = 3840, size = 32)
+into the parent node (order = 1, addr = 3840, size = 64)
+free_buddy_node: Freed node 0x7bccc
+free_buddy_node: Freed node 0x7bcac
+Freed the block: order 0, addr = 3904, size = 32
+Freed the block: order 0, addr = 3936, size = 32
+Coalesced buddy nodes (order = 0, addr = 3936, size = 32) & (order = 0, addr = 3904, size = 32)
+into the parent node (order = 1, addr = 3904, size = 64)
+free_buddy_node: Freed node 0x7bd0c
+free_buddy_node: Freed node 0x7bcec
+Coalesced buddy nodes (order = 1, addr = 3904, size = 64) & (order = 1, addr = 3840, size = 64)
+into the parent node (order = 2, addr = 3840, size = 128)
+free_buddy_node: Freed node 0x7bc8c
+free_buddy_node: Freed node 0x7bc6c
+Freed the block: order 0, addr = 3968, size = 32
+Freed the block: order 0, addr = 4000, size = 32
+Coalesced buddy nodes (order = 0, addr = 4000, size = 32) & (order = 0, addr = 3968, size = 32)
+into the parent node (order = 1, addr = 3968, size = 64)
+free_buddy_node: Freed node 0x7bd8c
+free_buddy_node: Freed node 0x7bd6c
+Freed the block: order 0, addr = 4032, size = 32
+Freed the block: order 0, addr = 4064, size = 32
+Coalesced buddy nodes (order = 0, addr = 4064, size = 32) & (order = 0, addr = 4032, size = 32)
+into the parent node (order = 1, addr = 4032, size = 64)
+free_buddy_node: Freed node 0x7bdcc
+free_buddy_node: Freed node 0x7bdac
+Coalesced buddy nodes (order = 1, addr = 4032, size = 64) & (order = 1, addr = 3968, size = 64)
+into the parent node (order = 2, addr = 3968, size = 128)
+free_buddy_node: Freed node 0x7bd4c
+free_buddy_node: Freed node 0x7bd2c
+Coalesced buddy nodes (order = 2, addr = 3968, size = 128) & (order = 2, addr = 3840, size = 128)
+into the parent node (order = 3, addr = 3840, size = 256)
+free_buddy_node: Freed node 0x7bc4c
+free_buddy_node: Freed node 0x7bc2c
+Coalesced buddy nodes (order = 3, addr = 3840, size = 256) & (order = 3, addr = 3584, size = 256)
+into the parent node (order = 4, addr = 3584, size = 512)
+free_buddy_node: Freed node 0x7ba4c
+free_buddy_node: Freed node 0x7ba2c
+Coalesced buddy nodes (order = 4, addr = 3584, size = 512) & (order = 4, addr = 3072, size = 512)
+into the parent node (order = 5, addr = 3072, size = 1024)
+free_buddy_node: Freed node 0x7b64c
+free_buddy_node: Freed node 0x7b62c
+Coalesced buddy nodes (order = 5, addr = 3072, size = 1024) & (order = 5, addr = 2048, size = 1024)
+into the parent node (order = 6, addr = 2048, size = 2048)
+free_buddy_node: Freed node 0x7ae4c
+free_buddy_node: Freed node 0x7ae2c
+Coalesced buddy nodes (order = 6, addr = 2048, size = 2048) & (order = 6, addr = 0, size = 2048)
+into the parent node (order = 7, addr = 0, size = 4096)
+free_buddy_node: Freed node 0x79e4c
+free_buddy_node: Freed node 0x79e2c
+test2: [3/3] Total memory freed: 4096 bytes, expected: 4096 bytes
+malloc: block size 4096 fits requested size 4096, order = 12
+malloc: finding best fit for order 12 for buddy root 0x79e0c
+malloc: found best fit: target = 0x79e0c, is NULL = 0
+Allocated the block: order = 7, addr = 0, requested mem size = 4096, block size = 4096
+test3: [1/1] malloc(4096) returned: 16384
+malloc: block size 32 fits requested size 1, order = 5
+malloc: finding best fit for order 5 for buddy root 0x79e0c
+malloc: found best fit: target = (nil), is NULL = 1
+malloc: no suitable block found
+test3: [2/2] malloc(1) returned NULL
+Freed the block: order 7, addr = 0, size = 4096
+test3: [2/2] Total memory freed: 4096 bytes, expected: 4096 bytes
+All tests done!
+No runnable processes - exiting!
+Exiting at program request.
+Instructions executed: 7605480
+Time simulated: 7.605 secs
+Real time elapsed: 0.286 secs
+Execution rate: 26.56M simulated instructions per real second.

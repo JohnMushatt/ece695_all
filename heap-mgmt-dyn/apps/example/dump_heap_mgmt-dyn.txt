@@ -1,0 +1,138 @@
+cd ../../bin; dlxsim -x os.dlx.obj -a -D m -u heap_mgmt-dyn.dlx.obj 5; ee469_fixterminal
+Stack=0x1fffb4, pc starting at 0x16b0c
+Got 5 arguments.
+Available memory: 0x17f5f8 -> 0x200000.
+Argument count is 5.
+Argument 0 is -D.
+Argument 1 is m.
+Argument 2 is -u.
+Argument 3 is heap_mgmt-dyn.dlx.obj.
+Argument 4 is 5.
+maxPage: 512
+Leaving MemoryModuleInit
+Initialized 128 free pages, freemapmax: 16, pagestart: 384
+Initialized PCB 0, page table=0x1b1c8, npages=0.
+Initialized PCB 0, pt_phys_base=0x0, npages=0.
+Initialized PCB 1, page table=0x26240, npages=0.
+Initialized PCB 1, pt_phys_base=0x0, npages=0.
+Initialized PCB 2, page table=0x312b8, npages=0.
+Initialized PCB 2, pt_phys_base=0x0, npages=0.
+Initialized PCB 3, page table=0x3c330, npages=0.
+Initialized PCB 3, pt_phys_base=0x0, npages=0.
+Initialized PCB 4, page table=0x473a8, npages=0.
+Initialized PCB 4, pt_phys_base=0x0, npages=0.
+Initialized PCB 5, page table=0x52420, npages=0.
+Initialized PCB 5, pt_phys_base=0x0, npages=0.
+Initialized PCB 6, page table=0x5d498, npages=0.
+Initialized PCB 6, pt_phys_base=0x0, npages=0.
+Initialized PCB 7, page table=0x68510, npages=0.
+Initialized PCB 7, pt_phys_base=0x0, npages=0.
+Initialized PCB 8, page table=0x73588, npages=0.
+Initialized PCB 8, pt_phys_base=0x0, npages=0.
+Initialized PCB 9, page table=0x7e600, npages=0.
+Initialized PCB 9, pt_phys_base=0x0, npages=0.
+Initialized PCB 10, page table=0x89678, npages=0.
+Initialized PCB 10, pt_phys_base=0x0, npages=0.
+Initialized PCB 11, page table=0x946f0, npages=0.
+Initialized PCB 11, pt_phys_base=0x0, npages=0.
+Initialized PCB 12, page table=0x9f768, npages=0.
+Initialized PCB 12, pt_phys_base=0x0, npages=0.
+Initialized PCB 13, page table=0xaa7e0, npages=0.
+Initialized PCB 13, pt_phys_base=0x0, npages=0.
+Initialized PCB 14, page table=0xb5858, npages=0.
+Initialized PCB 14, pt_phys_base=0x0, npages=0.
+Initialized PCB 15, page table=0xc08d0, npages=0.
+Initialized PCB 15, pt_phys_base=0x0, npages=0.
+Initialized PCB 16, page table=0xcb948, npages=0.
+Initialized PCB 16, pt_phys_base=0x0, npages=0.
+Initialized PCB 17, page table=0xd69c0, npages=0.
+Initialized PCB 17, pt_phys_base=0x0, npages=0.
+Initialized PCB 18, page table=0xe1a38, npages=0.
+Initialized PCB 18, pt_phys_base=0x0, npages=0.
+Initialized PCB 19, page table=0xecab0, npages=0.
+Initialized PCB 19, pt_phys_base=0x0, npages=0.
+Initialized PCB 20, page table=0xf7b28, npages=0.
+Initialized PCB 20, pt_phys_base=0x0, npages=0.
+Initialized PCB 21, page table=0x102ba0, npages=0.
+Initialized PCB 21, pt_phys_base=0x0, npages=0.
+Initialized PCB 22, page table=0x10dc18, npages=0.
+Initialized PCB 22, pt_phys_base=0x0, npages=0.
+Initialized PCB 23, page table=0x118c90, npages=0.
+Initialized PCB 23, pt_phys_base=0x0, npages=0.
+Initialized PCB 24, page table=0x123d08, npages=0.
+Initialized PCB 24, pt_phys_base=0x0, npages=0.
+Initialized PCB 25, page table=0x12ed80, npages=0.
+Initialized PCB 25, pt_phys_base=0x0, npages=0.
+Initialized PCB 26, page table=0x139df8, npages=0.
+Initialized PCB 26, pt_phys_base=0x0, npages=0.
+Initialized PCB 27, page table=0x144e70, npages=0.
+Initialized PCB 27, pt_phys_base=0x0, npages=0.
+Initialized PCB 28, page table=0x14fee8, npages=0.
+Initialized PCB 28, pt_phys_base=0x0, npages=0.
+Initialized PCB 29, page table=0x15af60, npages=0.
+Initialized PCB 29, pt_phys_base=0x0, npages=0.
+Initialized PCB 30, page table=0x165fd8, npages=0.
+Initialized PCB 30, pt_phys_base=0x0, npages=0.
+Initialized PCB 31, page table=0x171050, npages=0.
+Initialized PCB 31, pt_phys_base=0x0, npages=0.
+ProcessFork: Allocated page 384 for code and data.
+ProcessFork: Allocated page 385 for code and data.
+ProcessFork: Allocated page 386 for code and data.
+ProcessFork: Allocated page 387 for code and data.
+ProcessFork: Allocated 4 pages for code and data.
+ProcessFork: Allocated page 388 for buddy heap.
+BuddyAllocatorInit: Initializing buddy allocator with 2048 nodes, max heap size = 0x10000 bytes
+BuddyAllocatorInit: Set all nodes to not in use
+allocate_buddy_node: Allocated node 0x172060 at index [0/2047]
+BuddyAllocatorInit: Initialized buddy allocator, root node order = 16
+ProcessFork: Allocated page 389 for user stack.
+ProcessFork: Allocated page 390 for process 31, sysStackArea=0x00186000.
+ProcessFork: BEFORE: physPageTable[0] = 0x00000000 (from pagetable[0] = 0x00180001)
+ProcessFork: AFTER: physPageTable[0] = 0x00180001 (from pagetable[0] = 0x00180001)
+ProcessFork: BEFORE: physPageTable[1] = 0x00000000 (from pagetable[1] = 0x00181001)
+ProcessFork: AFTER: physPageTable[1] = 0x00181001 (from pagetable[1] = 0x00181001)
+ProcessFork: BEFORE: physPageTable[2] = 0x00000000 (from pagetable[2] = 0x00182001)
+ProcessFork: AFTER: physPageTable[2] = 0x00182001 (from pagetable[2] = 0x00182001)
+ProcessFork: BEFORE: physPageTable[3] = 0x00000000 (from pagetable[3] = 0x00183001)
+ProcessFork: AFTER: physPageTable[3] = 0x00183001 (from pagetable[3] = 0x00183001)
+ProcessFork: BEFORE: physPageTable[4] = 0x00000000 (from pagetable[4] = 0x00184001)
+ProcessFork: AFTER: physPageTable[4] = 0x00184001 (from pagetable[4] = 0x00184001)
+ProcessFork: Allocated page table at physical address 0x00187000
+ProcessFork: Stackframe set to 0x00186e8c.
+ProcessFork: stackframe = 0x186e8c
+
+PTBASE=0x00187000 PTSIZE=1024 PTBITS=786444
+
+PTBASE=0x00187000 PTSIZE=1024 PTBITS=12
+malloc: block size 65536 fits requested size 65536, order = 16
+malloc: finding best fit for order 16 for buddy root 0x172060
+malloc: found best fit: target = 0x172060, is NULL = 0
+Allocated the block: order = 11, addr = 0, requested mem size = 65536, block size = 65536
+test2: Attempting to allocate 64KB of memory
+test2: [1/1] malloc(65536) returned: 16384
+test2: Writing to first 4096 bytes of the allocated memory
+test2: Written to first 4096 bytes of the allocated memory
+test2: Writing to second 4096 bytes of the allocated memory
+MemoryPageFaultHandler: Fault address: 0x5000, vPageNum: 5, usp_vPageNum: 1023
+MemoryPageFaultHandler: Heap start page: 4, Heap end page: 19
+MemoryPageFaultHandler: Heap fault detected, checking if address 0x5000 (offset 4096) is allocated
+Allocated a physical page at 392 to back up virtual page 5 in the heap
+MemoryPageFaultHandler: Allocated new heap page, vPageNum=5, physPage=392, npages=7
+test2: Written to last 4096 bytes of the allocated memory
+MemoryPageFaultHandler: Fault address: 0x13000, vPageNum: 19, usp_vPageNum: 1023
+MemoryPageFaultHandler: Heap start page: 4, Heap end page: 19
+MemoryPageFaultHandler: Heap fault detected, checking if address 0x13000 (offset 61440) is allocated
+Allocated a physical page at 393 to back up virtual page 19 in the heap
+MemoryPageFaultHandler: Allocated new heap page, vPageNum=19, physPage=393, npages=8
+test2: Written to last 65344 bytes of the allocated memory
+test2: Attempting to write to out of bounds
+MemoryPageFaultHandler: Fault address: 0x14000, vPageNum: 20, usp_vPageNum: 1023
+MemoryPageFaultHandler: Heap start page: 4, Heap end page: 19
+MemoryPageFaultHandler: SEGFAULT - Invalid page fault (vPageNum: 20, stack allowed from page: 1023), killing process 31
+ProcessKill: killing processid 31
+No runnable processes - exiting!
+Exiting at program request.
+Instructions executed: 5121742
+Time simulated: 5.122 secs
+Real time elapsed: 0.127 secs
+Execution rate: 40.18M simulated instructions per real second.
