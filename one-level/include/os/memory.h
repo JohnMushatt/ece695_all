@@ -3,9 +3,9 @@
 
 // Put all your #define's in memory_constants.h
 #include "memory_constants.h"
+#include "dlxos.h"
 
-
-extern BuddyNode *buddy_root;
+//extern BuddyNode *buddy_root;
 extern int lastosaddress; // Defined in an assembly file
 
 //--------------------------------------------------------

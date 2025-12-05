@@ -8,7 +8,7 @@
 #include "misc.h"
 
 typedef  unsigned int  uint32;
-
+typedef  unsigned short uint16;
 #define  DLX_PROCESS_QUANTUM  10000    // in microseconds
 
 extern void  SetTimer (int);

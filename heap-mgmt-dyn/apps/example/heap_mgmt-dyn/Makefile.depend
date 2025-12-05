@@ -1,2 +1,0 @@
-work/heap_mgmt-dyn.o: heap_mgmt-dyn.c ../../../include/usertraps.h \
- ../../../include/misc.h

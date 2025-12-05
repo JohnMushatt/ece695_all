@@ -17,7 +17,8 @@ extern void ditoa (int n, char *buf);
 char *dstrcat (char *onto, const char *addn);
 int min(int a, int b);
 int max(int a, int b);
-
+void bcopy(char *src, char *dst, int count);
+void bzero(char *dst, int count);
 inline
 int
 isspace (char c)
